@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnmath">
+	<information>
+		<_name>Math Functions</_name>
+		<_description>Mathematical Functions</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="plugin"/>
+	</loader>
+	<services>
+		<service type="function_group" id="math">
+			<_category>Mathematics</_category>
+			<functions textdomain="gnumeric-VERSION-functions">
+				<function name="abs"/>
+				<function name="acos"/>
+				<function name="acosh"/>
+				<function name="acot"/>
+				<function name="acoth"/>
+				<function name="agm"/>
+				<function name="arabic"/>
+				<function name="asin"/>
+				<function name="asinh"/>
+				<function name="atan"/>
+				<function name="atan2"/>
+				<function name="atanh"/>
+				<function name="averageif"/>
+				<function name="averageifs"/>
+				<function name="beta"/>
+				<function name="betaln"/>
+				<function name="ceil"/>
+				<function name="ceiling"/>
+				<function name="cholesky"/>
+				<function name="combin"/>
+				<function name="combina"/>
+				<function name="cos"/>
+				<function name="cosh"/>
+				<function name="cospi"/>
+				<function name="cot"/>
+				<function name="coth"/>
+				<function name="cotpi"/>
+				<function name="countif"/>
+				<function name="countifs"/>
+				<function name="csc"/>
+				<function name="csch"/>
+				<function name="degrees"/>
+				<function name="digamma"/>
+				<function name="eigen"/>
+				<function name="even"/>
+				<function name="exp"/>
+				<function name="expm1"/>
+				<function name="fact"/>
+				<function name="factdouble"/>
+				<function name="fib"/>
+				<function name="floor"/>
+				<function name="g_product"/>
+				<function name="gamma"/>
+				<function name="gammaln"/>
+				<function name="gcd"/>
+				<function name="gd"/>
+				<function name="hypot"/>
+				<function name="igamma"/>
+				<function name="ilog"/>
+				<function name="int"/>
+				<function name="lambertw"/>
+				<function name="lcm"/>
+				<function name="linsolve"/>
+				<function name="ln"/>
+				<function name="ln1p"/>
+				<function name="log"/>
+				<function name="log10"/>
+				<function name="log2"/>
+				<function name="maxifs"/>
+				<function name="mdeterm"/>
+				<function name="minifs"/>
+				<function name="minverse"/>
+				<function name="mmult"/>
+				<function name="mod"/>
+				<function name="mpseudoinverse"/>
+				<function name="mround"/>
+				<function name="multinomial"/>
+				<function name="munit"/>
+				<function name="odd"/>
+				<function name="odf.sumproduct"/>
+				<function name="percentof"/>
+				<function name="pi"/>
+				<function name="pochhammer"/>
+				<function name="power"/>
+				<function name="quotient"/>
+				<function name="radians"/>
+				<function name="reducepi"/>
+				<function name="roman"/>
+				<function name="round"/>
+				<function name="rounddown"/>
+				<function name="roundup"/>
+				<function name="sec"/>
+				<function name="sech"/>
+				<function name="seriessum"/>
+				<function name="sign"/>
+				<function name="sin"/>
+				<function name="sinh"/>
+				<function name="sinpi"/>
+				<function name="sqrt"/>
+				<function name="sqrtpi"/>
+				<function name="suma"/>
+				<function name="sumif"/>
+				<function name="sumifs"/>
+				<function name="sumproduct"/>
+				<function name="sumsq"/>
+				<function name="sumx2my2"/>
+				<function name="sumx2py2"/>
+				<function name="sumxmy2"/>
+				<function name="tan"/>
+				<function name="tanh"/>
+				<function name="tanpi"/>
+				<function name="trunc"/>
+				<!-- <function name="logmdeterm"/> -->
+			</functions>
+		</service>
+	</services>
+</plugin>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnlogical">
+	<information>
+		<_name>Logic Functions</_name>
+		<_description>Functions for manipulating truth values</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="plugin"/>
+	</loader>
+	<services>
+		<service type="function_group" id="logical">
+			<_category>Logic</_category>
+			<functions textdomain="gnumeric-VERSION-functions">
+				<function name="and"/>
+				<function name="or"/>
+				<function name="xor"/>
+				<function name="not"/>
+				<function name="iferror"/>
+				<function name="ifna"/>
+				<function name="ifs"/>
+				<function name="switch"/>
+				<function name="true"/>
+				<function name="false"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

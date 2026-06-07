@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnlookup">
+	<information>
+		<_name>Lookup Functions</_name>
+		<_description>Functions for looking up values in ranges</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="plugin"/>
+	</loader>
+	<services>
+		<service type="function_group" id="lookup">
+			<_category>Lookup</_category>
+			<functions textdomain="gnumeric-VERSION-functions">
+				<function name="address"/>
+				<function name="areas"/>
+				<function name="array"/>
+				<function name="choose"/>
+				<function name="column"/>
+				<function name="columnnumber"/>
+				<function name="columns"/>
+				<function name="flip"/>
+				<function name="hlookup"/>
+				<function name="hyperlink"/>
+				<function name="indirect"/>
+				<function name="index"/>
+				<function name="lookup"/>
+				<function name="match"/>
+				<function name="offset"/>
+				<function name="row"/>
+				<function name="rows"/>
+				<function name="sheet"/>
+				<function name="sheets"/>
+				<function name="sort"/>
+				<function name="transpose"/>
+				<function name="unique"/>
+				<function name="vlookup"/>
+				<function name="xlookup"/>
+				<function name="xmatch"/>
+			</functions>
+		</service>
+	</services>
+</plugin>
