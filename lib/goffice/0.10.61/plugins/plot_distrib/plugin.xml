@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="GOffice_plot_distrib">
+	<information>
+		<name>Charting : distribution related plots</name>
+		<name xml:lang="ast">Gráfiques: distribución de les gráfiques rellacionaes</name>
+		<name xml:lang="bs">Crtanje : nacrti svojstveni raspodjeli</name>
+		<name xml:lang="ca">Gràfic: traçats relacionats amb la distribució</name>
+		<name xml:lang="cs">Sestavování grafů: diagramy vztahující se k rozdělení</name>
+		<name xml:lang="da">Diagrammer : plot relateret til fordelinger</name>
+		<name xml:lang="de">Diagrammdarstellung : Verteilungsbezogene Graphen</name>
+		<name xml:lang="el">Διάγραμμα: σχέδια σχετιζόμενα με κατανομή</name>
+		<name xml:lang="en_GB">Charting : distribution related plots</name>
+		<name xml:lang="es">Gráficas: distribución de las gráficas relacionadas</name>
+		<name xml:lang="eu">Diagramak : banaketari loturiko trazuak</name>
+		<name xml:lang="fi">Piirto: jakautumakuvaajat</name>
+		<name xml:lang="fr">Diagramme : tracés en relation avec la distribution</name>
+		<name xml:lang="hu">Grafikonrajzolás: elosztással összefüggő ábrázolások</name>
+		<name xml:lang="id">Bagan : plot terkait distribusi</name>
+		<name xml:lang="kk">Диаграммалар құру: Таралуға қатысты графиктер</name>
+		<name xml:lang="lt">Diagrama : su išsibarstymu susijusios piešimo vietos</name>
+		<name xml:lang="lv">Diagrammu veidošana — ar sadalījumiem saistītas skices</name>
+		<name xml:lang="pt">Gráfico: relacionados com a distribuição</name>
+		<name xml:lang="pt_BR">Gráficos: plotagens relacionadas à distribuição</name>
+		<name xml:lang="sl">Diagrami: diagrami porazdelitev podatkov</name>
+		<name xml:lang="sr">Цртање : нацрти својствени расподели</name>
+		<name xml:lang="sr@latin">Crtanje : nacrti svojstveni raspodeli</name>
+		<name xml:lang="sv">Diagram: distributionsrelaterade diagram</name>
+		<name xml:lang="tr">Çizelgeleme : dağıtımla ilgili çizimler</name>
+		<name xml:lang="uk">Діаграма : креслення, які пов'язано із розподілами</name>
+		<name xml:lang="zh_CN">图表：与分布相关的标绘图</name>
+		<name xml:lang="zh_HK">圖表：與「分佈」相關的圖表</name>
+		<name xml:lang="zh_TW">圖表：與「分佈」相關的圖表</name>
+		<description>box-plots, histograms, and other distribution related plots</description>
+		<description xml:lang="ast">diagrama de caxes, histogrames y otres gráfiques de distribución rellacionaes</description>
+		<description xml:lang="bs">nacrti okvira, histogrami, i ostali nacrti svojstveni raspodjeli</description>
+		<description xml:lang="ca">diagrames de caixa, histogrames i altres traçats relacionats amb la distribució</description>
+		<description xml:lang="cs">svíčkové diagramy, histogramy a další diagramy znázorňující rozdělení</description>
+		<description xml:lang="da">boksplot, histogrammer og andre fordelingsrelaterede plot</description>
+		<description xml:lang="de">Kasten-Graphen, Histogramme und andere verteilungsbezogene Darstellungen</description>
+		<description xml:lang="el">σχέδια πλαισίου, ιστογράμματα και άλλα σχέδια σχετικά με κατανομή</description>
+		<description xml:lang="en_GB">box-plots, histograms, and other distribution related plots</description>
+		<description xml:lang="es">caja-diagrama, histogramas y otros gráficos de distribución relacionados</description>
+		<description xml:lang="eu">kaxa-trazuak, histogramak eta banaketari loturiko bestelako trazuak</description>
+		<description xml:lang="fi">laatikkokuvaajat, histogrammit ja muut jakautumien kuvaajat</description>
+		<description xml:lang="fr">tracés de boîtes, histogrammes et autres en relation avec la distribution</description>
+		<description xml:lang="hu">dobozábrázolások, hisztogramok és egyéb elosztással összefüggő ábrázolások</description>
+		<description xml:lang="id">box-plot, histogram, dan plot lain terkait distribusi</description>
+		<description xml:lang="kk">мұртты жәшіктер, гистограммалар және басқа таралуға қатысты графиктер</description>
+		<description xml:lang="lt">dėžučių, histogramų ir kitos su išsibarstymu susijusios piešimo vietos</description>
+		<description xml:lang="lv">Kastveida diagrammas, histogrammas un citas ar sadalījumiem saistītas skices</description>
+		<description xml:lang="pt">Gráficos caixa, histogramas e outros gráficos relacionados com a distribuição</description>
+		<description xml:lang="pt_BR">box-plots, histogramas, e outros gráficos relacionados a distribuições</description>
+		<description xml:lang="sl">vretenasti diagrami in drugi diagrami porazdelitev podatkov</description>
+		<description xml:lang="sr">нацрти оквира, хистограми, и остали нацрти својствени расподели</description>
+		<description xml:lang="sr@latin">nacrti okvira, histogrami, i ostali nacrti svojstveni raspodeli</description>
+		<description xml:lang="sv">boxdiagram, histogram och andra distributionsrelaterade diagram</description>
+		<description xml:lang="tr">kutu çizimler, çubuk grafikler, ve diğer dağıtımla ilgili çizimler</description>
+		<description xml:lang="uk">коробкові графіки, гістограми та інші пов'язані із розподілами креслення</description>
+		<description xml:lang="zh_CN">箱形图，直方图，及其他与分布有关的标绘图</description>
+	</information>
+	<dependencies>
+		<dep_plugin id="GOffice_reg_linear" force_load="1"/>
+	</dependencies>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="distrib" name="module_file"/>
+	</loader>
+	<services>
+		<service type="resource" id="go:plot_distrib/dist.xpm" data="/* XPM */&#10;static char * dist_xpm[] = {&#10;&quot;18 18 4 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #FF0000&quot;,&#10;&quot;@&#9;c #008400&quot;,&#10;&quot;                  &quot;,&#10;&quot;       ......     &quot;,&#10;&quot; .  .  .++.+. .   &quot;,&#10;&quot; .  ....++.+...   &quot;,&#10;&quot; .  .  .++.+. .   &quot;,&#10;&quot; .     ......     &quot;,&#10;&quot; .        .@.     &quot;,&#10;&quot; .      ...@.     &quot;,&#10;&quot; .      .@.@.     &quot;,&#10;&quot; .    ...@.@...   &quot;,&#10;&quot; .    .@.@.@.@.   &quot;,&#10;&quot; .  ...@.@.@.@.   &quot;,&#10;&quot; .  .@.@.@.@.@.   &quot;,&#10;&quot; .  .@.@.@.@.@.   &quot;,&#10;&quot; .  .@.@.@.@.@.   &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+
+		<service type="plot_engine" id="GogBoxPlot">
+			<information>
+				<description>Box-plot plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de diagrames de caxa</description>
+				<description xml:lang="bs">Sistem iscrtavanja nacrta okvira</description>
+				<description xml:lang="ca">Motor traçador de diagrames de caixa</description>
+				<description xml:lang="ca@valencia">Motor traçador de diagrames de caixa</description>
+				<description xml:lang="cs">Generování svíčkového diagramu</description>
+				<description xml:lang="da">Boksplot-tegnemotor</description>
+				<description xml:lang="de">Kastengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου γραφήματος πλαισίου</description>
+				<description xml:lang="en_CA">Box-plot plotting engine</description>
+				<description xml:lang="en_GB">Box-plot plotting engine</description>
+				<description xml:lang="es">Motor de dibujado del diagrama de cajas</description>
+				<description xml:lang="eu">Kaxa-trazuak trazatzeko motorra</description>
+				<description xml:lang="fi">Laatikkokuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin box-plot</description>
+				<description xml:lang="hu">Dobozábrázoló motor</description>
+				<description xml:lang="id">Mesin plot box-plot</description>
+				<description xml:lang="kk">Мұртты жәшіктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Dėžutės piešimo vietos piešimo variklis</description>
+				<description xml:lang="lv">Kastu skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de gráficos caixa</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de Box-Plot</description>
+				<description xml:lang="sl">Programnik izrisa vretenastega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања нацрта оквира</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja nacrta okvira</description>
+				<description xml:lang="sv">Boxdiagramritmotor</description>
+				<description xml:lang="tr">Kutu çizim çizim motoru</description>
+				<description xml:lang="uk">Рушія креслення коробкового графіка</description>
+				<description xml:lang="vi">Cơ chế vẽ đồ thị hộp</description>
+				<description xml:lang="zh_CN">盒绘图引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogHistogramPlot">
+			<information>
+				<description>Histograms plotting engine</description>
+				<description xml:lang="ast">Motor de trazáu d'histogrames</description>
+				<description xml:lang="bs">Sistem iscrtavanja histograma</description>
+				<description xml:lang="ca">Motor de traçador d'histogrames</description>
+				<description xml:lang="ca@valencia">Motor de traçador d'histogrames</description>
+				<description xml:lang="cs">Generování histogramového diagramu</description>
+				<description xml:lang="da">Histogramtegnemotor</description>
+				<description xml:lang="de">Histogramm-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίασης ιστογραμμάτων</description>
+				<description xml:lang="en_GB">Histograms plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de histogramas</description>
+				<description xml:lang="eu">Histogramak trazatzeko motorra</description>
+				<description xml:lang="fi">Histogrammin piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de tracé des histogrammes</description>
+				<description xml:lang="hu">Hisztogramok ábrázoló motorja</description>
+				<description xml:lang="id">Mesin plot histogram</description>
+				<description xml:lang="kk">Гистограммаларды құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Histogramų piešimo variklis</description>
+				<description xml:lang="lv">Histogrammu skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de histogramas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de histogramas</description>
+				<description xml:lang="ru">Модуль отображения гистограмм</description>
+				<description xml:lang="sl">Programnik izrisa diagramov</description>
+				<description xml:lang="sr">Погон исцртавања хистограма</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja histograma</description>
+				<description xml:lang="sv">Histogramritmotor</description>
+				<description xml:lang="tr">Çubuk grafik çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення діаграм</description>
+				<description xml:lang="vi">Cơ chế vẽ biểu đồ tần xuất</description>
+				<description xml:lang="zh_CN">直方图绘制引擎</description>
+				<description xml:lang="zh_HK">棒形圖繪製引擎</description>
+				<description xml:lang="zh_TW">棒形圖繪製引擎</description>
+			</information>
+		</service>
+
+		<service type="plot_engine" id="GogProbabilityPlot">
+			<information>
+				<description>Probability plots engine</description>
+				<description xml:lang="ast">Motor de gráfiques de probabilidá</description>
+				<description xml:lang="bs">Sistem iscrtavanja verovatnoće</description>
+				<description xml:lang="ca">Motor de traçats de probabilitat</description>
+				<description xml:lang="cs">Generování pravděpodobnostního diagramu</description>
+				<description xml:lang="da">Sandsynlighedstegnemotor</description>
+				<description xml:lang="de">Wahrscheinlichkeitsgraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίασης πιθανότητας</description>
+				<description xml:lang="en_GB">Probability plots engine</description>
+				<description xml:lang="es">Motor de gráficas de probabilidad</description>
+				<description xml:lang="eu">Probabilitate-trazuen motorra</description>
+				<description xml:lang="fi">Todennäköisyyskuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de tracé des probabilités</description>
+				<description xml:lang="hu">Valószívűség ábrázolás motor</description>
+				<description xml:lang="id">Mesin plot probabilitas</description>
+				<description xml:lang="kk">Ықтималдық графиктерін құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Galimybių piešimo vietų variklis</description>
+				<description xml:lang="lv">Varbūtību skiču dzinis</description>
+				<description xml:lang="pt">Motor de gráficos de probabilidade</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de probabilidade</description>
+				<description xml:lang="sl">Programnik izrisa diagramov verjetnosti</description>
+				<description xml:lang="sr">Погон исцртавања вероватноће</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja verovatnoće</description>
+				<description xml:lang="sv">Sannolikhetsdiagramritmotor</description>
+				<description xml:lang="tr">Olasılık çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення ймовірності</description>
+				<description xml:lang="zh_CN">概率图绘制引擎</description>
+				<description xml:lang="zh_HK">機率圖繪製引擎</description>
+				<description xml:lang="zh_TW">機率圖繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_type" id="boxplot">
+			<file>plot-types.xml</file>
+			<information>
+				<description>Statistics plot types</description>
+				<description xml:lang="ast">Tribes de diagrames estadísticos</description>
+				<description xml:lang="bs">Vrste statističkog nacrta</description>
+				<description xml:lang="ca">Tipus de traçats estadístics</description>
+				<description xml:lang="ca@valencia">Tipus de traçats estadístics</description>
+				<description xml:lang="cs">Typy statistických diagramů</description>
+				<description xml:lang="da">Statistiske plottyper</description>
+				<description xml:lang="de">Statistische Graphtypen</description>
+				<description xml:lang="el">Τύποι σχεδίου στατιστικής</description>
+				<description xml:lang="en_GB">Statistics plot types</description>
+				<description xml:lang="es">Tipos de gráficas de estadísticas</description>
+				<description xml:lang="eu">Estatistikako trazu motak</description>
+				<description xml:lang="fi">Tilastokuvaajatyypit</description>
+				<description xml:lang="fr">Types de tracés statistiques</description>
+				<description xml:lang="hu">Statisztikaábrázolás típusok</description>
+				<description xml:lang="id">Tipe plot statistik</description>
+				<description xml:lang="kk">Статистикалық график түрлері</description>
+				<description xml:lang="lt">Statistikos piešimo vietų tipai</description>
+				<description xml:lang="lv">Statistikas skiču dzinis</description>
+				<description xml:lang="pt">Tipos de gráficos de estatísticas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de estatísticas</description>
+				<description xml:lang="sl">Vrste statističnih diagramov</description>
+				<description xml:lang="sr">Врсте статистичког нацрта</description>
+				<description xml:lang="sr@latin">Vrste statističkog nacrta</description>
+				<description xml:lang="sv">Statistiska diagramtyper</description>
+				<description xml:lang="tr">İstatistik çizim türleri</description>
+				<description xml:lang="uk">Типи статистичних креслень</description>
+				<description xml:lang="vi">Kiểu đồ thị vẽ thống kê</description>
+				<description xml:lang="zh_CN">统计图类型</description>
+				<description xml:lang="zh_HK">統計圖類型</description>
+				<description xml:lang="zh_TW">統計圖類型</description>
+			</information>
+		</service>
+	</services>
+</plugin>

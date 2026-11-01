@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnTimeSeriesAnalysis">
+	<information>
+		<name>Time Series Analysis Functions</name>
+		<name xml:lang="ast">Funciones d'análisis de tiempu</name>
+		<name xml:lang="bs">Funkcije analize vremenskog niza</name>
+		<name xml:lang="ca">Funcions d'anàlisi de sèries temporals</name>
+		<name xml:lang="ca@valencia">Funcions d'anàlisi de sèries temporals</name>
+		<name xml:lang="cs">Funkce pro analýzy časových řad</name>
+		<name xml:lang="da">Funktioner til tidsrækkeanalyse</name>
+		<name xml:lang="de">Zeitreihenanalyse-Funktionen</name>
+		<name xml:lang="el">Συναρτήσεις ανάλυσης σειρών χρόνου</name>
+		<name xml:lang="en_GB">Time Series Analysis Functions</name>
+		<name xml:lang="es">Funciones de análisis de series de tiempo</name>
+		<name xml:lang="eu">Denbora-serieen analisien funtzioak</name>
+		<name xml:lang="fi">Aikasarja-analyysin funktiot</name>
+		<name xml:lang="fr">Fonctions pour l'analyse des séries temporelles</name>
+		<name xml:lang="gl">Funcións de analise de series de tempo</name>
+		<name xml:lang="hu">Idősorokat elemző függvények</name>
+		<name xml:lang="id">Fungsi-fungsi Analisa Seri Waktu</name>
+		<name xml:lang="kk">Уақыттық қатарларды талдау функциялары</name>
+		<name xml:lang="lt">Laiko sekų analizės funkcijos</name>
+		<name xml:lang="lv">Laika sēriju analīzes funkcijas</name>
+		<name xml:lang="nb">Funksjoner for analyse av tidsserier</name>
+		<name xml:lang="pl">Funkcje analizy serii czasowych</name>
+		<name xml:lang="pt">Funções de análise de séries de tempo</name>
+		<name xml:lang="pt_BR">Funções para análises de séries temporais</name>
+		<name xml:lang="ru">Функции анализа временных рядов</name>
+		<name xml:lang="sl">Funkcije analize časovnih nizov</name>
+		<name xml:lang="sr">Функције анализе временског низа</name>
+		<name xml:lang="sr@latin">Funkcije analize vremenskog niza</name>
+		<name xml:lang="sv">Tidsserieanalysfunktioner</name>
+		<name xml:lang="uk">Функції аналізу часових послідовностей</name>
+		<name xml:lang="zh_CN">时间序列分析函数</name>
+		<name xml:lang="zh_HK">Time Series 分析函數</name>
+		<name xml:lang="zh_TW">Time Series 分析函式</name>
+		<description>Time Series Analysis Functions</description>
+		<description xml:lang="ast">Funciones d'análisis de tiempu</description>
+		<description xml:lang="bs">Funkcije analize vremenskog niza</description>
+		<description xml:lang="ca">Funcions d'anàlisi de sèries temporals</description>
+		<description xml:lang="ca@valencia">Funcions d'anàlisi de sèries temporals</description>
+		<description xml:lang="cs">Funkce pro analýzy časových řad</description>
+		<description xml:lang="da">Funktioner til tidsrækkeanalyse</description>
+		<description xml:lang="de">Zeitreihenanalyse-Funktionen</description>
+		<description xml:lang="el">Συναρτήσεις ανάλυσης σειρών χρόνου</description>
+		<description xml:lang="en_GB">Time Series Analysis Functions</description>
+		<description xml:lang="es">Funciones de análisis de series de tiempo</description>
+		<description xml:lang="eu">Denbora-serieen analisien funtzioak</description>
+		<description xml:lang="fi">Aikasarja-analyysin funktiot</description>
+		<description xml:lang="fr">Fonctions pour l'analyse des séries temporelles</description>
+		<description xml:lang="gl">Funcións de analise de series de tempo</description>
+		<description xml:lang="hu">Idősorokat elemző függvények</description>
+		<description xml:lang="id">Fungsi-fungsi Analisa Seri Waktu</description>
+		<description xml:lang="kk">Уақыттық қатарларды талдау функциялары</description>
+		<description xml:lang="lt">Laiko sekų analizės funkcijos</description>
+		<description xml:lang="lv">Laika sēriju analīzes funkcijas</description>
+		<description xml:lang="nb">Funksjoner for analyse av tidsserier</description>
+		<description xml:lang="pl">Funkcje analizy serii czasowych</description>
+		<description xml:lang="pt">Funções de análise de séries de tempo</description>
+		<description xml:lang="pt_BR">Funções para análises de séries temporais</description>
+		<description xml:lang="ru">Функции анализа временных рядов</description>
+		<description xml:lang="sl">Funkcije analize časovnih nizov</description>
+		<description xml:lang="sr">Функције анализе временског низа</description>
+		<description xml:lang="sr@latin">Funkcije analize vremenskog niza</description>
+		<description xml:lang="sv">Tidsserieanalysfunktioner</description>
+		<description xml:lang="uk">Функції аналізу часових послідовностей</description>
+		<description xml:lang="zh_CN">时间序列分析函数</description>
+		<description xml:lang="zh_HK">Time Series 分析函數</description>
+		<description xml:lang="zh_TW">Time Series 分析函式</description>
+                <require_explicit_enabling/>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plugin" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="TimeSeriesAnalysis">
+			<category>Time Series Analysis</category>
+			<category xml:lang="ast">Análisis de series de tiempu</category>
+			<category xml:lang="bs">Analiza vremenskog niza</category>
+			<category xml:lang="ca">Anàlisi de sèries temporals</category>
+			<category xml:lang="ca@valencia">Anàlisi de sèries temporals</category>
+			<category xml:lang="cs">Analýzy časových řad</category>
+			<category xml:lang="da">Tidsrækkeanalyse</category>
+			<category xml:lang="de">Zeitreihenanalyse</category>
+			<category xml:lang="el">Ανάλυση σειρών χρόνου</category>
+			<category xml:lang="en_GB">Time Series Analysis</category>
+			<category xml:lang="es">Análisis de series de tiempo</category>
+			<category xml:lang="eu">Denbora-serieen analisia</category>
+			<category xml:lang="fi">Aikasarja-analyysi</category>
+			<category xml:lang="fr">Analyse de séries temporelles</category>
+			<category xml:lang="gl">Análise de series de tempo</category>
+			<category xml:lang="hu">Idősorok elemzése</category>
+			<category xml:lang="id">Analisa Seri Waktu</category>
+			<category xml:lang="kk">Уақыттық қатарларды талдау</category>
+			<category xml:lang="lt">Laiko sekų analizė</category>
+			<category xml:lang="lv">Laika sēriju analīze</category>
+			<category xml:lang="nb">Analyse av tidrekker</category>
+			<category xml:lang="pl">Analiza serii czasowych</category>
+			<category xml:lang="pt">Análise de séries de tempo</category>
+			<category xml:lang="pt_BR">Análises de séries temporais</category>
+			<category xml:lang="ru">Анализ временных рядов</category>
+			<category xml:lang="sl">Analiza časovnih nizov</category>
+			<category xml:lang="sr">Анализа временског низа</category>
+			<category xml:lang="sr@latin">Analiza vremenskog niza</category>
+			<category xml:lang="sv">Tidsserieanalys</category>
+			<category xml:lang="uk">Аналіз часових послідовностей</category>
+			<category xml:lang="zh_CN">时间序列分析</category>
+			<category xml:lang="zh_HK">Time  Series 分析</category>
+			<category xml:lang="zh_TW">Time  Series 分析</category>
+			<functions textdomain="gnumeric-1.12.63-functions">
+            			<function name="interpolation"/>
+            			<function name="periodogram"/>
+            			<function name="fourier"/>
+            			<function name="hpfilter"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

@@ -1,7 +1,0 @@
-<ui>
-  <menubar>
-    <menu name="Tools" action="MenuTools">
-      <menuitem action="ShowConsole"/>
-    </menu>
-  </menubar>
-</ui>

@@ -1,7 +1,0 @@
-<ui>
-  <menubar>
-    <menu name="Data" action="MenuData">
-      <menuitem action="ViewDataSources"/>
-    </menu>
-  </menubar>
-</ui>

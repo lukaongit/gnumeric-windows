@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Types xmlns:graph="http://www.gnumeric.org/graph_v2.dtd">
+    <Family _name="XY"		sample_image_file="res:go:plot_xy/scatter.xpm" axis_set="xy" priority="100"/>
+    <Family _name="Bubble"	sample_image_file="res:go:plot_xy/bubble.xpm" axis_set="xy"/>
+    <Family _name="ColoredXY"	sample_image_file="res:go:plot_xy/color.xpm" axis_set="xy-color"/>
+    <Family _name="DropBar"	sample_image_file="res:go:plot_xy/dropbar.xpm" axis_set="xy"/>
+	<Family _name="MinMax"	sample_image_file="res:go:plot_xy/minmax.xpm" axis_set="xy"/>
+
+    <Type _name="XY Points" row="1" col="1"
+	  engine="GogXYPlot" family="XY"
+	  _description="Markers at each point."
+	  sample_image_file="res:go:plot_xy/chart_scatter_1_1.png">
+	  <property name="default-style-has-lines">FALSE</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <!-- really 3_1 -->
+    <Type _name="XY" row="2" col="1"
+	  engine="GogXYPlot" family="XY"
+	  _description="Linearly interpolate between multi-dimensional points,with markers at each point."
+	  sample_image_file="res:go:plot_xy/chart_scatter_3_1.png">
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Lines" row="2" col="2"
+	  engine="GogXYPlot" family="XY"
+	  _description="Linearly interpolate between multi-dimensional points."
+	  sample_image_file="res:go:plot_xy/chart_scatter_3_2.png">
+	  <property name="default-style-has-markers">FALSE</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Splines" row="2" col="3"
+	  engine="GogXYPlot" family="XY"
+	  _description="Interpolate between multi-dimensional points with Bezier splines."
+	  sample_image_file="res:go:plot_xy/chart_scatter_3_3.png">
+	  <property name="default-style-has-markers">FALSE</property>
+	  <property name="interpolation">spline</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Steps Start" row="3" col="1"
+	  engine="GogXYPlot" family="XY"
+	  _description="Stepped curve using the first y value."
+	  sample_image_file="res:go:plot_xy/chart_scatter_4_1.png">
+	  <property name="default-style-has-markers">TRUE</property>
+	  <property name="interpolation">step-start</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Steps End" row="3" col="2"
+	  engine="GogXYPlot" family="XY"
+	  _description="Stepped curve using the last y value."
+	  sample_image_file="res:go:plot_xy/chart_scatter_4_2.png">
+	  <property name="default-style-has-markers">TRUE</property>
+	  <property name="interpolation">step-end</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Steps Center" row="3" col="3"
+	  engine="GogXYPlot" family="XY"
+	  _description="Stepped curve using the nearest y value."
+	  sample_image_file="res:go:plot_xy/chart_scatter_4_3.png">
+	  <property name="default-style-has-markers">TRUE</property>
+	  <property name="interpolation">step-center-x</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="XY Steps Mean" row="3" col="4"
+	  engine="GogXYPlot" family="XY"
+	  _description="Stepped curve using the mean y value."
+	  sample_image_file="res:go:plot_xy/chart_scatter_4_4.png">
+	  <property name="default-style-has-markers">TRUE</property>
+	  <property name="interpolation">step-center-y</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Bubble" row="1" col="1"
+	  engine="GogBubblePlot" family="Bubble"
+	  _description="Multi-dimensional points with circle at each point."
+	  sample_image_file="res:go:plot_xy/chart_bubble_1_1.png">
+	  <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Map" row="1" col="1"
+	  engine="GogXYColorPlot" family="ColoredXY"
+	  _description="Multi-dimensional points with data dependent color marker at each point."
+	  sample_image_file="res:go:plot_xy/chart_colored_1_1.png">
+	  <property name="default-style-has-lines">FALSE</property>
+	  <property name="guru-hints">backplane</property>
+    </Type>
+
+	<!-- Drop bars are bars going from an initial position
+	to a final position; the fill color is inverted when final position is lower
+	than the initial position; they may be used in stock plots. -->
+    <Type _name="Scattered Vertical Drop Bars" row="1" col="3"
+      engine="GogXYDropBarPlot" family="DropBar"
+      _description="Vertical drop bars with continuous X-axis."
+      sample_image_file="res:go:plot_xy/chart_dropbar_1_3.png">
+      <property name="horizontal">False</property>
+      <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Scattered Horizontal Drop Bars" row="1" col="4"
+      engine="GogXYDropBarPlot" family="DropBar"
+      _description="Horizontal drop bars with continuous Y-axis."
+      sample_image_file="res:go:plot_xy/chart_dropbar_1_4.png">
+      <property name="horizontal">True</property>
+      <property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Scattered Vertical Min Max Lines" row="1" col="3"
+      engine="GogXYMinMaxPlot" family="MinMax"
+      _description="Vertical Min Max lines with continuous X-axis."
+      sample_image_file="res:go:plot_xy/chart_minmax_1_3.png">
+		<property name="horizontal">False</property>
+		<property name="default-style-has-markers">False</property>
+		<property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Scattered Horizontal Min Max Lines" row="1" col="4"
+      engine="GogXYMinMaxPlot" family="MinMax"
+      _description="Horizontal Min Max lines with continuous Y-axis."
+      sample_image_file="res:go:plot_xy/chart_minmax_1_4.png">
+		<property name="horizontal">True</property>
+		<property name="default-style-has-markers">False</property>
+		<property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Scattered Marked Vertical Min Max Lines" row="2" col="3"
+      engine="GogXYMinMaxPlot" family="MinMax"
+      _description="Vertical Min Max lines with markers and a continuous X-axis."
+      sample_image_file="res:go:plot_xy/chart_minmax_2_3.png">
+		<property name="horizontal">False</property>
+		<property name="default-style-has-markers">True</property>
+		<property name="guru-hints">backplane</property>
+    </Type>
+    <Type _name="Scattered Marked Horizontal Min Max Lines" row="2" col="4"
+      engine="GogXYMinMaxPlot" family="MinMax"
+      _description="Horizontal Min Max lines with markers and a continuous Y-axis."
+      sample_image_file="res:go:plot_xy/chart_minmax_2_4.png">
+		<property name="horizontal">True</property>
+		<property name="default-style-has-markers">True</property>
+		<property name="guru-hints">backplane</property>
+    </Type>
+</Types>

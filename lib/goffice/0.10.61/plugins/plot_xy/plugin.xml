@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="GOffice_plot_xy">
+	<information>
+		<name>Charting : XY/Scatter/Bubble</name>
+		<name xml:lang="ast">Gráfiques: XY/Dispersión/Burbuxa</name>
+		<name xml:lang="bs">Grafik : XY/Raspirivač/Mehur</name>
+		<name xml:lang="ca">Gràfic: XY/dispers/bombolla</name>
+		<name xml:lang="ca@valencia">Gràfic: XY/dispers/bombolla</name>
+		<name xml:lang="cs">Sestavování grafů: XY/korelační/bublinové</name>
+		<name xml:lang="da">Diagram : XY/punktplot/boble</name>
+		<name xml:lang="de">Diagrammdarstellung : XY/Streuung/Blasen</name>
+		<name xml:lang="el">Σχεδίαση : XY/διασπορά/φυσαλίδα</name>
+		<name xml:lang="en_CA">Charting : XY/Scatter/Bubble</name>
+		<name xml:lang="en_GB">Charting : XY/Scatter/Bubble</name>
+		<name xml:lang="es">Gráficas: XY/dispersión/burbuja</name>
+		<name xml:lang="eu">Diagramak : XY/Barreiadura/Burbuila</name>
+		<name xml:lang="fi">Piirto: xy/hajonta/kupla</name>
+		<name xml:lang="fr">Graphes : XY/Nuage/Bulles</name>
+		<name xml:lang="hu">Grafikonrajzolás: XY / szórás / buborék</name>
+		<name xml:lang="id">Diagram : XY/Sebar/Gelembung</name>
+		<name xml:lang="it">Grafici: XY/Scatter/Bolle</name>
+		<name xml:lang="ja">グラフ: 散布図/バブル</name>
+		<name xml:lang="kk">Диаграммалар құру: XY/Шашыраңқы/Көпіршік</name>
+		<name xml:lang="lt">Diagramos : XY/išbarstytos/burbulinės</name>
+		<name xml:lang="lv">Diagrammu veidošana — XY/izkaisīts/burbuļa</name>
+		<name xml:lang="nl">Grafiek maken : XY/Punten/Balonnen</name>
+		<name xml:lang="pt">Gráfico: XY/Dispersão/Bolha</name>
+		<name xml:lang="pt_BR">Gráficos: XY/Dispersão/Bolhas</name>
+		<name xml:lang="sl">Diagrami: XY/razpršeni/mehurčni</name>
+		<name xml:lang="sr">График : XY/Распиривач/Мехур</name>
+		<name xml:lang="sr@latin">Grafik : XY/Raspirivač/Mehur</name>
+		<name xml:lang="sv">Diagram: XY/spridda/bubbla</name>
+		<name xml:lang="tr">Çizelgeleem: XY/Dağınık/Kabarcık</name>
+		<name xml:lang="vi">Vẽ đồ thị: XY/Rải/Bọt</name>
+		<name xml:lang="zh_CN">制图：XY/分散/泡泡</name>
+		<name xml:lang="zh_HK">圖表：XY/分散式/泡泡</name>
+		<name xml:lang="zh_TW">圖表：XY/分散式/泡泡</name>
+		<description>2D plots</description>
+		<description xml:lang="ast">Gráficos 2D</description>
+		<description xml:lang="bs">2D nacrti</description>
+		<description xml:lang="ca">Traçats en 2D</description>
+		<description xml:lang="ca@valencia">Traçats en 2D</description>
+		<description xml:lang="cs">Diagramy 2D</description>
+		<description xml:lang="da">2D-plot</description>
+		<description xml:lang="de">2D-Graphen</description>
+		<description xml:lang="el">2Δ σχέδια</description>
+		<description xml:lang="en_CA">2D plots</description>
+		<description xml:lang="en_GB">2D plots</description>
+		<description xml:lang="es">Gráficos 2D</description>
+		<description xml:lang="eu">2D trazuak</description>
+		<description xml:lang="fi">2D-kuvaajat</description>
+		<description xml:lang="fr">Tracés 2D</description>
+		<description xml:lang="hu">2D ábrázolások</description>
+		<description xml:lang="id">Plot 2D</description>
+		<description xml:lang="it">Tracciati 2D</description>
+		<description xml:lang="ja">2次元プロット</description>
+		<description xml:lang="kk">2D графиктер</description>
+		<description xml:lang="lt">2D piešimo vietos</description>
+		<description xml:lang="lv">2D skices</description>
+		<description xml:lang="nb">2D-plott</description>
+		<description xml:lang="nl">2D plots</description>
+		<description xml:lang="pt">Gráficos 2D</description>
+		<description xml:lang="pt_BR">Gráficos 2D</description>
+		<description xml:lang="ru">2D графики</description>
+		<description xml:lang="sl">2D diagrami</description>
+		<description xml:lang="sr">2Д нацрти</description>
+		<description xml:lang="sr@latin">2D nacrti</description>
+		<description xml:lang="sv">2D-diagram</description>
+		<description xml:lang="tr">2D çizimler</description>
+		<description xml:lang="uk">Плоскі креслення</description>
+		<description xml:lang="vi">Vẽ 2D</description>
+		<description xml:lang="zh_CN">2D 绘图</description>
+		<description xml:lang="zh_HK">平面圖</description>
+		<description xml:lang="zh_TW">平面圖</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="xy" name="module_file"/>
+	</loader>
+	<services>
+		<service type="resource" id="go:plot_xy/bubble.xpm" data="/* XPM */&#10;static char const * const bubble_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggg....gggggggggg&quot;,&#10;&quot;ggg.cbcb.ggggggggg&quot;,&#10;&quot;ggg.bcbc.gg..ggggg&quot;,&#10;&quot;ggg.cbcb.g.##.gggg&quot;,&#10;&quot;ggg.bcbc.g.##.gggg&quot;,&#10;&quot;gggg....ggg..ggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;ggggggggggg..ggggg&quot;,&#10;&quot;ggggg..ggg.cb.gggg&quot;,&#10;&quot;gggg.##.gg.bc.gggg&quot;,&#10;&quot;gggg.##.ggg..ggggg&quot;,&#10;&quot;ggggg..ggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_xy/color.xpm" data="/* XPM */&#10;static char * color_xpm[] = {&#10;&quot;18 18 9 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #FFA600&quot;,&#10;&quot;@&#9;c #43FF00&quot;,&#10;&quot;#&#9;c #00FFFF&quot;,&#10;&quot;$&#9;c #F7FF00&quot;,&#10;&quot;%&#9;c #0000FC&quot;,&#10;&quot;&amp;&#9;c #FF2000&quot;,&#10;&quot;*&#9;c #90FF00&quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;,&#10;&quot; .                &quot;,&#10;&quot; .          +     &quot;,&#10;&quot; .                &quot;,&#10;&quot; .                &quot;,&#10;&quot; .     @       #  &quot;,&#10;&quot; .           $    &quot;,&#10;&quot; .  %   &amp;         &quot;,&#10;&quot; .    #           &quot;,&#10;&quot; .         @      &quot;,&#10;&quot; . &amp;     *        &quot;,&#10;&quot; .   +        %   &quot;,&#10;&quot; .        $       &quot;,&#10;&quot; .                &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+		<service type="resource" id="go:plot_xy/dropbar.xpm" data="/* XPM */&#10;static char * dropbar_xpm[] = {&#10;&quot;18 18 5 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #008400&quot;,&#10;&quot;@&#9;c #FF0000&quot;,&#10;&quot;#&#9;c #FF7BFF&quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;,&#10;&quot; .          ...   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .        ...+.   &quot;,&#10;&quot; .        .@.+.   &quot;,&#10;&quot; .    ... .@...   &quot;,&#10;&quot; .    .#. .@.     &quot;,&#10;&quot; .  ...#. ...     &quot;,&#10;&quot; .  .@.#.         &quot;,&#10;&quot; .  .@...         &quot;,&#10;&quot; .  ...           &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+		<service type="resource" id="go:plot_xy/minmax.xpm" data="/* XPM */&#10;static char * minmax_xpm[] = {&#10;&quot;18 18 3 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #0000C0&quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .         . +    &quot;,&#10;&quot; .         . +    &quot;,&#10;&quot; .   . +   . +    &quot;,&#10;&quot; .   . +   .      &quot;,&#10;&quot; .   . +   .      &quot;,&#10;&quot; .   . +          &quot;,&#10;&quot; .   . +          &quot;,&#10;&quot; .   .            &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+		<service type="resource" id="go:plot_xy/scatter.xpm" data="/* XPM */&#10;static char const * const scatter_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.gggggggggg.ggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.ggggg#ggggggg.gg&quot;,&#10;&quot;g.ggggggggggg#gggg&quot;,&#10;&quot;g.gg.ggg.ggggggggg&quot;,&#10;&quot;g.gggg.ggggggggggg&quot;,&#10;&quot;g.ggggggggg.gggggg&quot;,&#10;&quot;g.g#ggggg#gggggggg&quot;,&#10;&quot;g.ggg.gggggggg#ggg&quot;,&#10;&quot;g.gggggggg#ggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g................g&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+
+		<service type="plot_engine" id="GogXYPlot">
+			<information>
+				<description>2D scatter plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de diagrames de dispersión 2D</description>
+				<description xml:lang="bs">Sistem iscrtavanja 2D rasejanja</description>
+				<description xml:lang="ca">Motor de traçador dispers en 2D</description>
+				<description xml:lang="ca@valencia">Motor de traçador dispers en 2D</description>
+				<description xml:lang="cs">Generování korelačních 2D diagramů</description>
+				<description xml:lang="da">2D-punkttegnemotor</description>
+				<description xml:lang="de">2D-Streugraph-Engine</description>
+				<description xml:lang="el">2Δ μηχανή σχεδίασης διασποράς</description>
+				<description xml:lang="en_CA">2D scatter plotting engine</description>
+				<description xml:lang="en_GB">2D scatter plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de diagramas de dispersión 2D</description>
+				<description xml:lang="eu">2D barreiadura-trazuak trazatzeko motorra</description>
+				<description xml:lang="fi">2D-hajontakuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin 2D de nuages de points</description>
+				<description xml:lang="hr">2D sustav raspršenog ispisivanja</description>
+				<description xml:lang="hu">2D szórásábrázoló motor</description>
+				<description xml:lang="id">Mesin plot sebaran 2D</description>
+				<description xml:lang="it">Motore tracciati scatter 2D</description>
+				<description xml:lang="ja">2次元散布図プロットエンジン</description>
+				<description xml:lang="kk">2D шашыраңқы графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">2D išbarstyto piešimo variklis</description>
+				<description xml:lang="lv">Izkasītu 2D diagrammu skicēšanas dzinis</description>
+				<description xml:lang="nl">2D punten plot-motor</description>
+				<description xml:lang="pt">Motor de gráficos de dispersão 2D</description>
+				<description xml:lang="pt_BR">Mecanismo de construção de gráficos de dispersão 2D</description>
+				<description xml:lang="sk">2D rozptýlené grafy</description>
+				<description xml:lang="sl">Programnik izrisa 2-razsežnega raztresenega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања 2Д расејања</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja 2D rasejanja</description>
+				<description xml:lang="sv">2D-spridningsritmotor</description>
+				<description xml:lang="tr">2D dağıtma çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення плоских графіків розсіювання</description>
+				<description xml:lang="vi">Cơ chế vẽ đồ thị rải hai chiều</description>
+				<description xml:lang="zh_CN">2D 分散绘图引擎</description>
+				<description xml:lang="zh_HK">平面分散繪製引擎</description>
+				<description xml:lang="zh_TW">平面分散繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogBubblePlot">
+			<information>
+				<description>Bubble plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de burbuxes</description>
+				<description xml:lang="bs">Sistem iscrtavanja mjehura</description>
+				<description xml:lang="ca">Motor de traçador de bombolles</description>
+				<description xml:lang="ca@valencia">Motor de traçador de bombolles</description>
+				<description xml:lang="cs">Generování bublinových diagramů</description>
+				<description xml:lang="da">Bobletegnemotor</description>
+				<description xml:lang="de">Blasengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίασης φυσαλίδας</description>
+				<description xml:lang="en_CA">Bubble plotting engine</description>
+				<description xml:lang="en_GB">Bubble plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de burbujas</description>
+				<description xml:lang="eu">Burbuilak trazatzeko motorra</description>
+				<description xml:lang="fi">Kuplapiirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de bulles</description>
+				<description xml:lang="hu">Buborékábrázoló motor</description>
+				<description xml:lang="id">Mesin plot gelembung</description>
+				<description xml:lang="it">Motore tracciati bolle</description>
+				<description xml:lang="ja">バブルプロットエンジン</description>
+				<description xml:lang="kk">Көпіршік графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Burbulinio piešimo variklis</description>
+				<description xml:lang="lv">Burbuļu skicēšanas dzinis</description>
+				<description xml:lang="nb">Motor for bobleplott</description>
+				<description xml:lang="nl">Ballonnen plot-motor</description>
+				<description xml:lang="pt">Motor de desenho de bolhas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotar bolhas</description>
+				<description xml:lang="sl">Programnik izrisa mehurčnih diagramov</description>
+				<description xml:lang="sr">Погон исцртавања мехура</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja mehura</description>
+				<description xml:lang="sv">Bubbelritmotor</description>
+				<description xml:lang="tr">Kabarcık çizim motoru</description>
+				<description xml:lang="uk">Рушій побудови бульбашкових креслень</description>
+				<description xml:lang="vi">Cơ chế vẽ bọt</description>
+				<description xml:lang="zh_CN">泡泡绘图引擎</description>
+				<description xml:lang="zh_HK">泡泡繪製引擎</description>
+				<description xml:lang="zh_TW">泡泡繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogXYColorPlot">
+			<information>
+				<description>2D colored scatter plotting engine</description>
+				<description xml:lang="ast">motor 2D que traza'l coloreáu de la dispersión</description>
+				<description xml:lang="bs">Sistem iscrtavanja 2D obojenog rasejanja</description>
+				<description xml:lang="ca">Motor de traçador dispers en color a 2D</description>
+				<description xml:lang="ca@valencia">Motor de traçador dispers en color a 2D</description>
+				<description xml:lang="cs">Generování barevných korelačních 2D diagramů</description>
+				<description xml:lang="da">2D farvet punkttegnemotor</description>
+				<description xml:lang="de">2D-Farbstreugraph-Engine</description>
+				<description xml:lang="el">2Δ χρωματιστή μηχανή σχεδίασης διασποράς</description>
+				<description xml:lang="en_GB">2D coloured scatter plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de diagramas de dispersión 2D</description>
+				<description xml:lang="eu">2D koloretako barreiadura-trazuak trazatzeko motorra</description>
+				<description xml:lang="fi">2D-värihajontakuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin 2D de nuages de points colorés</description>
+				<description xml:lang="hu">2D színes szórásábrázoló motor</description>
+				<description xml:lang="id">Mesin plot sebaran berwarna 2D</description>
+				<description xml:lang="kk">2D түрлі-түсті шашыраңқы графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">2D spalvoto išbarstyto piešimo variklis</description>
+				<description xml:lang="lv">Izkasītu, krāsainu 2D diagrammu skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de gráficos de dispersão 2D</description>
+				<description xml:lang="pt_BR">Mecanismo de gráficos de dispersão 2D coloridos</description>
+				<description xml:lang="sl">Programnik izrisovanja raztresenega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања 2Д обојеног расејања</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja 2D obojenog rasejanja</description>
+				<description xml:lang="sv">2D färgad spridningsritmotor</description>
+				<description xml:lang="tr">2D renkli dağıtma çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення плоских кольорових графіків розсіювання</description>
+				<description xml:lang="vi">Cơ chế vẽ đồ thị rải màu hai chiều</description>
+				<description xml:lang="zh_CN">2D 着色分散标绘引擎</description>
+				<description xml:lang="zh_HK">平面著色分散繪製引擎</description>
+				<description xml:lang="zh_TW">平面著色分散繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_type" id="plot_xy">
+			<file>plot-types.xml</file>
+			<information>
+				<description>Stock Scatter plot types</description>
+				<description xml:lang="ast">Inventariu de tribes de gráfiques de dispersión</description>
+				<description xml:lang="bs">Vrste nacrta raspirivača gomile</description>
+				<description xml:lang="ca">Tipus de traçat dispers per defecte</description>
+				<description xml:lang="ca@valencia">Tipus de traçat dispers per defecte</description>
+				<description xml:lang="cs">Typy korelačních diagramů</description>
+				<description xml:lang="da">Standard punktplottyper</description>
+				<description xml:lang="de">Vorrätige Streugraphtypen</description>
+				<description xml:lang="el">Tύποι σχεδίου διασποράς παρακαταθήκης</description>
+				<description xml:lang="en_CA">Stock Scatter plot types</description>
+				<description xml:lang="en_GB">Stock Scatter plot types</description>
+				<description xml:lang="es">Inventario de tipos de gráficas de dispersión</description>
+				<description xml:lang="eu">Kotizazioen barreiadura-trazuen motak</description>
+				<description xml:lang="fi">Pörssihajontakuvaajien oletustyypit</description>
+				<description xml:lang="fr">Types de tracés de nuages du stock</description>
+				<description xml:lang="hr">Vrste razbacanog iscrtavanja</description>
+				<description xml:lang="hu">Részvény szórásábrázolás típusok</description>
+				<description xml:lang="id">Tipe plot Sebaran Stok</description>
+				<description xml:lang="it">Tipi predefiniti tracciati scatter</description>
+				<description xml:lang="kk">Биржалық шашыраңқы график түрлері</description>
+				<description xml:lang="lt">Saugyklos išbarstymo piešimo tipai</description>
+				<description xml:lang="lv">Biržas izkaisītās skices tipi</description>
+				<description xml:lang="nl">Standaard punten-grafiektypen</description>
+				<description xml:lang="pt">Tipos de dispersão de pontos padrão</description>
+				<description xml:lang="pt_BR">Tipos de gráficos de dispersão de ações</description>
+				<description xml:lang="sk">Rozptýlené kurzy</description>
+				<description xml:lang="sl">Vrste raztresenih vretenastih diagramov</description>
+				<description xml:lang="sr">Врсте нацрта распиривача гомиле</description>
+				<description xml:lang="sr@latin">Vrste nacrta raspirivača gomile</description>
+				<description xml:lang="sv">Standardtyper av spridningsdiagram</description>
+				<description xml:lang="tr">Stok Dağılma çizim türüleri</description>
+				<description xml:lang="uk">Стандартні типи графіків розсіювання</description>
+				<description xml:lang="vi">Kiểu đồ thị vẽ Rải chứng khoán</description>
+				<description xml:lang="zh_CN">存有分散绘图类型</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogXYDropBarPlot">
+			<information>
+				<description>Scattered dropbar plotting engine</description>
+				<description xml:lang="bs">Sistem iscrtavanja raspirene padajuće trake</description>
+				<description xml:lang="ca">Motor de traçat de línia lliscant dispersa</description>
+				<description xml:lang="cs">Generování rozptylových objemových diagramů</description>
+				<description xml:lang="da">Spredt slipbjælke punkttegnemotor</description>
+				<description xml:lang="de">Verteilte 2D-Streugraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίασης γραμμής απόθεσης διασποράς</description>
+				<description xml:lang="en_GB">Scattered dropbar plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de barras deslizantes dispersas</description>
+				<description xml:lang="eu">Sakabanatutako lotura-barra trazatzeko motorra</description>
+				<description xml:lang="hu">Szórt fedősáv ábrázoló motor</description>
+				<description xml:lang="id">Mesin plot batang jatuh sebaran</description>
+				<description xml:lang="kk">Шашыраңқы төмендеу жолақтарын құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Išbarstytų linijų piešimo variklis</description>
+				<description xml:lang="lv">Izkaisīts krituma joslu skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de gráficos de dispersão de barras</description>
+				<description xml:lang="pt_BR">Mecanismo de gráficos de dispersão de barra de projeção</description>
+				<description xml:lang="sl">Programnik izrisovanja raztresenega vretenastega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања распирене падајуће траке</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja raspirene padajuće trake</description>
+				<description xml:lang="sv">Spridningsritmotor</description>
+				<description xml:lang="tr">Dağınık açılır çubuk çizim motoru</description>
+				<description xml:lang="zh_CN">分散的下垂条标绘引擎</description>
+				<description xml:lang="zh_HK">分散式短棒繪製引擎</description>
+				<description xml:lang="zh_TW">分散式短棒繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogXYMinMaxPlot">
+			<information>
+				<description>Scattered Min Max plotting engine</description>
+				<description xml:lang="bs">Sistem iscrtavanja raspirenog najmanjeg-najvećeg</description>
+				<description xml:lang="ca">Motor de traçat de màxim i mínim dispers</description>
+				<description xml:lang="cs">Generování rozptylových diagramů min max</description>
+				<description xml:lang="da">Spredt min/maks-tegnemotor</description>
+				<description xml:lang="de">Minimum-Maximum-Graph-Engine mit Markierungen</description>
+				<description xml:lang="el">Διάσπαρτη μηχανή σχεδίασης ελάχιστου-μέγιστου</description>
+				<description xml:lang="en_GB">Scattered Min Max plotting engine</description>
+				<description xml:lang="es">Motor de dibujado mín. máx aislado.</description>
+				<description xml:lang="eu">Sakabanatutako minimo maximoak trazatzeko motorra</description>
+				<description xml:lang="hu">Szórt minimum-maximum ábrázoló motor</description>
+				<description xml:lang="id">Mesin plot Min Maks Sebaran</description>
+				<description xml:lang="kk">Шашыраңқы минимум-максимум графиктерін құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Išbarstytų Min Max piešimo variklis</description>
+				<description xml:lang="lv">Izkaisīts min maks skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor gráficos Mín./Máx.</description>
+				<description xml:lang="pt_BR">Mecanismo de gráficos de dispersão mín máx</description>
+				<description xml:lang="sl">Programnik izrisovanja raztresenega razponskega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања распиреног најмањег-највећег</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja raspirenog najmanjeg-najvećeg</description>
+				<description xml:lang="sv">Min-max-spridningsritmotor</description>
+				<description xml:lang="tr">Dağınık Min Max çizim motoru</description>
+				<description xml:lang="zh_CN">分散的最小最大标绘引擎</description>
+				<description xml:lang="zh_HK">分散式「最小」「最大」繪製引擎</description>
+				<description xml:lang="zh_TW">分散式「最小」「最大」繪製引擎</description>
+			</information>
+		</service>
+	</services>
+</plugin>

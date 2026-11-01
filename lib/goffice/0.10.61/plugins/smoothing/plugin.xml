@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="GOffice_smoothing">
+	<information>
+		<name>Charting : Trends and Curves</name>
+		<name xml:lang="ast">Gráficu: Tendencies y curves</name>
+		<name xml:lang="bs">Grafik : Očekivanja i krive</name>
+		<name xml:lang="ca">Gràfic: tendències i corbes</name>
+		<name xml:lang="cs">Sestavování grafů: trendy a křivky</name>
+		<name xml:lang="da">Diagram : Tendenser og kurver</name>
+		<name xml:lang="de">Diagrammdarstellung : Trends und Kurven</name>
+		<name xml:lang="el">Σχεδίαση: τάσεις και καμπύλες</name>
+		<name xml:lang="en_GB">Charting : Trends and Curves</name>
+		<name xml:lang="es">Gráficas: tendencias y curvas</name>
+		<name xml:lang="eu">Diagramak : joerak eta kurbak</name>
+		<name xml:lang="fi">Piirto: trendiviivat ja käyrät</name>
+		<name xml:lang="fr">Graphe : tendances et courbes</name>
+		<name xml:lang="hu">Grafikonrajzolás: trendek és görbék</name>
+		<name xml:lang="id">Bagan : Tren dan Kurva</name>
+		<name xml:lang="kk">Диаграммалар құру: Трендтер мен қисықтар</name>
+		<name xml:lang="lt">Diagramos : dėsniai ir kreivės</name>
+		<name xml:lang="lv">Diagrammu veidošana — tendences un līknes</name>
+		<name xml:lang="pt">Gráfico: tendências e curvas</name>
+		<name xml:lang="pt_BR">Gráficos: Tendências e Curvas</name>
+		<name xml:lang="sl">Diagrami: trendi in krivulje</name>
+		<name xml:lang="sr">График : Очекивања и криве</name>
+		<name xml:lang="sr@latin">Grafik : Očekivanja i krive</name>
+		<name xml:lang="sv">Diagram: Trender och kurvor</name>
+		<name xml:lang="tr">Çizelgeleme : Eğilim ve Eğriler</name>
+		<name xml:lang="uk">Діаграми : тенденції та криві</name>
+		<name xml:lang="zh_CN">图表：趋势及曲线</name>
+		<name xml:lang="zh_HK">圖表：趨勢與曲線</name>
+		<name xml:lang="zh_TW">圖表：趨勢與曲線</name>
+		<description>Smoothed curves</description>
+		<description xml:lang="ast">Curves alisaes</description>
+		<description xml:lang="bs">Umekšana krive</description>
+		<description xml:lang="ca">Corbes suaus</description>
+		<description xml:lang="ca@valencia">Corbes suaus</description>
+		<description xml:lang="cs">Vyhlazené křivky</description>
+		<description xml:lang="da">Udglattede kurver</description>
+		<description xml:lang="de">Geglättete Kurven</description>
+		<description xml:lang="el">Εξομαλυμένες καμπύλες</description>
+		<description xml:lang="en_GB">Smoothed curves</description>
+		<description xml:lang="es">Curvas suavizadas</description>
+		<description xml:lang="eu">Kurba leunduak</description>
+		<description xml:lang="fi">Tasoitetut käyrät</description>
+		<description xml:lang="fr">Courbes lissées</description>
+		<description xml:lang="hu">Simított görbék</description>
+		<description xml:lang="id">Kurva yang dihaluskan</description>
+		<description xml:lang="kk">Тегістелген қисықтар</description>
+		<description xml:lang="lt">Nuglotnintos kreivės</description>
+		<description xml:lang="lv">Guldinātas līknes</description>
+		<description xml:lang="nb">Utjevnede kurver</description>
+		<description xml:lang="pt">Curvas suavizadas</description>
+		<description xml:lang="pt_BR">Curvas suavizadas</description>
+		<description xml:lang="ru">Сглаженные кривые</description>
+		<description xml:lang="sl">Glajene krivulje</description>
+		<description xml:lang="sr">Умекшана криве</description>
+		<description xml:lang="sr@latin">Umekšana krive</description>
+		<description xml:lang="sv">Utjämnade kurvor</description>
+		<description xml:lang="tr">Yumuşatılmış eğriler</description>
+		<description xml:lang="uk">Згладжені криві</description>
+		<description xml:lang="vi">Đường cong mịn</description>
+		<description xml:lang="zh_CN">平滑过的曲线</description>
+		<description xml:lang="zh_HK">平滑曲線</description>
+		<description xml:lang="zh_TW">平滑曲線</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="smoothing" name="module_file"/>
+	</loader>
+	<services>
+		<service type="trendline_engine" id="GogMovingAvg">
+			<information>
+				<description>Moving average smoothing engine</description>
+				<description xml:lang="ast">Motor de suavizáu de media móvil</description>
+				<description xml:lang="bs">Sistem umekšavanja kliznog prosjeka</description>
+				<description xml:lang="ca">Motor de suavitzat del desplaçament mitjà</description>
+				<description xml:lang="ca@valencia">Motor de suavitzat del desplaçament mitjà</description>
+				<description xml:lang="cs">Výpočet vyhlazení klouzavým průměrem</description>
+				<description xml:lang="da">Løbende gennemsnitlig udglattet motor</description>
+				<description xml:lang="de">Engine für den gleitenden Mittelwert</description>
+				<description xml:lang="el">Μηχανή εξομάλυνσης κινητού μέσου όρου</description>
+				<description xml:lang="en_GB">Moving average smoothing engine</description>
+				<description xml:lang="es">Moviendo la media del motor de suavizado</description>
+				<description xml:lang="eu">Batezbesteko mugikorra leuntzeko motorra</description>
+				<description xml:lang="fi">Liukuvin keskiarvoin tasoittamisen ohjelma</description>
+				<description xml:lang="fr">Moteur de lissage moyenne mobile</description>
+				<description xml:lang="hu">Mozgóátlag simítás motor</description>
+				<description xml:lang="id">Mesin penghalusan rata-rata bergerak</description>
+				<description xml:lang="kk">Жылжымалы орташа мәнді тегістеу қозғалтқышы</description>
+				<description xml:lang="lt">Slenkančio vidurkio glotninimo variklis</description>
+				<description xml:lang="lv">Mainīgā vidējā gludināšanas dzinis</description>
+				<description xml:lang="pt">Motor de suavização de média</description>
+				<description xml:lang="pt_BR">Mecanismo de suavização de média móvel</description>
+				<description xml:lang="sl">Programnik glajenja premikajoče povprečne vrednosti</description>
+				<description xml:lang="sr">Погон умекшавања клизног просека</description>
+				<description xml:lang="sr@latin">Pogon umekšavanja kliznog proseka</description>
+				<description xml:lang="sv">Rörligt medelvärdeutjämningsmotor</description>
+				<description xml:lang="tr">Ortalama yumuşatma motorunu hareket ettirme</description>
+				<description xml:lang="uk">Рушій згладжування рухомого середнього</description>
+				<description xml:lang="vi">Cơ chế làm mịn trung bình động</description>
+				<description xml:lang="zh_CN">移动平均平滑引擎</description>
+				<description xml:lang="zh_HK">移動平均平滑化引擎</description>
+				<description xml:lang="zh_TW">移動平均平滑化引擎</description>
+			</information>
+		</service>
+		<service type="trendline_engine" id="GogExpSmooth">
+			<information>
+				<description>exponential smoothing engine</description>
+				<description xml:lang="ast">motor d'alisáu esponencial</description>
+				<description xml:lang="bs">sistem eksponencijalnog uglađivanja</description>
+				<description xml:lang="ca">motor de suavitat exponencial</description>
+				<description xml:lang="ca@valencia">motor de suavitat exponencial</description>
+				<description xml:lang="cs">Výpočet exponenciálního vyhlazení</description>
+				<description xml:lang="da">eksponentiel udglattelsesmotor</description>
+				<description xml:lang="de">Exponentielle Glättungs-Engine</description>
+				<description xml:lang="el">Μηχανή εκθετικής εξομάλυνσης</description>
+				<description xml:lang="en_GB">exponential smoothing engine</description>
+				<description xml:lang="es">motor de suavizado exponencial</description>
+				<description xml:lang="eu">esponentzialki leuntzeko motorra</description>
+				<description xml:lang="fi">Eksponentiaalisen tasoituksen ohjelma</description>
+				<description xml:lang="fr">Moteur de lissage exponentiel</description>
+				<description xml:lang="hu">exponenciális simítás motor</description>
+				<description xml:lang="id">mesin penghalusan eksponensial</description>
+				<description xml:lang="kk">экспоненциалды тегістеу қозғалтқышы</description>
+				<description xml:lang="lt">eksponentinio glotninimo sistema</description>
+				<description xml:lang="lv">eksponenciālā gludināšanas dzinis</description>
+				<description xml:lang="pt">Motor de suavização de exponencial</description>
+				<description xml:lang="pt_BR">mecanismo de suavização exponencial</description>
+				<description xml:lang="sl">programnik potenčnega glajenja</description>
+				<description xml:lang="sr">погон експоненцијалног углађивања</description>
+				<description xml:lang="sr@latin">pogon eksponencijalnog uglađivanja</description>
+				<description xml:lang="sv">exponentiell utjämningsmotor</description>
+				<description xml:lang="tr">üstel yumuşatma motoru</description>
+				<description xml:lang="uk">Рушій згладжування експоненційного</description>
+				<description xml:lang="vi">cơ chế lam mịn theo mũ</description>
+				<description xml:lang="zh_CN">指数平滑引擎</description>
+				<description xml:lang="zh_HK">指數式平滑化引擎</description>
+				<description xml:lang="zh_TW">指數式平滑化引擎</description>
+			</information>
+		</service>
+		<service type="trendline_type" id="smoothing">
+			<file>types.xml</file>
+			<information>
+				<description>Smoothed curves types</description>
+				<description xml:lang="ast">Tribes de curves alisaes</description>
+				<description xml:lang="bs">Vrste umekšanih krivih</description>
+				<description xml:lang="ca">Tipus de corbes suaus</description>
+				<description xml:lang="ca@valencia">Tipus de corbes suaus</description>
+				<description xml:lang="cs">Typy vyhlazených křivek</description>
+				<description xml:lang="da">Udglattede kurvetyper</description>
+				<description xml:lang="de">Arten geglätteter Kurven</description>
+				<description xml:lang="el">Τύποι εξομαλυμένων καμπυλών</description>
+				<description xml:lang="en_GB">Smoothed curves types</description>
+				<description xml:lang="es">Tipos de curvas suavizadas</description>
+				<description xml:lang="eu">Kurba leundu motak</description>
+				<description xml:lang="fi">Tasoitettujen käyrien tyypit</description>
+				<description xml:lang="fr">Types de courbes lissées</description>
+				<description xml:lang="hu">Simított görbék típusai</description>
+				<description xml:lang="id">Tipe kurva yang dihaluskan</description>
+				<description xml:lang="kk">Тегістелген қисықтардың түрлері</description>
+				<description xml:lang="lt">Nuglotnintų kreivių tipai</description>
+				<description xml:lang="lv">Guldinātu līkņu tipi</description>
+				<description xml:lang="nb">Utjevnede kurvetyper</description>
+				<description xml:lang="pt">Tipos de curvas suavizadas</description>
+				<description xml:lang="pt_BR">Tipos de curvas suavizadas</description>
+				<description xml:lang="ru">Типы сглаженных кривых</description>
+				<description xml:lang="sl">Vrste glajenih krivulj</description>
+				<description xml:lang="sr">Врсте умекшаних кривих</description>
+				<description xml:lang="sr@latin">Vrste umekšanih krivih</description>
+				<description xml:lang="sv">Utjämnade kurvtyper</description>
+				<description xml:lang="tr">Yumuşatılmış eğriler türleri</description>
+				<description xml:lang="uk">Типи згладжених кривих</description>
+				<description xml:lang="vi">Kiểu đường cong mịn</description>
+				<description xml:lang="zh_CN">平滑曲线类型</description>
+				<description xml:lang="zh_HK">平滑曲線類型</description>
+				<description xml:lang="zh_TW">平滑曲線類型</description>
+			</information>
+		</service>
+	</services>
+</plugin>

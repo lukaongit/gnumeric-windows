@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="GOffice_plot_barcol">
+	<information>
+		<name>Charting : Bar/Col/Line/Area</name>
+		<name xml:lang="ast">Diagrama: Bar/Col/Llinia/Estaya</name>
+		<name xml:lang="bs">Grafikoni: Traka/Kolona/Linija/Oblast</name>
+		<name xml:lang="ca">Gràfic : barra/columna/línia/àrea</name>
+		<name xml:lang="ca@valencia">Gràfic : barra/columna/línia/àrea</name>
+		<name xml:lang="cs">Sestavování grafů: pruhové/sloupcové/čárové/plošné</name>
+		<name xml:lang="da">Diagrammer : Bjæ/kol/lj/område</name>
+		<name xml:lang="de">Diagrammdartellung : Balken/Säulen/Linien/Flächen</name>
+		<name xml:lang="el">Διάγραμμα: ράβδος/στήλη/γραμμή/περιοχή</name>
+		<name xml:lang="en_CA">Charting : Bar/Col/Line/Area</name>
+		<name xml:lang="en_GB">Charting : Bar/Col/Line/Area</name>
+		<name xml:lang="es">Gráficas: bar/col/línea/área</name>
+		<name xml:lang="eu">Diagramak : Barrak/Zutabeak/Marrak/Area</name>
+		<name xml:lang="fi">Piirto: palkki/pylväs/viiva/alue</name>
+		<name xml:lang="fr">Graphes : barres/colonnes/courbes/surfaces</name>
+		<name xml:lang="hu">Grafikonrajzolás: sáv / oszlop / vonal / terület</name>
+		<name xml:lang="id">Bagan : Batang/Kolom/Garis/Area</name>
+		<name xml:lang="it">Grafici a barra/colonna/linea/area</name>
+		<name xml:lang="ja">グラフ: 棒/列/行/エリア</name>
+		<name xml:lang="kk">Диаграммалар құру: Жолақ/Баған/Сызық/Облыс</name>
+		<name xml:lang="lt">Diagrama : Bar/Col/Line/Area</name>
+		<name xml:lang="lv">Diagrammu veidošana — joslas/kolonnas/līnijas/laukumi</name>
+		<name xml:lang="nl">Grafiek maken: balk/kolom/lijn/gebied</name>
+		<name xml:lang="pt">Gráfico: Bar/Col/Lin/área</name>
+		<name xml:lang="pt_BR">Gráficos: Barra/Coluna/Linha/Área</name>
+		<name xml:lang="sl">Diagrami: vrstični/stolpični/črtni/ploščinski</name>
+		<name xml:lang="sr">Графикони: Трака/Колона/Линија/Област</name>
+		<name xml:lang="sr@latin">Grafikoni: Traka/Kolona/Linija/Oblast</name>
+		<name xml:lang="sv">Diagramritning : Stapel/Kolumn/Linje/Area</name>
+		<name xml:lang="tr">Çizelge : Çubuk/Sütun/Çizgi/Alan</name>
+		<name xml:lang="uk">Діаграми: стосова/стовпчикова/лінійна/плоска</name>
+		<name xml:lang="vi">Vẽ đồ thị: Thanh/Cột/Đường/Vùng</name>
+		<name xml:lang="zh_CN">图表：条/色/线/区</name>
+		<description>Line, Area, Bar and Column plots</description>
+		<description xml:lang="ast">Diagrames de llinia, estaya, barres y columnes</description>
+		<description xml:lang="bs">Nacrti linija, oblasti, traka i kolona</description>
+		<description xml:lang="ca">Traçats de línia, d'àrees, de barres i de columnes</description>
+		<description xml:lang="ca@valencia">Traçats de línia, d'àrees, de barres i de columnes.</description>
+		<description xml:lang="cs">Čárové, plošné, pruhové a sloupcové diagramy</description>
+		<description xml:lang="da">Linje-, område-, bjælke- og kolonneplot</description>
+		<description xml:lang="de">Linien-, Flächen-, Balken- und Säulengraphen</description>
+		<description xml:lang="el">Σχέδια γραμμής, περιοχής, ράβδου και στήλης</description>
+		<description xml:lang="en_CA">Line, Area, Bar and Column plots</description>
+		<description xml:lang="en_GB">Line, Area, Bar and Column plots</description>
+		<description xml:lang="es">Diagramas de línea, área, barras y columnas</description>
+		<description xml:lang="eu">Marra-, area-, barra- eta zutabe-trazuak</description>
+		<description xml:lang="fi">Viiva-, alue-, palkki- ja pylväskuvaajat</description>
+		<description xml:lang="fr">Tracés de courbes, surfaces, barres et colonnes</description>
+		<description xml:lang="hu">Vonal, terület, sáv és oszlop ábrázolások</description>
+		<description xml:lang="id">Plot Garis, Area, Batang, dan Kolom</description>
+		<description xml:lang="it">Tracciati di tipo linea, area, barra e colonna</description>
+		<description xml:lang="ja">線、エリア、棒、列でプロットします</description>
+		<description xml:lang="kk">Сызықтық, облыстық, жолақтық және бағандық графиктер</description>
+		<description xml:lang="lt">Linijos, srities, juostos ir stulpelio piešimo vietos</description>
+		<description xml:lang="lv">Līniju, laukumu, joslu um kolonnu skices.</description>
+		<description xml:lang="nb">Linje-, område-, søyle- og kolonneplott</description>
+		<description xml:lang="nl">Lijn, gebied, balk en kolom-diagrammen</description>
+		<description xml:lang="pt">Gráficos de linhas, áreas, barras e colunas</description>
+		<description xml:lang="pt_BR">Gráficos de Linha, Área, Barra e Coluna</description>
+		<description xml:lang="sl">Črtni, ploščinski, palični in stolpični diagrami</description>
+		<description xml:lang="sr">Нацрти линија, области, трака и колона</description>
+		<description xml:lang="sr@latin">Nacrti linija, oblasti, traka i kolona</description>
+		<description xml:lang="sv">Linje, area, stapel och kolumngrafer</description>
+		<description xml:lang="tr">Çizgi, Alan, Çubuk ve Sütun çizimleri</description>
+		<description xml:lang="uk">Креслення з лініями, областями, планками та стовпчиками</description>
+		<description xml:lang="vi">Đồ thị vẽ Đường, Vùng, Thanh và Cột</description>
+		<description xml:lang="zh_CN">线，区，条和列绘图</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="barcol" name="module_file"/>
+	</loader>
+	<services>
+		<service type="resource" id="go:plot_barcol/linegraph.xpm" data="/* XPM */&#10;static char const * const linegraph_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.ggggggbbgggg##gg&quot;,&#10;&quot;g.ggggggbbgggg##gg&quot;,&#10;&quot;g.gggggcggcggg#ggg&quot;,&#10;&quot;g.ggggcggggcg#gggg&quot;,&#10;&quot;g.gggcgggggg#ggggg&quot;,&#10;&quot;g.gbbgggggg#gcgggg&quot;,&#10;&quot;g.gbbggggg#gggbbgg&quot;,&#10;&quot;g.ggggggg#ggggbbgg&quot;,&#10;&quot;g.g##gg##ggggggggg&quot;,&#10;&quot;g.g######ggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g................g&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_barcol/area.xpm" data="/* XPM */&#10;static char * area_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g.ggggggggg.gggggg&quot;,&#10;&quot;g..ggggggg.c.ggggg&quot;,&#10;&quot;g.c.ggggg.cbc.gggg&quot;,&#10;&quot;g.bc.ggg.cbcbc.ggg&quot;,&#10;&quot;g.cbc.g.cbcbcbc.gg&quot;,&#10;&quot;g.bcbc.cbcbc.cbc.g&quot;,&#10;&quot;g.cbcbcbcbc.#.cbcg&quot;,&#10;&quot;g..cbcbcbc.###.cbg&quot;,&#10;&quot;g.#..bcbc.#####.cg&quot;,&#10;&quot;g.###..c.#######.g&quot;,&#10;&quot;g.#####.#########g&quot;,&#10;&quot;g.###############g&quot;,&#10;&quot;g................g&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_barcol/bar.xpm" data="/* XPM */&#10;static char const * const bar_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g........ggggggggg&quot;,&#10;&quot;g.bbbbbb.ggggggggg&quot;,&#10;&quot;g..........ggggggg&quot;,&#10;&quot;g.########.ggggggg&quot;,&#10;&quot;g...............gg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g...............gg&quot;,&#10;&quot;g.bbbbbbbbbbbbb.gg&quot;,&#10;&quot;g............ggggg&quot;,&#10;&quot;g.##########.ggggg&quot;,&#10;&quot;g............ggggg&quot;,&#10;&quot;g.gggggggggggggggg&quot;,&#10;&quot;g................g&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_barcol/column.xpm" data="/* XPM */&#10;static char const * const column_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;g.gggggggggg...ggg&quot;,&#10;&quot;g.gggggggggg.b.ggg&quot;,&#10;&quot;g.gggggggggg.b.ggg&quot;,&#10;&quot;g.gggggggggg.b.ggg&quot;,&#10;&quot;g.gggggggggg.b.ggg&quot;,&#10;&quot;g.gggggggg...b.ggg&quot;,&#10;&quot;g.gggggggg.#.b.ggg&quot;,&#10;&quot;g.gggg...g.#.b.ggg&quot;,&#10;&quot;g.gggg.b.g.#.b.ggg&quot;,&#10;&quot;g.gg...b.g.#.b.ggg&quot;,&#10;&quot;g.gg.#.b.g.#.b.ggg&quot;,&#10;&quot;g.gg.#.b.g.#.b.ggg&quot;,&#10;&quot;g.gg.#.b.g.#.b.ggg&quot;,&#10;&quot;g................g&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_barcol/dropbar.xpm" data="/* XPM */&#10;static char * dropbar_xpm[] = {&#10;&quot;18 18 5 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #008400&quot;,&#10;&quot;@&#9;c #FF0000&quot;,&#10;&quot;#&#9;c #FF7BFF&quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;,&#10;&quot; .          ...   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .          .+.   &quot;,&#10;&quot; .        ...+.   &quot;,&#10;&quot; .        .@.+.   &quot;,&#10;&quot; .    ... .@...   &quot;,&#10;&quot; .    .#. .@.     &quot;,&#10;&quot; .  ...#. ...     &quot;,&#10;&quot; .  .@.#.         &quot;,&#10;&quot; .  .@...         &quot;,&#10;&quot; .  ...           &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+		<service type="resource" id="go:plot_barcol/minmax.xpm" data="/* XPM */&#10;static char * minmax_xpm[] = {&#10;&quot;18 18 3 1&quot;,&#10;&quot; &#9;c None&quot;,&#10;&quot;.&#9;c #000000&quot;,&#10;&quot;+&#9;c #0000C0&quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .           +    &quot;,&#10;&quot; .         . +    &quot;,&#10;&quot; .         . +    &quot;,&#10;&quot; .   . +   . +    &quot;,&#10;&quot; .   . +   .      &quot;,&#10;&quot; .   . +   .      &quot;,&#10;&quot; .   . +          &quot;,&#10;&quot; .   . +          &quot;,&#10;&quot; .   .            &quot;,&#10;&quot; ................ &quot;,&#10;&quot;                  &quot;,&#10;&quot;                  &quot;};&#10;"/>
+
+		<service type="plot_engine" id="GogLinePlot">
+			<information>
+				<description>Line plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de llinies</description>
+				<description xml:lang="bs">Sistem za iscrtavanje linije</description>
+				<description xml:lang="ca">Motor de traçador de línia</description>
+				<description xml:lang="ca@valencia">Motor de traçador de línia</description>
+				<description xml:lang="cs">Generování čárových diagramů</description>
+				<description xml:lang="da">Linjetegnemotor</description>
+				<description xml:lang="de">Liniengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου γραμμής</description>
+				<description xml:lang="en_CA">Line plotting engine</description>
+				<description xml:lang="en_GB">Line plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de líneas</description>
+				<description xml:lang="eu">Marrak trazatzeko motorra</description>
+				<description xml:lang="fi">Viivakuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de courbes</description>
+				<description xml:lang="hr">Sustav za iscrtavanje linija</description>
+				<description xml:lang="hu">Vonalábrázoló motor</description>
+				<description xml:lang="id">Mesin plot garis</description>
+				<description xml:lang="it">Motore tracciati linea</description>
+				<description xml:lang="ja">線プロットエンジン</description>
+				<description xml:lang="kk">Сызықтық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Linijų braižymo sistema</description>
+				<description xml:lang="lv">Līniju skicēšanas dzinis</description>
+				<description xml:lang="nl">Lijn plotmodule</description>
+				<description xml:lang="pl">Mechanizm rysowania linii</description>
+				<description xml:lang="pt">Motor de gráficos de linhas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de linha</description>
+				<description xml:lang="sk">Nástroj na kreslenie čiarových grafov</description>
+				<description xml:lang="sl">Programnik izrisovanja črtnih diagramov in grafov</description>
+				<description xml:lang="sr">Погон исцртавања линије</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja linije</description>
+				<description xml:lang="sv">Linjediagramsritmotor</description>
+				<description xml:lang="tr">Çizgi çizme motoru</description>
+				<description xml:lang="uk">Рушій креслення ліній</description>
+				<description xml:lang="vi">Cơ chế vẽ đường</description>
+				<description xml:lang="zh_CN">线绘图引擎</description>
+				<description xml:lang="zh_HK">線條繪製引擎</description>
+				<description xml:lang="zh_TW">線條繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogAreaPlot">
+			<information>
+				<description>Area plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu d'estayes</description>
+				<description xml:lang="bs">Sistem za iscrtavanje oblasti</description>
+				<description xml:lang="ca">Motor de traçador d'àrees</description>
+				<description xml:lang="ca@valencia">Motor de traçador d'àrees</description>
+				<description xml:lang="cs">Generování plošných grafů</description>
+				<description xml:lang="da">Områdetegnemotor</description>
+				<description xml:lang="de">Flächengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου περιοχής</description>
+				<description xml:lang="en_CA">Area plotting engine</description>
+				<description xml:lang="en_GB">Area plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de áreas</description>
+				<description xml:lang="eu">Areak trazatzeko motorra</description>
+				<description xml:lang="fi">Aluepiirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de surfaces</description>
+				<description xml:lang="hr">Sistem za iscrtavanje područja.</description>
+				<description xml:lang="hu">Területábrázoló motor</description>
+				<description xml:lang="id">Mesin plot area</description>
+				<description xml:lang="it">Motore tracciati area</description>
+				<description xml:lang="ja">エリアプロットエンジン</description>
+				<description xml:lang="kk">Облыстық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Srities piešimo variklis</description>
+				<description xml:lang="lv">Laukumu skicēšanas dzinis</description>
+				<description xml:lang="nb">Motor for områdeplott</description>
+				<description xml:lang="nl">Gebiedsplot-module</description>
+				<description xml:lang="pt">Motor de gráficos de área</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de área</description>
+				<description xml:lang="sk">Nástroj pre kreslenie oblastí</description>
+				<description xml:lang="sl">Programnik izrisovanja površin diagramov</description>
+				<description xml:lang="sr">Погон исцртавања области</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja oblasti</description>
+				<description xml:lang="sv">Cirkeldiagramsritmotor</description>
+				<description xml:lang="tr">Alan çizme motoru</description>
+				<description xml:lang="uk">Рушій креслення області</description>
+				<description xml:lang="vi">Cơ chế vẽ vùng</description>
+				<description xml:lang="zh_CN">区域绘图引擎</description>
+				<description xml:lang="zh_HK">區域繪製引擎</description>
+				<description xml:lang="zh_TW">區域繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogBarColPlot">
+			<information>
+				<description>Bar/Col plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de barres/columnes</description>
+				<description xml:lang="bs">Sistem za iscrtavanje traka/kolona</description>
+				<description xml:lang="ca">Motor de traçador de bar/col</description>
+				<description xml:lang="ca@valencia">Motor de traçador de bar/col</description>
+				<description xml:lang="cs">Generování pruhových a sloupcových diagramů</description>
+				<description xml:lang="da">Bjælke/kolonne-tegnemotor</description>
+				<description xml:lang="de">Balken-/Säulengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου ράβδου/στήλης</description>
+				<description xml:lang="en_CA">Bar/Col plotting engine</description>
+				<description xml:lang="en_GB">Bar/Col plotting engine</description>
+				<description xml:lang="es">Motor de plano de barras/columnas</description>
+				<description xml:lang="eu">Barrak/Zutabeak trazatzeko motorra</description>
+				<description xml:lang="fi">Palkki/pylväs-piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin barres/colonnes</description>
+				<description xml:lang="hr">Sistem za iscrtavanje traka/kolona</description>
+				<description xml:lang="hu">Sáv- és oszlopábrázoló motor</description>
+				<description xml:lang="id">Mesin plot batang/kolom</description>
+				<description xml:lang="it">Motore tracciati barra/colonna</description>
+				<description xml:lang="ja">棒/列プロットエンジン</description>
+				<description xml:lang="kk">Жолақтық/Бағандық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Juostos/stulpelio piešimo variklis</description>
+				<description xml:lang="lv">Joslu/kolonnu skicēšanas dzinis</description>
+				<description xml:lang="nl">Balk/kolom plotmodule</description>
+				<description xml:lang="pt">Motor de gráficos Bar/Col</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de Bar/Col</description>
+				<description xml:lang="sk">Nástroj na kreslenie pruhov</description>
+				<description xml:lang="sl">Programnik izrisovanja paličnih in stolpičnih diagramov</description>
+				<description xml:lang="sr">Погон исцртавања трака/колона</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja traka/kolona</description>
+				<description xml:lang="sv">Stapel-/kolumn-ritmotor</description>
+				<description xml:lang="tr">Çubuk/Sütun çizme motoru</description>
+				<description xml:lang="uk">Рушій креслення смуг/стовпчиків</description>
+				<description xml:lang="vi">Cơ chế vẽ thanh/cột</description>
+				<description xml:lang="zh_CN">条/色绘图引擎</description>
+				<description xml:lang="zh_HK">棒形/欄位繪製引擎</description>
+				<description xml:lang="zh_TW">棒形/欄位繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogDropBarPlot">
+			<information>
+				<description>Drop Bar/Col plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxáu de barres/columnes eslizantes</description>
+				<description xml:lang="bs">Sistem za iscrtavanje padajuće trake/kolone</description>
+				<description xml:lang="ca">Motor de traçador de barres/columnes lliscants</description>
+				<description xml:lang="ca@valencia">Motor de traçador de barres/columnes lliscants</description>
+				<description xml:lang="cs">Generování objemových diagramů</description>
+				<description xml:lang="da">Slipbjælke/-kolonnetegnemotor</description>
+				<description xml:lang="de">Bezugsbalken-/Säulengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου απόθεσης ράβδου/στήλης</description>
+				<description xml:lang="en_GB">Drop Bar/Col plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de barras/columnas deslizantes</description>
+				<description xml:lang="eu">Lotura-barrak/Zutabeak trazatzeko motorra</description>
+				<description xml:lang="fi">Kelluvien palkkien/pylväiden piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de colonnes/barres de projection</description>
+				<description xml:lang="hu">Fedő sáv- és oszlopábrázoló motor</description>
+				<description xml:lang="id">Mesin plot batang/kolom jatuh</description>
+				<description xml:lang="kk">Төмендеу жолақтарын/бағандарын құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Juostos/stulpelio piešimo variklis</description>
+				<description xml:lang="lv">Krituma joslu/kolonnu skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de gráficos de barras/colunas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de Drop Bar/Col</description>
+				<description xml:lang="sl">Programnik izrisovanja vretenastih diagramov</description>
+				<description xml:lang="sr">Погон исцртавања падајуће траке/колоне</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja padajuće trake/kolone</description>
+				<description xml:lang="sv">Stapel-/kolumn-ritmotor</description>
+				<description xml:lang="tr">Açılır Çubuk/Sütun çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення спадних смуг/стовпчиків</description>
+				<description xml:lang="vi">Cơ chế tạo thanh/cột thả</description>
+				<description xml:lang="zh_CN">下拉 条/列绘图引擎</description>
+				<description xml:lang="zh_HK">短棒/欄位繪製引擎</description>
+				<description xml:lang="zh_TW">短棒/欄位繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogMinMaxPlot">
+			<information>
+				<description>Min Max plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu min máx</description>
+				<description xml:lang="bs">Sistem iscrtavanja najmanjeg-najvećeg</description>
+				<description xml:lang="ca">Motor de traçador de màxims i mínims</description>
+				<description xml:lang="ca@valencia">Motor de traçador de màxims i mínims</description>
+				<description xml:lang="cs">Generování diagramů Min Max</description>
+				<description xml:lang="da">Min-/makstegnemotor</description>
+				<description xml:lang="de">Minimum-Maximum-Graph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου ελάχιστου-μέγιστου</description>
+				<description xml:lang="en_GB">Min Max plotting engine</description>
+				<description xml:lang="es">Motor de dibujado mín. máx.</description>
+				<description xml:lang="eu">Min max trazatzeko motorra</description>
+				<description xml:lang="fi">Janakuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin min-max</description>
+				<description xml:lang="hu">Minimum-maximum ábrázoló motor</description>
+				<description xml:lang="id">Mesin plot min maks</description>
+				<description xml:lang="it">Motore tracciati minimo massimo</description>
+				<description xml:lang="kk">Минимум-максимум графигін құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Min max piešimo variklis</description>
+				<description xml:lang="lv">Min maks skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor gráficos Mín/Máx.</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem Min Max</description>
+				<description xml:lang="sl">Programnik izrisovanja razponskih diagramov</description>
+				<description xml:lang="sr">Погон исцртавања најмањег-највећег</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja najmanjeg-najvećeg</description>
+				<description xml:lang="sv">Min-maxritmotor</description>
+				<description xml:lang="tr">Min Max çizim motoru</description>
+				<description xml:lang="uk">Рушій креслення мінімуму-максимуму</description>
+				<description xml:lang="vi">Cơ chế vẽ đồ thị Cực Đại</description>
+				<description xml:lang="zh_CN">最小最大绘图引擎</description>
+				<description xml:lang="zh_HK">「最小值」「最大值」繪製引擎</description>
+				<description xml:lang="zh_TW">「最小值」「最大值」繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_type" id="1.5d">
+			<file>plot-types.xml</file>
+			<information>
+				<description>Default 1.5d plot types</description>
+				<description xml:lang="ast">Tribes de gráfiques preestablecíes pa 1.5d</description>
+				<description xml:lang="bs">Osnovne vrste 1,5d iscrtavanja</description>
+				<description xml:lang="ca">Tipus de traçat 1.5d per defecte</description>
+				<description xml:lang="ca@valencia">Tipus de traçat 1.5d per defecte</description>
+				<description xml:lang="cs">Výchozí typy diagramů 1.5d</description>
+				<description xml:lang="da">Standard 1,5d plottyper</description>
+				<description xml:lang="de">1.5d-Vorgabediagrammtypen</description>
+				<description xml:lang="el">Προεπιλεγμένοι τύποι σχεδίου 1.5d</description>
+				<description xml:lang="en_CA">Default 1.5d plot types</description>
+				<description xml:lang="en_GB">Default 1.5d plot types</description>
+				<description xml:lang="es">Tipos de gráficos predeterminados para 1.5d</description>
+				<description xml:lang="eu">1.5d trazu mota lehenetsiak</description>
+				<description xml:lang="fi">Puolitoistaulotteisten kuvaajien oletustyypit</description>
+				<description xml:lang="fr">Types de dessin 1.5d par défaut</description>
+				<description xml:lang="hr">Vrste uobičajenog 1.5d crtanja</description>
+				<description xml:lang="hu">Alapértelmezett 1,5d ábrázolástípusok</description>
+				<description xml:lang="id">Tipe plot 1.5d baku</description>
+				<description xml:lang="it">Tipi predefiniti di tracciati 1.5d</description>
+				<description xml:lang="ja">デフォルト 1.5d プロットタイプ</description>
+				<description xml:lang="kk">1.5d графиктерінің бастапқы түрлері</description>
+				<description xml:lang="lt">Numatyta 1.5d piešimo tipų</description>
+				<description xml:lang="lv">Noklusējuma 1.5d skices tipi</description>
+				<description xml:lang="nb">Forvalgte typer 1.5d plott</description>
+				<description xml:lang="nl">Standaard 1.5d plot-types</description>
+				<description xml:lang="pl">Domyślne typy wykresu 1.5d</description>
+				<description xml:lang="pt">Tipos de gráficos 1.5d predefinidos</description>
+				<description xml:lang="pt_BR">Tipos de gráficos de 1.5d padrão</description>
+				<description xml:lang="sk">Štandardné typy 1.5d</description>
+				<description xml:lang="sl">Privzete 1.5d vrste diagramov</description>
+				<description xml:lang="sr">Основне врсте 1,5д исцртавања</description>
+				<description xml:lang="sr@latin">Osnovne vrste 1,5d iscrtavanja</description>
+				<description xml:lang="sv">Standard 1.5d-graftyper</description>
+				<description xml:lang="tr">Varsayılan 1.5d çizim türleri</description>
+				<description xml:lang="vi">Kiểu đồ thị vẽ 1,5d mặc định</description>
+				<description xml:lang="zh_CN">默认  1.5d 图类型</description>
+				<description xml:lang="zh_HK">預設 1.5d 繪製類型</description>
+				<description xml:lang="zh_TW">預設 1.5d 繪製類型</description>
+			</information>
+		</service>
+	</services>
+</plugin>

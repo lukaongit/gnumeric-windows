@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="GOffice_plot_radar">
+	<information>
+		<name>Charting : Polar/Radar</name>
+		<name xml:lang="ast">Diagrama: Polar/Radar</name>
+		<name xml:lang="bs">Grafikon: Stožer/Presek</name>
+		<name xml:lang="ca">Gràfic: polar/radar</name>
+		<name xml:lang="ca@valencia">Gràfic: polar/radar</name>
+		<name xml:lang="cs">Sestavování grafů : polární/radarové</name>
+		<name xml:lang="da">Diagrammer : Polær/radar</name>
+		<name xml:lang="de">Diagrammdarstellung : Polar/Radar</name>
+		<name xml:lang="el">Διάγραμμα : πολικό/ραντάρ</name>
+		<name xml:lang="en_GB">Charting : Polar/Radar</name>
+		<name xml:lang="es">Gráficas: polar/radar</name>
+		<name xml:lang="eu">Diagramak : Polarra/Erradiala</name>
+		<name xml:lang="fi">Piirto: napa/verkko</name>
+		<name xml:lang="fr">Graphe : Polaire/Radar</name>
+		<name xml:lang="hu">Grafikonrajzolás: polár / radar</name>
+		<name xml:lang="id">Diagram : Polar/Radar</name>
+		<name xml:lang="it">Grafici: polare/rete</name>
+		<name xml:lang="ja">グラフ: 極座標/レーダー</name>
+		<name xml:lang="kk">Диаграммалар құру: Полярлық/Радарлық</name>
+		<name xml:lang="lt">Diagrama : poliaras/radaras</name>
+		<name xml:lang="lv">Diagrammu veidošana — polārs/radara</name>
+		<name xml:lang="pt">Gráfico: polar/radar</name>
+		<name xml:lang="pt_BR">Gráficos: Polar/Radar</name>
+		<name xml:lang="sl">Diagrami: spiralni/mrežni</name>
+		<name xml:lang="sr">Графикон: Стожер/Пресек</name>
+		<name xml:lang="sr@latin">Grafikon: Stožer/Presek</name>
+		<name xml:lang="sv">Diagram : Polär/Radar</name>
+		<name xml:lang="tr">Çizelgeleme : Kutupsal/Radar</name>
+		<name xml:lang="vi">Vẽ đồ thị: Cực/Ra đa</name>
+		<name xml:lang="zh_CN">制图：极线/放射</name>
+		<name xml:lang="zh_HK">圖表：極座標圖/雷達圖</name>
+		<name xml:lang="zh_TW">圖表：極座標圖/雷達圖</name>
+		<description>Polar and Radar plots</description>
+		<description xml:lang="ast">Diagrama polar y de radar</description>
+		<description xml:lang="bs">Nacrti presjeka i stožera</description>
+		<description xml:lang="ca">Traçats polars i de radar</description>
+		<description xml:lang="ca@valencia">Traçats polars i de radar</description>
+		<description xml:lang="cs">Polární a radarové diagramy</description>
+		<description xml:lang="da">Polær- og radarplot</description>
+		<description xml:lang="de">Polar- und Radardiagramm</description>
+		<description xml:lang="el">Σχέδια πολικά και ραντάρ</description>
+		<description xml:lang="en_GB">Polar and Radar plots</description>
+		<description xml:lang="es">Dibujos polar y de radar</description>
+		<description xml:lang="eu">Trazu polar eta erradialak</description>
+		<description xml:lang="fi">Napa- ja verkkokuvaajat</description>
+		<description xml:lang="fr">Tracés polaires et en radar.</description>
+		<description xml:lang="hu">Polár és radar ábrázolások</description>
+		<description xml:lang="id">Plot Polar dan Radar</description>
+		<description xml:lang="it">Tracciati polari e rete</description>
+		<description xml:lang="kk">Полярлық және радарлық графиктер</description>
+		<description xml:lang="lt">Poliaro ir radaro piešimo vietos</description>
+		<description xml:lang="lv">Polārās un radara skices</description>
+		<description xml:lang="pt">Gráficos polar e radar</description>
+		<description xml:lang="pt_BR">Gráficos Polar e Radar</description>
+		<description xml:lang="sl">Spiralni in mrežni diagrami</description>
+		<description xml:lang="sr">Нацрти пресека и стожера</description>
+		<description xml:lang="sr@latin">Nacrti preseka i stožera</description>
+		<description xml:lang="sv">Polär och radardiagram</description>
+		<description xml:lang="tr">Kutupsal ve Radar çizimler</description>
+		<description xml:lang="uk">Полярні і радарні креслення</description>
+		<description xml:lang="vi">Đồ thị vẽ Cực và Ra đa</description>
+		<description xml:lang="zh_CN">极线和放射图</description>
+		<description xml:lang="zh_HK">極座標圖及雷達圖</description>
+		<description xml:lang="zh_TW">極座標圖及雷達圖</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="radar" name="module_file"/>
+	</loader>
+	<services>
+		<service type="resource" id="go:plot_radar/radar.xpm" data="/* XPM */&#10;static char * radar_icon [] = {&#10;/* width height num_colors chars_per_pixel */&#10;&quot;    18   18        9            1&quot;,&#10;/* colors */&#10;&quot;. c #000000&quot;,&#10;&quot;# c #ff0000&quot;,&#10;&quot;a c #00ffff&quot;,&#10;&quot;b c #008400&quot;,&#10;&quot;c c #008484&quot;,&#10;&quot;d c #848484&quot;,&#10;&quot;e c #c6c6c6&quot;,&#10;&quot;f c #ffff00&quot;,&#10;&quot;g c None&quot;,&#10;/* pixels */&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggggggggggggg&quot;,&#10;&quot;gggggggg.ggggggggg&quot;,&#10;&quot;ggggggg##ggggggggg&quot;,&#10;&quot;gggggg#####ggggggg&quot;,&#10;&quot;ggggg#gg.gg##ggggg&quot;,&#10;&quot;g.gg#ggbbbggg#gg.g&quot;,&#10;&quot;gg##ggbgbbbbgg##gg&quot;,&#10;&quot;gg##.bbg.ggbb.##gg&quot;,&#10;&quot;gg#ggbbg.g.bbg#ggg&quot;,&#10;&quot;gg#ggbg...ggbg#ggg&quot;,&#10;&quot;gg#ggbg.g.gbgg#ggg&quot;,&#10;&quot;ggg#gbbgggbbg#gggg&quot;,&#10;&quot;ggg#gbbbbbb.g#gggg&quot;,&#10;&quot;ggg##ggggggg##gggg&quot;,&#10;&quot;ggg###########gggg&quot;,&#10;&quot;gg.ggggggggggg.ggg&quot;,&#10;&quot;gggggggggggggggggg&quot;&#10;};&#10;"/>
+		<service type="resource" id="go:plot_radar/polar.xpm" data="/* XPM */&#10;static char *polar[] = {&#10;/* columns rows colors chars-per-pixel */&#10;&quot;18 18 19 1 &quot;,&#10;&quot;  c black&quot;,&#10;&quot;. c #030000&quot;,&#10;&quot;X c #090000&quot;,&#10;&quot;o c #2C0000&quot;,&#10;&quot;O c #380000&quot;,&#10;&quot;+ c #3B0000&quot;,&#10;&quot;@ c #5A0000&quot;,&#10;&quot;# c #5D0000&quot;,&#10;&quot;$ c #6D0000&quot;,&#10;&quot;% c #9C0000&quot;,&#10;&quot;&amp; c #AB0000&quot;,&#10;&quot;* c #BC0000&quot;,&#10;&quot;= c #C10000&quot;,&#10;&quot;- c #CB0000&quot;,&#10;&quot;; c #D50000&quot;,&#10;&quot;: c #D80000&quot;,&#10;&quot;&gt; c #F80000&quot;,&#10;&quot;, c red&quot;,&#10;&quot;&lt; c None&quot;,&#10;/* pixels */&#10;&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;&lt;&lt;     &lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;  &lt;&lt; &lt;&lt;  &lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;  &lt;&lt;&lt;o&lt;&lt;&lt;  &lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;  &lt;&lt;&lt;,:,,,&lt;  &lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt; &lt;&lt;,,&lt; &lt;&lt;,,&lt; &lt;&lt;&lt;&quot;,&#10;&quot;&lt; &lt;&lt;&lt;,&lt;&lt;O&lt;&lt;&lt;,&lt;&lt; &lt;&lt;&quot;,&#10;&quot;&lt; &lt;&lt;&lt;,&lt;,;,&lt;&lt;&lt;,&lt; &lt;&lt;&quot;,&#10;&quot;&lt;   #&amp; *=@-  &gt;X &lt;&lt;&quot;,&#10;&quot;&lt; &lt;&lt;&lt;,&lt;&lt;O&lt;,&lt;&lt;,&lt; &lt;&lt;&quot;,&#10;&quot;&lt; &lt;&lt;&lt;&lt;,,$,&lt;&lt;&lt;,&lt; &lt;&lt;&quot;,&#10;&quot;&lt;&lt; &lt;&lt;&lt;&lt;,%&lt;&lt;&lt;&lt;&lt; &lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;  &lt;&lt;&lt;&lt; &lt;&lt;&lt;&lt;  &lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;  &lt;&lt;&lt; &lt;&lt;&lt;  &lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;  &lt;&lt; &lt;&lt;  &lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;&lt;&lt;     &lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;,&#10;&quot;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&lt;&quot;&#10;};&#10;"/>
+
+		<service type="plot_engine" id="GogRadarPlot">
+			<information>
+				<description>Radar plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu de radares</description>
+				<description xml:lang="bs">Sistem iscrtavanja presjeka</description>
+				<description xml:lang="ca">Motor de traçador de radar</description>
+				<description xml:lang="ca@valencia">Motor de traçador de radar</description>
+				<description xml:lang="cs">Generování radarových diagramů</description>
+				<description xml:lang="da">Radartegnemotor</description>
+				<description xml:lang="de">Radargraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου ραντάρ</description>
+				<description xml:lang="en_CA">Radar plotting engine</description>
+				<description xml:lang="en_GB">Radar plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de radares</description>
+				<description xml:lang="eu">Erradialak trazatzeko motorra</description>
+				<description xml:lang="fi">Verkkopiirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de radar</description>
+				<description xml:lang="hu">Radarábrázoló motor</description>
+				<description xml:lang="id">Mesin plot radar</description>
+				<description xml:lang="it">Motore tracciati rete</description>
+				<description xml:lang="ja">レーダーグラフプロットエンジン</description>
+				<description xml:lang="kk">Радарлық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Radaro piešimo variklis</description>
+				<description xml:lang="lv">Radara skicēšanas dzinis</description>
+				<description xml:lang="nl">Radar plot-motor</description>
+				<description xml:lang="pt">Motor de gráfico radar</description>
+				<description xml:lang="pt_BR">Mecanismo de plotar gráficos de radar</description>
+				<description xml:lang="sl">Programnik izrisa mrežnega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања пресека</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja preseka</description>
+				<description xml:lang="sv">Radardiagramsritmotor</description>
+				<description xml:lang="tr">Radar çizim motoru</description>
+				<description xml:lang="uk">Рушій радарних креслень</description>
+				<description xml:lang="vi">Cơ chế vẽ ra đa</description>
+				<description xml:lang="zh_CN">放射绘图引擎</description>
+				<description xml:lang="zh_HK">雷達圖繪製引擎</description>
+				<description xml:lang="zh_TW">雷達圖繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogRadarAreaPlot">
+			<information>
+				<description>Radar Area plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu d'estayes de radar</description>
+				<description xml:lang="bs">Sistem iscrtavanja oblasti presjeka</description>
+				<description xml:lang="ca">Motor de traçador d'àrees de radar</description>
+				<description xml:lang="ca@valencia">Motor de traçador d'àrees de radar</description>
+				<description xml:lang="cs">Generování plošných radarových diagramů</description>
+				<description xml:lang="da">Radarområdetegnemotor</description>
+				<description xml:lang="de">Radarflächengraph-Engine</description>
+				<description xml:lang="el">Μηχανή σχεδίου περιοχής ραντάρ</description>
+				<description xml:lang="en_CA">Radar Area plotting engine</description>
+				<description xml:lang="en_GB">Radar Area plotting engine</description>
+				<description xml:lang="es">Motor de dibujado de áreas de radar</description>
+				<description xml:lang="eu">Area-trazu erradialak trazatzeko motorra</description>
+				<description xml:lang="fi">Verkkoaluepiirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin de radar surfacique</description>
+				<description xml:lang="hu">Radarterület ábrázoló motor</description>
+				<description xml:lang="id">Mesin plot Area Radar</description>
+				<description xml:lang="it">Motore traciati rete area</description>
+				<description xml:lang="kk">Облыстық радарлық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Radaro srities piešimo variklis</description>
+				<description xml:lang="lv">Radara laukuma skicēšanas dzinis</description>
+				<description xml:lang="nl">Radargebied plot-motor</description>
+				<description xml:lang="pt">Motor de gráfico radar de área</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem de gráficos de radar de área</description>
+				<description xml:lang="sl">Programnik izrisa mrežnega površinskega diagrama</description>
+				<description xml:lang="sr">Погон исцртавања области пресека</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja oblasti preseka</description>
+				<description xml:lang="sv">Ritmotor för arearadardiagram</description>
+				<description xml:lang="tr">Radar Alanı çizim motoru</description>
+				<description xml:lang="vi">Cơ chế vẽ vùng ra đa</description>
+				<description xml:lang="zh_CN">放射区绘图引擎</description>
+				<description xml:lang="zh_HK">區域雷達圖繪製引擎</description>
+				<description xml:lang="zh_TW">區域雷達圖繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogPolarPlot">
+			<information>
+				<description>Polar plotting engine</description>
+				<description xml:lang="ast">Motor de dibuxu polar</description>
+				<description xml:lang="bs">Sistem iscrtavanja stožera</description>
+				<description xml:lang="ca">Motor de traçador polar</description>
+				<description xml:lang="ca@valencia">Motor de traçador polar</description>
+				<description xml:lang="cs">Generování polárních diagramů</description>
+				<description xml:lang="da">Polær tegnemotor</description>
+				<description xml:lang="de">Polargraph-Engine</description>
+				<description xml:lang="el">Πολική μηχανή σχεδίου</description>
+				<description xml:lang="en_GB">Polar plotting engine</description>
+				<description xml:lang="es">Motor de dibujado polar</description>
+				<description xml:lang="eu">Polarrak trazatzeko motorra</description>
+				<description xml:lang="fi">Napakuvaajan piirto-ohjelma</description>
+				<description xml:lang="fr">Moteur de dessin polaire</description>
+				<description xml:lang="hu">Polárábrázoló motor</description>
+				<description xml:lang="id">Mesin plot polar</description>
+				<description xml:lang="it">Motore tracciati polari</description>
+				<description xml:lang="ja">極座標グラフプロットエンジン</description>
+				<description xml:lang="kk">Полярлық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Poliaro piešimo variklis</description>
+				<description xml:lang="lv">Polārais skicēšanas dzinis</description>
+				<description xml:lang="pt">Motor de gráfico polar</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem polar</description>
+				<description xml:lang="sl">Programnik izrisa spiralnih diagramov</description>
+				<description xml:lang="sr">Погон исцртавања стожера</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja stožera</description>
+				<description xml:lang="sv">Polärritmotor</description>
+				<description xml:lang="tr">Kutupsal çizim motoru</description>
+				<description xml:lang="uk">Рушій полярних креслень</description>
+				<description xml:lang="vi">Cơ chế vẽ cực</description>
+				<description xml:lang="zh_CN">极线绘图引擎</description>
+				<description xml:lang="zh_HK">極座標繪製引擎</description>
+				<description xml:lang="zh_TW">極座標繪製引擎</description>
+			</information>
+		</service>
+		<service type="plot_engine" id="GogColorPolarPlot">
+			<information>
+				<description>Polar plotting engine with colored marks</description>
+				<description xml:lang="ast">Motor de dibuxu polar con marques coloreaes</description>
+				<description xml:lang="bs">Sistem iscrtavanja stožera sa obojenim označavačima</description>
+				<description xml:lang="ca">Motor de traçat polar amb marques de colors</description>
+				<description xml:lang="cs">Generování polárních diagramů s barevnými značkami</description>
+				<description xml:lang="da">Polær tegnemotor med farvede mærker</description>
+				<description xml:lang="de">Polargraph-Engine mit farbigen Markierungen</description>
+				<description xml:lang="el">Μηχανή πολικού σχεδίου με χρωματιστά σημεία</description>
+				<description xml:lang="en_GB">Polar plotting engine with coloured marks</description>
+				<description xml:lang="es">Motor de dibujado polar con marcas coloreadas</description>
+				<description xml:lang="eu">Diagrama polarrak trazatzeko motorra marka koloredunekin.</description>
+				<description xml:lang="fi">Napakuvaajan piirto-ohjelma värimerkein</description>
+				<description xml:lang="fr">Moteur de dessin polaire avec des marques colorées</description>
+				<description xml:lang="hu">Polárábrázoló motor színes jelölőkkel.</description>
+				<description xml:lang="id">Mesin plot polar dengan tanda diwarnai</description>
+				<description xml:lang="kk">Түрлі-түсті белгілері бар полярлық графиктерді құрастыру қозғалтқышы</description>
+				<description xml:lang="lt">Poliaro piešimo variklis su spalvotomis žymėmis</description>
+				<description xml:lang="lv">Polārais skicēšanas dzinis ar krāsainu marķējumu</description>
+				<description xml:lang="pt">Motor de gráfico polar com marcas coloridas</description>
+				<description xml:lang="pt_BR">Mecanismo de plotagem polar com marcas coloridas</description>
+				<description xml:lang="sl">Programnik izrisa spiralnega diagrama z barvnimi oznakami</description>
+				<description xml:lang="sr">Погон исцртавања стожера са обојеним означавачима</description>
+				<description xml:lang="sr@latin">Pogon iscrtavanja stožera sa obojenim označavačima</description>
+				<description xml:lang="sv">Polärritmotor med färgade markörer</description>
+				<description xml:lang="tr">Renkli işaretçili kutupsal çizim motoru</description>
+				<description xml:lang="zh_CN">带彩色标识的极线标绘引擎</description>
+				<description xml:lang="zh_HK">極座標繪製引擎 (彩色標記)</description>
+				<description xml:lang="zh_TW">極座標繪製引擎 (彩色標記)</description>
+			</information>
+		</service>
+		<service type="plot_type" id="radar">
+			<file>plot-types.xml</file>
+			<information>
+				<description>Default radar plot types</description>
+				<description xml:lang="ast">Tribes de gráfiques de radar preestablecíes</description>
+				<description xml:lang="bs">Osnovne vrste iscrtavanja presjeka</description>
+				<description xml:lang="ca">Tipus de traçat de radar per defecte</description>
+				<description xml:lang="ca@valencia">Tipus de traçat de radar per defecte</description>
+				<description xml:lang="cs">Výchozí typy radarových diagramů</description>
+				<description xml:lang="da">Standardtyper for radarplot</description>
+				<description xml:lang="de">Vorgabe-Radargraphtypen</description>
+				<description xml:lang="el">Προεπιλεγμένοι τύποι σχεδίου ραντάρ</description>
+				<description xml:lang="en_CA">Default radar plot types</description>
+				<description xml:lang="en_GB">Default radar plot types</description>
+				<description xml:lang="es">Tipos de gráficas de radar preestablecidas</description>
+				<description xml:lang="eu">Trazu erradialen mota lehenetsiak</description>
+				<description xml:lang="fi">Verkkokuvaajien oletustyypit</description>
+				<description xml:lang="fr">Type de dessin polaire/radar par défaut</description>
+				<description xml:lang="hu">Alapértelmezett radarábrázolás típusok</description>
+				<description xml:lang="id">Tipe plot radar baku</description>
+				<description xml:lang="it">Tipi predefiniti grafici rete</description>
+				<description xml:lang="ja">デフォルトのレーダーグラフ形式</description>
+				<description xml:lang="kk">Радарлық графиктердің бастапқы түрлері</description>
+				<description xml:lang="lt">Numatytieji radaro piešimo tipai</description>
+				<description xml:lang="lv">Noklusējuma radara skices tipi</description>
+				<description xml:lang="nl">Standaard radargrafiek-types</description>
+				<description xml:lang="pt">Tipos de gráficos radar predefinidos</description>
+				<description xml:lang="pt_BR">Tipos padrão de gráfico de radar</description>
+				<description xml:lang="sl">Privzete vrste mrežnih diagramov</description>
+				<description xml:lang="sr">Основне врсте исцртавања пресека</description>
+				<description xml:lang="sr@latin">Osnovne vrste iscrtavanja preseka</description>
+				<description xml:lang="sv">Standard radardiagramtyper</description>
+				<description xml:lang="tr">Varsayılan radar çizim türleri</description>
+				<description xml:lang="vi">Kiểu đồ thị vẽ ra đa mặc định</description>
+				<description xml:lang="zh_CN">默认放射图类型</description>
+				<description xml:lang="zh_HK">預設雷達圖類型</description>
+				<description xml:lang="zh_TW">預設雷達圖類型</description>
+			</information>
+		</service>
+	</services>
+</plugin>
