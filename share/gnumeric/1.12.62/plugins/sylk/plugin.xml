@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_sylk">
+	<information>
+		<name>MultiPlan (SYLK)</name>
+		<name xml:lang="ast">MultiPlan (SYLK)</name>
+		<name xml:lang="bg">MultiPlan (SYLK)</name>
+		<name xml:lang="bs">MultiPlan (SYLK)</name>
+		<name xml:lang="ca">MultiPlan (SYLK)</name>
+		<name xml:lang="ca@valencia">MultiPlan (SYLK)</name>
+		<name xml:lang="cs">MultiPlan (SYLK)</name>
+		<name xml:lang="da">MultiPlan (SYLK)</name>
+		<name xml:lang="de">MultiPlan (SYLK)</name>
+		<name xml:lang="dz">སྣ་མང་འཆར་ལས་(ཨེསི་ཝའི་ཨེལ་ཀེ་)</name>
+		<name xml:lang="el">MultiPlan (SYLK)</name>
+		<name xml:lang="en_CA">MultiPlan (SYLK)</name>
+		<name xml:lang="en_GB">MultiPlan (SYLK)</name>
+		<name xml:lang="eo">MultiPlan (SYLK)</name>
+		<name xml:lang="es">MultiPlan (SYLK)</name>
+		<name xml:lang="et">MultiPlan (SYLK)</name>
+		<name xml:lang="eu">MultiPlan (SYLK)</name>
+		<name xml:lang="fi">MultiPlan (SYLK)</name>
+		<name xml:lang="fr">MultiPlan (SYLK)</name>
+		<name xml:lang="ga">MultiPlan (SYLK)</name>
+		<name xml:lang="gl">MultiPlan (SYLK)</name>
+		<name xml:lang="hr">MultiPlan (SYLK)</name>
+		<name xml:lang="hu">MultiPlan (SYLK)</name>
+		<name xml:lang="id">MultiPlan (SYLK)</name>
+		<name xml:lang="it">MultiPlan (SYLK)</name>
+		<name xml:lang="ja">MultiPlan (SYLK)</name>
+		<name xml:lang="kk">MultiPlan (SYLK)</name>
+		<name xml:lang="ko">MultiPlan (SYLK)</name>
+		<name xml:lang="lt">MultiPlan (SYLK)</name>
+		<name xml:lang="lv">MultiPlan (SYLK)</name>
+		<name xml:lang="ml">ബഹുപദ്ധതി (SYLK)</name>
+		<name xml:lang="ms">MultiPlan (SYLK)</name>
+		<name xml:lang="nb">MultiPlan (SYLK)</name>
+		<name xml:lang="ne">बहुयोजना (एसवाइएलके)</name>
+		<name xml:lang="nl">MultiPlan (SYLK)</name>
+		<name xml:lang="nn">MultiPlan (SYLK)</name>
+		<name xml:lang="pl">MultiPlan (SYLK)</name>
+		<name xml:lang="pt">MultiPlan (SYLK)</name>
+		<name xml:lang="pt_BR">MultiPlan (SYLK)</name>
+		<name xml:lang="ro">MultiPlan (SYLK)</name>
+		<name xml:lang="ru">MultiPlan (SYLK)</name>
+		<name xml:lang="sk">MultiPlan (SYLK)</name>
+		<name xml:lang="sl">MultiPlan (SYLK)</name>
+		<name xml:lang="sr">Мулти план (SYLK)</name>
+		<name xml:lang="sr@latin">Multi plan (SYLK)</name>
+		<name xml:lang="sv">MultiPlan (SYLK)</name>
+		<name xml:lang="tr">MultiPlan (SYLK)</name>
+		<name xml:lang="uk">MultiPlan (SYLK)</name>
+		<name xml:lang="vi">MultiPlan (SYLK)</name>
+		<name xml:lang="zh_CN">MultiPlan (SYLK)</name>
+		<name xml:lang="zh_HK">MultiPlan (SYLK)</name>
+		<name xml:lang="zh_TW">MultiPlan (SYLK)</name>
+		<description>Import/Export for MultiPlan (SYLK) files</description>
+		<description xml:lang="ast">Importar/Esportar ficheros pa MultiPlan (SYLK)</description>
+		<description xml:lang="bs">Uvoz/izvoz Multi plan (SYLK) datoteka</description>
+		<description xml:lang="ca">Importació/exportació de fitxers MultiPlan (SYLK)</description>
+		<description xml:lang="ca@valencia">Importació/exportació de fitxers MultiPlan (SYLK)</description>
+		<description xml:lang="cs">Import/export pro soubory MultiPlan (SYLK)</description>
+		<description xml:lang="da">Import/eksport af MultiPlan (SYLK)-filer</description>
+		<description xml:lang="de">Import/Export von MultiPlan-Dateien (SYLK)</description>
+		<description xml:lang="el">Εισάγει/Εξάγει αρχεία MultiPlan (SYLK)</description>
+		<description xml:lang="en_GB">Import/Export for MultiPlan (SYLK) files</description>
+		<description xml:lang="es">Importar/exportar para archivos MultiPlan (SYLK)</description>
+		<description xml:lang="et">Impordib ja ekspordib MultiPlani (SYLK) faile</description>
+		<description xml:lang="eu">MultiPlan (SYLK) fitxategiak inportatzea/esportatzea</description>
+		<description xml:lang="fi">Tuo ja vie MultiPlan (SYLK) -tiedostoja</description>
+		<description xml:lang="fr">Importation/exportation de fichiers MultiPlan (SYLK)</description>
+		<description xml:lang="hu">MultiPlan (SYLK) fájlok importálása vagy exportálása</description>
+		<description xml:lang="id">Impor/ekspor berkas MultiPlan (SYLK)</description>
+		<description xml:lang="kk">MultiPlan (SYLK) файлдары үшін импорттау/экспорттау</description>
+		<description xml:lang="lt">Importuoja / eksportuoja MultiPlan (SYLK) failus</description>
+		<description xml:lang="lv">Importē/eksportē MultiPlan (SYLK) datnes</description>
+		<description xml:lang="nb">Import/eksport av MultiPlan (SYLK) filer</description>
+		<description xml:lang="pl">Import/eksport plików programu MultiPlan (SYLK)</description>
+		<description xml:lang="pt">Importa/Exporta ficheiros MultiPlan (SYLK)</description>
+		<description xml:lang="pt_BR">Importa/exporta para arquivos MultiPlan (SYLK)</description>
+		<description xml:lang="ru">Импортирует/Экспортирует файлы MultiPlan (SYLK)</description>
+		<description xml:lang="sl">Ivoz/Izvoz datotek MultiPlan (SYLK)</description>
+		<description xml:lang="sr">Увоз/извоз Мулти план (SYLK) датотека</description>
+		<description xml:lang="sr@latin">Uvoz/izvoz Multi plan (SYLK) datoteka</description>
+		<description xml:lang="sv">Import/export av MultiPlan-filer (SYLK)</description>
+		<description xml:lang="uk">Імпортування/Експортування файлів MultiPlan (SYLK)</description>
+		<description xml:lang="vi">Nhập/xuất khẩu cho tập tin kiểu MultiPlan (SYLK)</description>
+		<description xml:lang="zh_CN">导入或导出 MultiPlan(SYLK) 文件</description>
+		<description xml:lang="zh_HK">可匯入/匯出 MultiPlan (SYLK) 檔案</description>
+		<description xml:lang="zh_TW">可匯入/匯出 MultiPlan (SYLK) 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="sylk" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="1" id="sylk">
+			<information>
+				<description>MultiPlan (SYLK)</description>
+				<description xml:lang="ast">MultiPlan (SYLK)</description>
+				<description xml:lang="bg">MultiPlan (SYLK)</description>
+				<description xml:lang="bs">MultiPlan (SYLK)</description>
+				<description xml:lang="ca">MultiPlan (SYLK)</description>
+				<description xml:lang="ca@valencia">MultiPlan (SYLK)</description>
+				<description xml:lang="cs">MultiPlan (SYLK)</description>
+				<description xml:lang="da">MultiPlan (SYLK)</description>
+				<description xml:lang="de">MultiPlan (SYLK)</description>
+				<description xml:lang="dz">སྣ་མང་འཆར་ལས་(ཨེསི་ཝའི་ཨེལ་ཀེ་)</description>
+				<description xml:lang="el">MultiPlan (SYLK)</description>
+				<description xml:lang="en_CA">MultiPlan (SYLK)</description>
+				<description xml:lang="en_GB">MultiPlan (SYLK)</description>
+				<description xml:lang="eo">MultiPlan (SYLK)</description>
+				<description xml:lang="es">MultiPlan (SYLK)</description>
+				<description xml:lang="et">MultiPlan (SYLK)</description>
+				<description xml:lang="eu">MultiPlan (SYLK)</description>
+				<description xml:lang="fi">MultiPlan (SYLK)</description>
+				<description xml:lang="fr">MultiPlan (SYLK)</description>
+				<description xml:lang="ga">MultiPlan (SYLK)</description>
+				<description xml:lang="gl">MultiPlan (SYLK)</description>
+				<description xml:lang="hr">MultiPlan (SYLK)</description>
+				<description xml:lang="hu">MultiPlan (SYLK)</description>
+				<description xml:lang="id">MultiPlan (SYLK)</description>
+				<description xml:lang="it">MultiPlan (SYLK)</description>
+				<description xml:lang="ja">MultiPlan (SYLK)</description>
+				<description xml:lang="kk">MultiPlan (SYLK)</description>
+				<description xml:lang="ko">MultiPlan (SYLK)</description>
+				<description xml:lang="lt">MultiPlan (SYLK)</description>
+				<description xml:lang="lv">MultiPlan (SYLK)</description>
+				<description xml:lang="ml">ബഹുപദ്ധതി (SYLK)</description>
+				<description xml:lang="ms">MultiPlan (SYLK)</description>
+				<description xml:lang="nb">MultiPlan (SYLK)</description>
+				<description xml:lang="ne">बहुयोजना (एसवाइएलके)</description>
+				<description xml:lang="nl">MultiPlan (SYLK)</description>
+				<description xml:lang="nn">MultiPlan (SYLK)</description>
+				<description xml:lang="pl">MultiPlan (SYLK)</description>
+				<description xml:lang="pt">MultiPlan (SYLK)</description>
+				<description xml:lang="pt_BR">MultiPlan (SYLK)</description>
+				<description xml:lang="ro">MultiPlan (SYLK)</description>
+				<description xml:lang="ru">MultiPlan (SYLK)</description>
+				<description xml:lang="sk">MultiPlan (SYLK)</description>
+				<description xml:lang="sl">MultiPlan (SYLK)</description>
+				<description xml:lang="sr">Мулти план (SYLK)</description>
+				<description xml:lang="sr@latin">Multi plan (SYLK)</description>
+				<description xml:lang="sv">MultiPlan (SYLK)</description>
+				<description xml:lang="tr">MultiPlan (SYLK)</description>
+				<description xml:lang="uk">MultiPlan (SYLK)</description>
+				<description xml:lang="vi">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_CN">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_HK">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_TW">MultiPlan (SYLK)</description>
+			</information>
+			<suffixes>
+				<suffix>slk</suffix>
+				<suffix>sylk</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/x-sylk</mime-type>
+			</mime-types>
+		</service>
+		<service type="file_saver" save_scope="sheet" overwrite_files="TRUE" mime_type="application/x-sylk" id="sylk" format_level="auto" file_extension="slk">
+			<information>
+				<description>MultiPlan (SYLK)</description>
+				<description xml:lang="ast">MultiPlan (SYLK)</description>
+				<description xml:lang="bg">MultiPlan (SYLK)</description>
+				<description xml:lang="bs">MultiPlan (SYLK)</description>
+				<description xml:lang="ca">MultiPlan (SYLK)</description>
+				<description xml:lang="ca@valencia">MultiPlan (SYLK)</description>
+				<description xml:lang="cs">MultiPlan (SYLK)</description>
+				<description xml:lang="da">MultiPlan (SYLK)</description>
+				<description xml:lang="de">MultiPlan (SYLK)</description>
+				<description xml:lang="dz">སྣ་མང་འཆར་ལས་(ཨེསི་ཝའི་ཨེལ་ཀེ་)</description>
+				<description xml:lang="el">MultiPlan (SYLK)</description>
+				<description xml:lang="en_CA">MultiPlan (SYLK)</description>
+				<description xml:lang="en_GB">MultiPlan (SYLK)</description>
+				<description xml:lang="eo">MultiPlan (SYLK)</description>
+				<description xml:lang="es">MultiPlan (SYLK)</description>
+				<description xml:lang="et">MultiPlan (SYLK)</description>
+				<description xml:lang="eu">MultiPlan (SYLK)</description>
+				<description xml:lang="fi">MultiPlan (SYLK)</description>
+				<description xml:lang="fr">MultiPlan (SYLK)</description>
+				<description xml:lang="ga">MultiPlan (SYLK)</description>
+				<description xml:lang="gl">MultiPlan (SYLK)</description>
+				<description xml:lang="hr">MultiPlan (SYLK)</description>
+				<description xml:lang="hu">MultiPlan (SYLK)</description>
+				<description xml:lang="id">MultiPlan (SYLK)</description>
+				<description xml:lang="it">MultiPlan (SYLK)</description>
+				<description xml:lang="ja">MultiPlan (SYLK)</description>
+				<description xml:lang="kk">MultiPlan (SYLK)</description>
+				<description xml:lang="ko">MultiPlan (SYLK)</description>
+				<description xml:lang="lt">MultiPlan (SYLK)</description>
+				<description xml:lang="lv">MultiPlan (SYLK)</description>
+				<description xml:lang="ml">ബഹുപദ്ധതി (SYLK)</description>
+				<description xml:lang="ms">MultiPlan (SYLK)</description>
+				<description xml:lang="nb">MultiPlan (SYLK)</description>
+				<description xml:lang="ne">बहुयोजना (एसवाइएलके)</description>
+				<description xml:lang="nl">MultiPlan (SYLK)</description>
+				<description xml:lang="nn">MultiPlan (SYLK)</description>
+				<description xml:lang="pl">MultiPlan (SYLK)</description>
+				<description xml:lang="pt">MultiPlan (SYLK)</description>
+				<description xml:lang="pt_BR">MultiPlan (SYLK)</description>
+				<description xml:lang="ro">MultiPlan (SYLK)</description>
+				<description xml:lang="ru">MultiPlan (SYLK)</description>
+				<description xml:lang="sk">MultiPlan (SYLK)</description>
+				<description xml:lang="sl">MultiPlan (SYLK)</description>
+				<description xml:lang="sr">Мулти план (SYLK)</description>
+				<description xml:lang="sr@latin">Multi plan (SYLK)</description>
+				<description xml:lang="sv">MultiPlan (SYLK)</description>
+				<description xml:lang="tr">MultiPlan (SYLK)</description>
+				<description xml:lang="uk">MultiPlan (SYLK)</description>
+				<description xml:lang="vi">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_CN">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_HK">MultiPlan (SYLK)</description>
+				<description xml:lang="zh_TW">MultiPlan (SYLK)</description>
+			</information>
+		</service>
+	</services>
+</plugin>

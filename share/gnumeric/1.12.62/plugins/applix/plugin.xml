@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_applix">
+	<information>
+		<name>Applix</name>
+		<name xml:lang="ast">Applix</name>
+		<name xml:lang="az">Applix</name>
+		<name xml:lang="bg">Applix</name>
+		<name xml:lang="bs">Apliks (Applix)</name>
+		<name xml:lang="ca">Applix</name>
+		<name xml:lang="ca@valencia">Applix</name>
+		<name xml:lang="cs">Applix</name>
+		<name xml:lang="da">Applix</name>
+		<name xml:lang="de">Applix</name>
+		<name xml:lang="dz">ཨེཔ་ལིགསི་</name>
+		<name xml:lang="el">Applix</name>
+		<name xml:lang="en_CA">Applix</name>
+		<name xml:lang="en_GB">Applix</name>
+		<name xml:lang="eo">Applix</name>
+		<name xml:lang="es">Applix</name>
+		<name xml:lang="et">Applix</name>
+		<name xml:lang="eu">Applix</name>
+		<name xml:lang="fi">Applix</name>
+		<name xml:lang="fr">Applix</name>
+		<name xml:lang="ga">Applix</name>
+		<name xml:lang="gl">Applix</name>
+		<name xml:lang="gu">Applix</name>
+		<name xml:lang="hr">Applix</name>
+		<name xml:lang="hu">Applix</name>
+		<name xml:lang="id">Applix</name>
+		<name xml:lang="it">Applix</name>
+		<name xml:lang="ja">アプリックス</name>
+		<name xml:lang="kk">Applix</name>
+		<name xml:lang="ko">Applix</name>
+		<name xml:lang="lt">Applix</name>
+		<name xml:lang="lv">Applix</name>
+		<name xml:lang="mk">Applix</name>
+		<name xml:lang="ml">അപ്ളിക്സ്</name>
+		<name xml:lang="ms">Applix</name>
+		<name xml:lang="nb">Applix</name>
+		<name xml:lang="ne">एप्लिक्स</name>
+		<name xml:lang="nl">Applix</name>
+		<name xml:lang="nn">Applix</name>
+		<name xml:lang="oc">Applix</name>
+		<name xml:lang="pl">Applix</name>
+		<name xml:lang="pt">Applix</name>
+		<name xml:lang="pt_BR">Applix</name>
+		<name xml:lang="ro">Applix</name>
+		<name xml:lang="ru">Applix</name>
+		<name xml:lang="sk">Applix</name>
+		<name xml:lang="sl">Applix</name>
+		<name xml:lang="sr">Апликс</name>
+		<name xml:lang="sr@latin">Apliks</name>
+		<name xml:lang="sv">Applix</name>
+		<name xml:lang="tr">Applix</name>
+		<name xml:lang="uk">Applix</name>
+		<name xml:lang="vi">Applix</name>
+		<name xml:lang="zh_CN">Applix</name>
+		<name xml:lang="zh_HK">Applix</name>
+		<name xml:lang="zh_TW">Applix</name>
+		<description>Imports version 4.[234] spreadsheets</description>
+		<description xml:lang="ast">Importa fueyes de cálculu de la versión 4.[234]</description>
+		<description xml:lang="bg">Внася електронни таблици версия 4.[234]</description>
+		<description xml:lang="bs">Uvozi verziju 4.[234] tabela</description>
+		<description xml:lang="ca">Importa fulls de càlcul de la versió 4.[234]</description>
+		<description xml:lang="ca@valencia">Importa fulls de càlcul de la versió 4.[234]</description>
+		<description xml:lang="cs">Import tabulek verzí 4.[234]</description>
+		<description xml:lang="da">Importerer version 4.[234] regneark</description>
+		<description xml:lang="de">Import von Applix-Dateien der Version 4.[234]</description>
+		<description xml:lang="dz">ཐོན་རིམ་ 4.[234] ཤོག་ཁྲམ་ཚུ་ནང་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισάγει φύλλα της έκδοσης 4.[234]</description>
+		<description xml:lang="en_CA">Imports version 4.[234] spreadsheets</description>
+		<description xml:lang="en_GB">Imports version 4.[234] spreadsheets</description>
+		<description xml:lang="es">Importa hojas de cálculo de la versión 4.[234]</description>
+		<description xml:lang="et">Impordib versiooni 4.[234] tabeleid</description>
+		<description xml:lang="eu">4.[234] bertsioko kalkulu-orriak inportatzen ditu</description>
+		<description xml:lang="fi">Tuo version 4.[234] taulukoita</description>
+		<description xml:lang="fr">Importe les feuilles de calcul version 4.[234]</description>
+		<description xml:lang="gl">Importa follas de cálculo da versión 4.[234]</description>
+		<description xml:lang="hr">Uvozi verziju 4.[234] proračunskih tablica</description>
+		<description xml:lang="hu">4.[234] verziójú munkafüzeteket importál</description>
+		<description xml:lang="id">Impor lembar kerja versi 4.[234]</description>
+		<description xml:lang="it">Importa fogli di calcolo nella versione 4.[234]</description>
+		<description xml:lang="ja">バージョン 4.[234] スプレッドシートのインポート</description>
+		<description xml:lang="kk">4.[234] нұсқалы кестелік процессорларды импорттайды</description>
+		<description xml:lang="ko">버전 4.[234] 스프레드시트 가져오기</description>
+		<description xml:lang="lt">Importuoja 4.[234] versijos skaičialentes</description>
+		<description xml:lang="lv">Importē versijas 4.[234] izklājlapas</description>
+		<description xml:lang="mk">Увезува табеларни пресметки верзија 4.[234]</description>
+		<description xml:lang="ml">Imports version 4.[234] spreadsheets</description>
+		<description xml:lang="ms">Import hamparan versi 4.[234]</description>
+		<description xml:lang="nb">Importerer versjon 4.[234] regneark</description>
+		<description xml:lang="ne">संस्करण ४.[२३४] स्प्रेडसिट आयात गर्दछ</description>
+		<description xml:lang="nl">Importeert versie 4.[234] spreadsheets</description>
+		<description xml:lang="nn">Importerar versjon 4.[234] rekneark</description>
+		<description xml:lang="pl">Importuje arkusze w wersjach 4.[234]</description>
+		<description xml:lang="pt">Importa folhas de cálculo versão 4.[234]</description>
+		<description xml:lang="pt_BR">Importa planilhas das versões 4.2, 4.3 e 4.4</description>
+		<description xml:lang="ro">Importă foi de calcul versiunea 4.[234]</description>
+		<description xml:lang="ru">Импортирует таблицы версии 4.[234]</description>
+		<description xml:lang="sk">Importuje tabuľky verzie 4.[234]</description>
+		<description xml:lang="sl">Uvažanje datotek preglednice 4.[234]</description>
+		<description xml:lang="sr">Увози табеле издања 4.[234]</description>
+		<description xml:lang="sr@latin">Uvozi tabele izdanja 4.[234]</description>
+		<description xml:lang="sv">Importerar kalkylblad från version 4.[234]</description>
+		<description xml:lang="tr">4.[234] sürümü çizelgeleri açar</description>
+		<description xml:lang="uk">Імпортує електронні таблиці версії 4.[234]</description>
+		<description xml:lang="vi">Nhập bảng tính phiên bản 4.[234]</description>
+		<description xml:lang="zh_CN">导入版本 4.[234] 电子表格</description>
+		<description xml:lang="zh_HK">可匯入 4.[234] 版本的試算表</description>
+		<description xml:lang="zh_TW">可匯入 4.[234] 版本的試算表</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="applix" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="100" id="applix">
+			<information>
+				<description>Applix (*.as)</description>
+				<description xml:lang="ast">Applix (*.as)</description>
+				<description xml:lang="az">Applix (*.as)</description>
+				<description xml:lang="bg">Applix (*.as)</description>
+				<description xml:lang="bs">Apliks (Applix) (*.as)</description>
+				<description xml:lang="ca">Applix (*.as)</description>
+				<description xml:lang="ca@valencia">Applix (*.as)</description>
+				<description xml:lang="cs">Applix (*.as)</description>
+				<description xml:lang="da">Applix (*.as)</description>
+				<description xml:lang="de">Applix (*.as)</description>
+				<description xml:lang="dz">ཨེཔ་ལིགསི་ (*.as)</description>
+				<description xml:lang="el">Applix (*.as)</description>
+				<description xml:lang="en_CA">Applix (*.as)</description>
+				<description xml:lang="en_GB">Applix (*.as)</description>
+				<description xml:lang="eo">Applix (*.as)</description>
+				<description xml:lang="es">Applix (*.as)</description>
+				<description xml:lang="et">Applix (*.as)</description>
+				<description xml:lang="eu">Applix (*.as)</description>
+				<description xml:lang="fi">Applix (*.as)</description>
+				<description xml:lang="fr">Applix (*.as)</description>
+				<description xml:lang="ga">Applix (*.as)</description>
+				<description xml:lang="gl">Applix (*.as)</description>
+				<description xml:lang="gu">Applix (*.as)</description>
+				<description xml:lang="hr">Applix (*.as)</description>
+				<description xml:lang="hu">Applix (*.as)</description>
+				<description xml:lang="id">Applix (*.as)</description>
+				<description xml:lang="it">Applix (*.as)</description>
+				<description xml:lang="ja">アプリックス (*.as)</description>
+				<description xml:lang="kk">Applix (*.as)</description>
+				<description xml:lang="ko">Applix (*.as)</description>
+				<description xml:lang="lt">Applix (*.as)</description>
+				<description xml:lang="lv">Applix (*.as)</description>
+				<description xml:lang="mk">Applix (*.as)</description>
+				<description xml:lang="ml">അപ്ളിക്സ് (*.as)</description>
+				<description xml:lang="ms">Applix (*.as)</description>
+				<description xml:lang="nb">Applix (*.as)</description>
+				<description xml:lang="ne">एप्लिक्स (*.जस्तै)</description>
+				<description xml:lang="nl">Applix (*.as)</description>
+				<description xml:lang="nn">Applix (*.as)</description>
+				<description xml:lang="oc">Applix (*.as)</description>
+				<description xml:lang="pl">Applix (*.as)</description>
+				<description xml:lang="pt">Applix (*.as)</description>
+				<description xml:lang="pt_BR">Applix (*.as)</description>
+				<description xml:lang="ro">Applix (*.as)</description>
+				<description xml:lang="ru">Applix (*.as)</description>
+				<description xml:lang="sk">Applix (*.as)</description>
+				<description xml:lang="sl">Applix (*.as)</description>
+				<description xml:lang="sr">Апликс (*.as)</description>
+				<description xml:lang="sr@latin">Apliks (*.as)</description>
+				<description xml:lang="sv">Applix (*.as)</description>
+				<description xml:lang="tr">Applix (*.as)</description>
+				<description xml:lang="uk">Applix (*.as)</description>
+				<description xml:lang="vi">Applix (*.as)</description>
+				<description xml:lang="zh_CN">Applix (*.as)</description>
+				<description xml:lang="zh_HK">Applix (*.as)</description>
+				<description xml:lang="zh_TW">Applix (*.as)</description>
+			</information>
+			<suffixes>
+				<suffix>as</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/x-applix-spreadsheet</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

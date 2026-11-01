@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_html">
+	<information>
+		<name>HTML &amp; TeX</name>
+		<name xml:lang="ast">HTML y TeX</name>
+		<name xml:lang="bg">HTML &amp; TeX</name>
+		<name xml:lang="bs">HTML i TeKs</name>
+		<name xml:lang="ca">HTML i TeX</name>
+		<name xml:lang="ca@valencia">HTML i TeX</name>
+		<name xml:lang="cs">HTML a TeX</name>
+		<name xml:lang="da">HTML og TeX</name>
+		<name xml:lang="de">HTML u. TeX</name>
+		<name xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ &amp; TeX</name>
+		<name xml:lang="el">HTML &amp; TeX</name>
+		<name xml:lang="en_CA">HTML &amp; TeX</name>
+		<name xml:lang="en_GB">HTML &amp; TeX</name>
+		<name xml:lang="eo">HTML &amp; TeX</name>
+		<name xml:lang="es">HTML y TeX</name>
+		<name xml:lang="et">HTML ja TeX</name>
+		<name xml:lang="eu">HTML &amp; TeX</name>
+		<name xml:lang="fi">HTML ja TeX</name>
+		<name xml:lang="fr">HTML &amp; TeX</name>
+		<name xml:lang="gl">HTML &amp; TeX</name>
+		<name xml:lang="gu">HTML &amp; TeX</name>
+		<name xml:lang="he">HTML &amp; TeX</name>
+		<name xml:lang="hu">HTML és TeX</name>
+		<name xml:lang="id">HTML &amp; TeX</name>
+		<name xml:lang="it">HTML &amp; TeX</name>
+		<name xml:lang="kk">HTML &amp; TeX</name>
+		<name xml:lang="ko">HTML과 TeX</name>
+		<name xml:lang="lt">HTML ir TeX</name>
+		<name xml:lang="lv">HTML un TeX</name>
+		<name xml:lang="mk">HTML &amp; TeX</name>
+		<name xml:lang="nb">HTML &amp; TeX</name>
+		<name xml:lang="ne">HTML &amp; TeX</name>
+		<name xml:lang="nl">HTML &amp; TeX</name>
+		<name xml:lang="nn">HTML &amp; TeX</name>
+		<name xml:lang="pl">HTML i TeX</name>
+		<name xml:lang="pt">HTML &amp; TeX</name>
+		<name xml:lang="pt_BR">HTML &amp; TeX</name>
+		<name xml:lang="ru">HTML и TeX</name>
+		<name xml:lang="sl">HTML &amp; TeX</name>
+		<name xml:lang="sr">ХТМЛ и ТеКс</name>
+		<name xml:lang="sr@latin">HTML i TeKs</name>
+		<name xml:lang="sv">HTML &amp; TeX</name>
+		<name xml:lang="uk">HTML і TeX</name>
+		<name xml:lang="vi">HTML &amp; TeX</name>
+		<name xml:lang="zh_CN">HTML &amp; TeX</name>
+		<name xml:lang="zh_HK">HTML 及 TeX</name>
+		<name xml:lang="zh_TW">HTML 及 TeX</name>
+		<description>Import/Export of HTML, TeX, DVI, roff</description>
+		<description xml:lang="ast">Importa/esporta HTML, TeX, DVI, roff</description>
+		<description xml:lang="bg">Внасяне/изнасяне на HTML, TeX, DVI, roff</description>
+		<description xml:lang="bs">Uvoz/Izvoz HTML, TeX, DVI, roff</description>
+		<description xml:lang="ca">Importació/exportació d'HTML, TeX, DVI, roff</description>
+		<description xml:lang="ca@valencia">Importació/exportació de HTML, TeX, DVI, roff</description>
+		<description xml:lang="cs">Import a export souborů HTML, TeX, DVI, roff</description>
+		<description xml:lang="da">Import/eksport af HTML, TeX, DVI, roff</description>
+		<description xml:lang="de">Import/Export von HTML, TeX, DVI, roff</description>
+		<description xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ ཊི་ཨི་ཨེགསི་ ཌི་ཝི་ཨའི་ ཨར་ཨོ་ཨེཕ་ཨེཕ་ གི་ནང་འདྲེན་/ཕྱིར་འདྲེན་</description>
+		<description xml:lang="el">Εισαγωγή/Εξαγωγή HTML, TeX, DVI, roff</description>
+		<description xml:lang="en_CA">Import/Export of HTML, TeX, DVI, roff</description>
+		<description xml:lang="en_GB">Import/Export of HTML, TeX, DVI, roff</description>
+		<description xml:lang="eo">Enporti/Elporti na HTML, TeX, DVI, roff</description>
+		<description xml:lang="es">Importa/exporta HTML, TeX, DVI, roff</description>
+		<description xml:lang="et">HTML, Tex'i, DVI, roff'i import/eksport </description>
+		<description xml:lang="eu">HTML, TeX, DVI eta roff dokumentuak inportatzea/esportatzea</description>
+		<description xml:lang="fi">Tuo ja vie HTML, TeX, DVI, roff</description>
+		<description xml:lang="fr">Import/export de HTML, TeX, DVI, roff</description>
+		<description xml:lang="gl">Importación/Exportación de HTML, TeX, DVI, roff</description>
+		<description xml:lang="he">ייבוא/ייצוא של HTML, TeX, DVI, roff</description>
+		<description xml:lang="hr">Uvoz/Izvoz HTML, TeX, DVI, roff</description>
+		<description xml:lang="hu">HTML, TeX, DVI és roff importálása/exportálása</description>
+		<description xml:lang="id">Impor/Ekspor HTML, TeX, DVI, roff</description>
+		<description xml:lang="it">Importa ed esporta file HTML, TeX, DVI e roff</description>
+		<description xml:lang="ja">HTML, TeX, DVI, roff のインポート/エクスポート</description>
+		<description xml:lang="kk">HTML, TeX, DVI, roff импорттау/экспорттау</description>
+		<description xml:lang="ko">HTML, TeX, DVI, roff 가져오기/내보내기</description>
+		<description xml:lang="lt">Importuoja / eksportuoja HTML, TeX, DVI, roff</description>
+		<description xml:lang="lv">HTML, TeX, DVI, roff imports/eksports</description>
+		<description xml:lang="mk">Увоз/Извоз на HTML, TeX, DVI, roff</description>
+		<description xml:lang="ml">Import/Export of HTML, TeX, DVI, roff</description>
+		<description xml:lang="ms">Import/Eksport bagi HTML, TeX, DVI, roff</description>
+		<description xml:lang="nb">Import/eksport av HTML, TeX, DVI og roff</description>
+		<description xml:lang="ne">HTML, TeX, DVI, roff को आयात निर्यात</description>
+		<description xml:lang="nl">Importeren/Exporteren van HTML, TeX, DVI, roff</description>
+		<description xml:lang="nn">Import/eksport av HTML, TeX, DVI, roff</description>
+		<description xml:lang="pl">Import/eksport plików HTML, TeX, DVI, roff</description>
+		<description xml:lang="pt">Importação/Exportação de HTML, TeX, DVI, roff</description>
+		<description xml:lang="pt_BR">Importação e exportação de HTML, TeX, DVI, roff</description>
+		<description xml:lang="ro">Import/Export de HTML, TeX, DVI, roff</description>
+		<description xml:lang="ru">Импорт/Экспорт HTML, TeX, DVI, roff</description>
+		<description xml:lang="sk">Import a export súborov HTML, TeX, DVI, roff</description>
+		<description xml:lang="sl">Uvoz/Izvoz datotek HTML, TeX, DVI, roff</description>
+		<description xml:lang="sr">Увоз/Извоз ХТМЛ-а, ТеКс-а, ДВИ-а, рофф-а</description>
+		<description xml:lang="sr@latin">Uvoz/Izvoz HTML-a, TeKs-a, DVI-a, roff-a</description>
+		<description xml:lang="sv">Import/Export av HTML, TeX, DVI, roff</description>
+		<description xml:lang="tr">HTML, TeX, DVI, roff dosyalarını okur/kaydeder</description>
+		<description xml:lang="uk">Імпорт та експорт HTML, TeX, DVI, roff</description>
+		<description xml:lang="vi">Nhập/Xuất HTML, TeX, DVI, roff</description>
+		<description xml:lang="zh_CN">导入/导出 HTML，TeX，DVI，rof</description>
+		<description xml:lang="zh_HK">可匯入/匯出 HTML、TeX、DVI、roff</description>
+		<description xml:lang="zh_TW">可匯入/匯出 HTML、TeX、DVI、roff</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="html" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="100" id="html">
+			<information>
+				<description>HTML (*.html, *.htm)</description>
+				<description xml:lang="ast">HTML (*.html, *.htm)</description>
+				<description xml:lang="bg">HTML (*.html, *.htm)</description>
+				<description xml:lang="bs">HTML (*.html, *.htm)</description>
+				<description xml:lang="ca">HTML (*.html, *.htm)</description>
+				<description xml:lang="ca@valencia">HTML (*.html, *.htm)</description>
+				<description xml:lang="cs">HTML (*.html, *.htm)</description>
+				<description xml:lang="da">HTML 3.2 (*.html, *.htm)</description>
+				<description xml:lang="de">HTML (*.html, *.htm)</description>
+				<description xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ (*.html, *.htm)</description>
+				<description xml:lang="el">HTML (*.html, *.htm)</description>
+				<description xml:lang="en_CA">HTML (*.html, *.htm)</description>
+				<description xml:lang="en_GB">HTML (*.html, *.htm)</description>
+				<description xml:lang="eo">HTML (*.html, *.htm)</description>
+				<description xml:lang="es">HTML (*.html, *.htm)</description>
+				<description xml:lang="et">HTML (*.html, *.htm)</description>
+				<description xml:lang="eu">HTML (*.html, *.htm)</description>
+				<description xml:lang="fi">HTML (*.html, *.htm)</description>
+				<description xml:lang="fr">HTML (*.html, *.htm)</description>
+				<description xml:lang="gl">HTML (*.html, *.htm)</description>
+				<description xml:lang="gu">HTML (*.html, *.htm)</description>
+				<description xml:lang="he">HTML (*.html, *.htm)</description>
+				<description xml:lang="hu">HTML (*.html, *.htm)</description>
+				<description xml:lang="id">HTML (*.html, *.htm)</description>
+				<description xml:lang="it">HTML (*.html, *.htm)</description>
+				<description xml:lang="kk">HTML (*.html, *.htm)</description>
+				<description xml:lang="ko">HTML (*.html, *.htm)</description>
+				<description xml:lang="lt">HTML (*.html, *.htm)</description>
+				<description xml:lang="lv">HTML (*.html, *.htm)</description>
+				<description xml:lang="mk">HTML (*.html, *.htm)</description>
+				<description xml:lang="nb">HTML (*.html, *.htm)</description>
+				<description xml:lang="ne">HTML (*.html, *.htm)</description>
+				<description xml:lang="nl">HTML (*.html, *.htm)</description>
+				<description xml:lang="nn">HTML (*.html, *.htm)</description>
+				<description xml:lang="pl">HTML (*.html, *.htm)</description>
+				<description xml:lang="pt">HTML (*.html, *.htm)</description>
+				<description xml:lang="pt_BR">HTML (*.html, *.htm)</description>
+				<description xml:lang="ru">HTML (*.html, *.htm)</description>
+				<description xml:lang="sl">HTML (*.html, *.htm)</description>
+				<description xml:lang="sr">ХТМЛ (*.html, *.htm)</description>
+				<description xml:lang="sr@latin">HTML (*.html, *.htm)</description>
+				<description xml:lang="sv">HTML (*.html, *.htm)</description>
+				<description xml:lang="uk">HTML (*.html, *.htm)</description>
+				<description xml:lang="vi">HTML (*.html, *.htm)</description>
+				<description xml:lang="zh_CN">HTML (*.html, *.htm)</description>
+				<description xml:lang="zh_HK">HTML (*.html, *.htm)</description>
+				<description xml:lang="zh_TW">HTML (*.html, *.htm)</description>
+			</information>
+			<suffixes>
+				<suffix>html</suffix>
+				<suffix>htm</suffix>
+			</suffixes>
+		</service>
+		<service type="file_saver" sheet_selection="true" id="html32" format_level="write_only" file_extension="html">
+			<information>
+				<description>HTML 3.2 (*.html)</description>
+				<description xml:lang="ast">HTML 3.2 (*.html)</description>
+				<description xml:lang="bg">HTML 3.2 (*.html)</description>
+				<description xml:lang="bs">HTML 3.2 (*.html)</description>
+				<description xml:lang="ca">HTML 3.2 (*.html)</description>
+				<description xml:lang="ca@valencia">HTML 3.2 (*.html)</description>
+				<description xml:lang="cs">HTML 3.2 (*.html)</description>
+				<description xml:lang="da">HTML 3.2 (*.html)</description>
+				<description xml:lang="de">HTML 3.2 (*.html)</description>
+				<description xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ ༣.༢ (*.html)</description>
+				<description xml:lang="el">HTML 3.2 (*.html)</description>
+				<description xml:lang="en_CA">HTML 3.2 (*.html)</description>
+				<description xml:lang="en_GB">HTML 3.2 (*.html)</description>
+				<description xml:lang="eo">HTML 3.2 (*.html)</description>
+				<description xml:lang="es">HTML 3.2 (*.html)</description>
+				<description xml:lang="et">HTML 3.2 (*.html)</description>
+				<description xml:lang="eu">HTML 3.2 (*.html)</description>
+				<description xml:lang="fi">HTML 3.2 (*.html)</description>
+				<description xml:lang="fr">HTML 3.2 (*.html)</description>
+				<description xml:lang="ga">HTML 3.2 (*.html)</description>
+				<description xml:lang="gl">HTML 3.2 (*.html)</description>
+				<description xml:lang="gu">HTML 3.2 (*.html)</description>
+				<description xml:lang="he">HTML 3.2 (*.html)</description>
+				<description xml:lang="hr">HTML 3.2 (*.html)</description>
+				<description xml:lang="hu">HTML 3.2 (*.html)</description>
+				<description xml:lang="id">HTML 3.2 (*.html)</description>
+				<description xml:lang="it">HTML 3.2 (*.html)</description>
+				<description xml:lang="ja">HTML 3.2 (*.html)</description>
+				<description xml:lang="kk">HTML 3.2 (*.html)</description>
+				<description xml:lang="ko">HTML 3.2 (*.html)</description>
+				<description xml:lang="lt">HTML 3.2 (*.html)</description>
+				<description xml:lang="lv">HTML 3.2 (*.html)</description>
+				<description xml:lang="mk">HTML 3.2 (*.html)</description>
+				<description xml:lang="ml">HTML 3.2 (*.html)</description>
+				<description xml:lang="ms">HTML 3.2 (*.html)</description>
+				<description xml:lang="nb">HTML 3.2 (*.html)</description>
+				<description xml:lang="ne">HTML 3.2 (*.html)</description>
+				<description xml:lang="nl">HTML 3.2 (*.html)</description>
+				<description xml:lang="nn">HTML 3.2 (*.html)</description>
+				<description xml:lang="pl">HTML 3.2 (*.html)</description>
+				<description xml:lang="pt">HTML 3.2 (*.html)</description>
+				<description xml:lang="pt_BR">HTML 3.2 (*.html)</description>
+				<description xml:lang="ro">HTML 3.2 (*.html)</description>
+				<description xml:lang="ru">HTML 3.2 (*.html)</description>
+				<description xml:lang="sk">HTML 3.2 (*.html)</description>
+				<description xml:lang="sl">HTML 3.2 (*.html)</description>
+				<description xml:lang="sr">ХТМЛ 3.2 (*.html)</description>
+				<description xml:lang="sr@latin">HTML 3.2 (*.html)</description>
+				<description xml:lang="sv">HTML 3.2 (*.html)</description>
+				<description xml:lang="tr">HTML 3.2 (*.html)</description>
+				<description xml:lang="uk">HTML 3.2 (*.html)</description>
+				<description xml:lang="vi">HTML 3.2 (*.html)</description>
+				<description xml:lang="zh_CN">HTML 3.2 (*.html)</description>
+				<description xml:lang="zh_HK">HTML 3.2 (*.html)</description>
+				<description xml:lang="zh_TW">HTML 3.2 (*.html)</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" id="html40" format_level="write_only" file_extension="html">
+			<information>
+				<description>HTML 4.0 (*.html)</description>
+				<description xml:lang="ast">HTML 4.0 (*.html)</description>
+				<description xml:lang="bg">HTML 4.0 (*.html)</description>
+				<description xml:lang="bs">HTML 4.0 (*.html)</description>
+				<description xml:lang="ca">HTML 4.0 (*.html)</description>
+				<description xml:lang="ca@valencia">HTML 4.0 (*.html)</description>
+				<description xml:lang="cs">HTML 4.0 (*.html)</description>
+				<description xml:lang="da">HTML 4.0 (*.html)</description>
+				<description xml:lang="de">HTML 4.0 (*.html)</description>
+				<description xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ ༤.༠ (*.html)</description>
+				<description xml:lang="el">HTML 4.0 (*.html)</description>
+				<description xml:lang="en_CA">HTML 4.0 (*.html)</description>
+				<description xml:lang="en_GB">HTML 4.0 (*.html)</description>
+				<description xml:lang="eo">HTML 4.0 (*.html)</description>
+				<description xml:lang="es">HTML 4.0 (*.html)</description>
+				<description xml:lang="et">HTML 4.0 (*.html)</description>
+				<description xml:lang="eu">HTML 4.0 (*.html)</description>
+				<description xml:lang="fi">HTML 4.0 (*.html)</description>
+				<description xml:lang="fr">HTML 4.0 (*.html)</description>
+				<description xml:lang="ga">HTML 4.0 (*.html)</description>
+				<description xml:lang="gl">HTML 4.0 (*.html)</description>
+				<description xml:lang="gu">HTML 4.0 (*.html)</description>
+				<description xml:lang="he">HTML 4.0 (*.html)</description>
+				<description xml:lang="hr">HTML 4.0 (*.html)</description>
+				<description xml:lang="hu">HTML 4.0 (*.html)</description>
+				<description xml:lang="id">HTML 4.0 (*.html)</description>
+				<description xml:lang="it">HTML 4.0 (*.html)</description>
+				<description xml:lang="ja">HTML 4.0 (*.html)</description>
+				<description xml:lang="kk">HTML 4.0 (*.html)</description>
+				<description xml:lang="ko">HTML 4.0 (*.html)</description>
+				<description xml:lang="lt">HTML 4.0 (*.html)</description>
+				<description xml:lang="lv">HTML 4.0 (*.html)</description>
+				<description xml:lang="mk">HTML 4.0 (*.html)</description>
+				<description xml:lang="ml">HTML 4.0 (*.html)</description>
+				<description xml:lang="ms">HTML 4.0 (*.html)</description>
+				<description xml:lang="nb">HTML 4.0 (*.html)</description>
+				<description xml:lang="ne">HTML 4.0 (*.html)</description>
+				<description xml:lang="nl">HTML 4.0 (*.html)</description>
+				<description xml:lang="nn">HTML 4.0 (*.html)</description>
+				<description xml:lang="pl">HTML 4.0 (*.html)</description>
+				<description xml:lang="pt">HTML 4.0 (*.html)</description>
+				<description xml:lang="pt_BR">HTML 4.0 (*.html)</description>
+				<description xml:lang="ro">HTML 4.0 (*.html)</description>
+				<description xml:lang="ru">HTML 4.0 (*.html)</description>
+				<description xml:lang="sk">HTML 4.0 (*.html)</description>
+				<description xml:lang="sl">HTML 4.0 (*.html)</description>
+				<description xml:lang="sr">ХТМЛ 4.0 (*.html)</description>
+				<description xml:lang="sr@latin">HTML 4.0 (*.html)</description>
+				<description xml:lang="sv">HTML 4.0 (*.html)</description>
+				<description xml:lang="tr">HTML 4.0 (*.html)</description>
+				<description xml:lang="uk">HTML 4.0 (*.html)</description>
+				<description xml:lang="vi">HTML 4.0 (*.html)</description>
+				<description xml:lang="zh_CN">HTML 4.0 (*.html)</description>
+				<description xml:lang="zh_HK">HTML 4.0 (*.html)</description>
+				<description xml:lang="zh_TW">HTML 4.0 (*.html)</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" id="html40frag" format_level="write_only" file_extension="html">
+			<information>
+				<description>HTML (*.html) fragment</description>
+				<description xml:lang="ast">FragmentuHTML (*.html)</description>
+				<description xml:lang="bg">Фрагмент HTML (*.html)</description>
+				<description xml:lang="bs">HTML (*.html) dio</description>
+				<description xml:lang="ca">Fragment d'HTML (*.html)</description>
+				<description xml:lang="ca@valencia">Fragment d'HTML (*.html)</description>
+				<description xml:lang="cs">Fragment HTML (*.html)</description>
+				<description xml:lang="da">HTML-fragment (*.html)</description>
+				<description xml:lang="de">HTML (*.html) Fragment</description>
+				<description xml:lang="dz">ཨེཆ་ཊི་ཨེམ་ཨེལ་ (*.html) ཆག་དུམ་</description>
+				<description xml:lang="el">HTML (*.html) κομμάτι</description>
+				<description xml:lang="en_CA">HTML (*.html) fragment</description>
+				<description xml:lang="en_GB">HTML (*.html) fragment</description>
+				<description xml:lang="es">Fragmento HTML (*.html)</description>
+				<description xml:lang="et">HTML (*.html) osa</description>
+				<description xml:lang="eu">HTML (*.html) zatia</description>
+				<description xml:lang="fi">HTML (*.html) -palanen</description>
+				<description xml:lang="fr">HTML (*.html) fragment</description>
+				<description xml:lang="gl">Fragmento HTML (*.html)</description>
+				<description xml:lang="hr">Dio HTML-a (*.html)</description>
+				<description xml:lang="hu">HTML (*.html) töredék</description>
+				<description xml:lang="id">Fragmen HTML (*.html)</description>
+				<description xml:lang="it">Frammento HTML (*.html)</description>
+				<description xml:lang="ja">HTML (*.html) fragment</description>
+				<description xml:lang="kk">HTML (*.html) фрагменті</description>
+				<description xml:lang="ko">HTML (*.html) 조각</description>
+				<description xml:lang="lt">HTML (*.html) fragmentas</description>
+				<description xml:lang="lv">HTML (*.html) fragments</description>
+				<description xml:lang="mk">HTML (*.html) фрагмент</description>
+				<description xml:lang="ml">HTML (*.html) ഖണ‌്ഡം</description>
+				<description xml:lang="ms">Fragmen HTML (*.html) </description>
+				<description xml:lang="nb">HTML (*.html) fragment</description>
+				<description xml:lang="ne">HTML (*.html) fragment</description>
+				<description xml:lang="nl">HTML (*.html) fragment</description>
+				<description xml:lang="nn">HTML (*.html) fragment</description>
+				<description xml:lang="pl">Fragment HTML (*.html)</description>
+				<description xml:lang="pt">Fragmento HTML (*.html)</description>
+				<description xml:lang="pt_BR">Fragmento HTML (*.html)</description>
+				<description xml:lang="ro">Fragment HTML (*.html)</description>
+				<description xml:lang="ru">Фрагмент HTML (*.html)</description>
+				<description xml:lang="sk">Fragment HTML (*.html)</description>
+				<description xml:lang="sl">HTML (*.html) odsek</description>
+				<description xml:lang="sr">ХТМЛ (*.html) део</description>
+				<description xml:lang="sr@latin">HTML (*.html) deo</description>
+				<description xml:lang="sv">HTML-fragment (*.html)</description>
+				<description xml:lang="tr">HTML (*.html) parçası</description>
+				<description xml:lang="uk">Фрагмент HTML (*.html)</description>
+				<description xml:lang="vi">Đoạn HTML (*.html)</description>
+				<description xml:lang="zh_CN">HTML (*.html) fragment</description>
+				<description xml:lang="zh_HK">HTML (*.html) 片段</description>
+				<description xml:lang="zh_TW">HTML (*.html) 片段</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" id="xhtml" format_level="write_only" file_extension="html">
+			<information>
+				<description>XHTML (*.html)</description>
+				<description xml:lang="ast">XHTML (*.html)</description>
+				<description xml:lang="bg">XHTML (*.html)</description>
+				<description xml:lang="bs">IksHTML (*.html)</description>
+				<description xml:lang="ca">XHTML (*.html)</description>
+				<description xml:lang="ca@valencia">XHTML (*.html)</description>
+				<description xml:lang="cs">XHTML (*.html)</description>
+				<description xml:lang="da">XHTML (*.html)</description>
+				<description xml:lang="de">XHTML (*.html)</description>
+				<description xml:lang="dz">ཨེགསི་ཨེཆ་ཊི་ཨེམ་ཨེལ་ (*.html)</description>
+				<description xml:lang="el">XHTML (*.html)</description>
+				<description xml:lang="en_CA">XHTML (*.html)</description>
+				<description xml:lang="en_GB">XHTML (*.html)</description>
+				<description xml:lang="eo">XHTML (*.html)</description>
+				<description xml:lang="es">XHTML (*.html)</description>
+				<description xml:lang="et">XHTML (*.html)</description>
+				<description xml:lang="eu">XHTML (*.html)</description>
+				<description xml:lang="fi">XHTML (*.html)</description>
+				<description xml:lang="fr">XHTML (*.html)</description>
+				<description xml:lang="ga">XHTML (*.html)</description>
+				<description xml:lang="gl">XHTML (*.html)</description>
+				<description xml:lang="gu">XHTML (*.html)</description>
+				<description xml:lang="he">XHTML (*.html)</description>
+				<description xml:lang="hr">XHTML (*.html)</description>
+				<description xml:lang="hu">XHTML (*.html)</description>
+				<description xml:lang="id">XHTML (*.html)</description>
+				<description xml:lang="it">XHTML (*.html)</description>
+				<description xml:lang="kk">XHTML (*.html)</description>
+				<description xml:lang="ko">XHTML (*.html)</description>
+				<description xml:lang="lt">XHTML (*.html)</description>
+				<description xml:lang="lv">XHTML (*.html)</description>
+				<description xml:lang="mk">XHTML (*.html)</description>
+				<description xml:lang="ms">XHTML (*.html)</description>
+				<description xml:lang="nb">XHTML (*.html)</description>
+				<description xml:lang="ne">XHTML (*.html)</description>
+				<description xml:lang="nl">XHTML (*.html)</description>
+				<description xml:lang="nn">XHTML (*.html)</description>
+				<description xml:lang="pl">XHTML (*.html)</description>
+				<description xml:lang="pt">XHTML (*.html)</description>
+				<description xml:lang="pt_BR">XHTML (*.html)</description>
+				<description xml:lang="ru">XHTML (*.html)</description>
+				<description xml:lang="sk">XHTML (*.html)</description>
+				<description xml:lang="sl">XHTML (*.html)</description>
+				<description xml:lang="sr">ИксХТМЛ (*.html)</description>
+				<description xml:lang="sr@latin">IksHTML (*.html)</description>
+				<description xml:lang="sv">XHTML (*.html)</description>
+				<description xml:lang="uk">XHTML (*.html)</description>
+				<description xml:lang="vi">XHTML (*.html)</description>
+				<description xml:lang="zh_CN">XHTML (*.html)</description>
+				<description xml:lang="zh_HK">XHTML (*.html)</description>
+				<description xml:lang="zh_TW">XHTML (*.html)</description>
+			</information>
+		</service>
+		<service type="file_saver" save_scope="range" id="xhtml_range" format_level="write_only" file_extension="html">
+			<information>
+				<description>XHTML range - for export to clipboard</description>
+				<description xml:lang="ast">Rangu XHTML - pa esportar al portapapeles</description>
+				<description xml:lang="bg">Обхват на XHTML - за изнасяне в буфера за обмен</description>
+				<description xml:lang="bs">XHTML opseg — za izvoz u spisak isječaka</description>
+				<description xml:lang="ca">Rang XHTML - per a exportació al porta-retalls</description>
+				<description xml:lang="ca@valencia">Rang XHTML - per a exportació al porta-retalls</description>
+				<description xml:lang="cs">Rozsah XHTML – pro export do schránky</description>
+				<description xml:lang="da">XHTML-interval - for eksport til udklipsholderen</description>
+				<description xml:lang="de">XHTML-Bereich - zum Export in die Zwischenablage</description>
+				<description xml:lang="dz">ཨེགསི་ཨེཆ་ཊི་ཨེམ་ཨེལ་ཁྱབ་ཚད་ - འཛིན་པང་ལུ་ཕྱིར་འདྲེན་འབད་ནིའི་དོན་ལུ་</description>
+				<description xml:lang="el">XHTML range - για εξαγωγή στο πρόχειρο</description>
+				<description xml:lang="en_CA">XHTML range - for export to clipboard</description>
+				<description xml:lang="en_GB">XHTML range - for export to clipboard</description>
+				<description xml:lang="es">Rango XHTML - para exportar al portapapeles</description>
+				<description xml:lang="et">XHTML-vahemik - ekspordiks lõikepuhvrisse</description>
+				<description xml:lang="eu">XHTML barrutia - arbelera esportatzeko</description>
+				<description xml:lang="fi">XHTML-väli - leikepöydälle vietäväksi</description>
+				<description xml:lang="fr">Plage XHTML - pour exporter vers le presse-papiers</description>
+				<description xml:lang="gl">Ranfo XHTML - para exportar ao portapapeis</description>
+				<description xml:lang="hr">XHTML raspon — za izvoz u odlagalište</description>
+				<description xml:lang="hu">XHTML tartomány – vágólapra exportáláshoz</description>
+				<description xml:lang="id">Kisaran XHTML- untuk ekspor ke papan klip</description>
+				<description xml:lang="it">Intervallo XHTML - per esportare negli appunti</description>
+				<description xml:lang="kk">XHTML ауқымы - алмасу буферіне экспорттау үшін</description>
+				<description xml:lang="lt">XHTML sritis – eksportavimui į iškarpinę</description>
+				<description xml:lang="lv">XHTML apgabals — eksportēšanai uz starpliktuvi</description>
+				<description xml:lang="ms">Julat XHTML - untuk dieksport ke papanklip</description>
+				<description xml:lang="nb">XHTML-område - for eksport til utklippstavlen</description>
+				<description xml:lang="ne">XHTML दायरा-क्लिपबोर्डमा निर्यात गर्नका लागि</description>
+				<description xml:lang="nl">XHTML bereik - voor export naar klembord</description>
+				<description xml:lang="pl">Zakres XHTML — do wyeksportowania do schowka</description>
+				<description xml:lang="pt">Intervalo XHTML - para exportar para O intervalo de transferência</description>
+				<description xml:lang="pt_BR">Intervalo XHTML - para exportar para a área de transferência</description>
+				<description xml:lang="ru">Блок XHTML для экспорта в буфер обмена</description>
+				<description xml:lang="sk">Rozsah XHTML - pre export do schránky</description>
+				<description xml:lang="sl">Obseg XHTML - za izvoz v odložišče</description>
+				<description xml:lang="sr">ИксХТМЛ опсег — за извоз у списак исечака</description>
+				<description xml:lang="sr@latin">IksHTML opseg — za izvoz u spisak isečaka</description>
+				<description xml:lang="sv">XHTML-område - för export till urklipp</description>
+				<description xml:lang="uk">Діапазон XHTML — для експорту до буфера обміну даними</description>
+				<description xml:lang="vi">Phạm vi XHTML — xuất vào khay</description>
+				<description xml:lang="zh_CN">XHTML 范围 － 输出到剪贴板</description>
+				<description xml:lang="zh_HK">XHTML 範圍 - 用於匯出至剪貼簿</description>
+				<description xml:lang="zh_TW">XHTML 範圍 - 用於匯出至剪貼簿</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" save_scope="sheet" id="latex" format_level="write_only" file_extension="tex">
+			<information>
+				<description>LaTeX 2e (*.tex)</description>
+				<description xml:lang="ast">LaTeX 2e (*.tex)</description>
+				<description xml:lang="bg">LaTeX 2e (*.tex)</description>
+				<description xml:lang="bs">Lateks 2e (*.tex)</description>
+				<description xml:lang="ca">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ca@valencia">LaTeX 2e (*.tex)</description>
+				<description xml:lang="cs">LaTeX 2e (*.tex)</description>
+				<description xml:lang="da">LaTeX 2e (*.tex)</description>
+				<description xml:lang="de">LaTeX 2e (*.tex)</description>
+				<description xml:lang="dz">ལ་ཊེགསི་ ༢ཨི་ (*.tex)</description>
+				<description xml:lang="el">LaTeX 2e (*.tex)</description>
+				<description xml:lang="en_CA">LaTeX 2e (*.tex)</description>
+				<description xml:lang="en_GB">LaTeX 2e (*.tex)</description>
+				<description xml:lang="eo">LaTeX 2e (*.tex)</description>
+				<description xml:lang="es">LaTeX 2e (*.tex)</description>
+				<description xml:lang="et">LaTeX 2e (*.tex)</description>
+				<description xml:lang="eu">LaTeX 2e (*.tex)</description>
+				<description xml:lang="fi">LaTeX 2e (*.tex)</description>
+				<description xml:lang="fr">LaTeX2e (*.tex)</description>
+				<description xml:lang="ga">LaTeX 2e (*.tex)</description>
+				<description xml:lang="gl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="gu">LaTeX 2e (*.tex)</description>
+				<description xml:lang="he">LaTeX 2e (*.tex)</description>
+				<description xml:lang="hr">LaTeX 2e (*.tex)</description>
+				<description xml:lang="hu">LaTeX 2e (*.tex)</description>
+				<description xml:lang="id">LaTeX 2e (*.tex)</description>
+				<description xml:lang="it">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ja">LaTeX 2e (*.tex)</description>
+				<description xml:lang="kk">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ko">LaTeX 2e (*.tex)</description>
+				<description xml:lang="lt">LaTeX 2e (*.tex)</description>
+				<description xml:lang="lv">LaTeX 2e (*.tex)</description>
+				<description xml:lang="mk">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ml">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ms">LaTeX 2e (*.tex)</description>
+				<description xml:lang="nb">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ne">LaTeX 2e (*.tex)</description>
+				<description xml:lang="nl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="nn">LaTeX 2e (*.tex)</description>
+				<description xml:lang="pl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt">LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt_BR">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ro">LaTeX 2e (*.tex)</description>
+				<description xml:lang="ru">LaTeX 2e (*.tex)</description>
+				<description xml:lang="sk">LaTeX 2e (*.tex)</description>
+				<description xml:lang="sl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="sr">ЛаТеКс 2е (*.tex)</description>
+				<description xml:lang="sr@latin">LaTeKs 2e (*.tex)</description>
+				<description xml:lang="sv">LaTeX 2e (*.tex)</description>
+				<description xml:lang="tr">LaTeX 2e (*.tex)</description>
+				<description xml:lang="uk">LaTeX 2e (*.tex)</description>
+				<description xml:lang="vi">LaTeX 2e (*.tex)</description>
+				<description xml:lang="zh_CN">LaTeX 2e (*.tex)</description>
+				<description xml:lang="zh_HK">LaTeX 2e (*.tex)</description>
+				<description xml:lang="zh_TW">LaTeX 2e (*.tex)</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" save_scope="sheet" id="latex_table" format_level="write_only" file_extension="tex">
+			<information>
+				<description>LaTeX 2e (*.tex) table fragment</description>
+				<description xml:lang="ast">fragmentu de tabla LaTeX 2e (*.tex)</description>
+				<description xml:lang="bs">LaTeKs 2e (*.tex) dio tabele</description>
+				<description xml:lang="ca">Fragment de taula LaTeX 2e (*.tex)</description>
+				<description xml:lang="ca@valencia">Fragment de taula LaTeX 2e (*.tex)</description>
+				<description xml:lang="cs">Fragment tabulky LaTeX 2e (*.tex)</description>
+				<description xml:lang="da">LaTeX 2e (*.tex) tabelfragment</description>
+				<description xml:lang="de">LaTeX 2e (*.tex) Tabellenteil</description>
+				<description xml:lang="dz">ལ་ཊེགསི་ ༢ཨི་ (*.tex) ཐིག་ཁྲམ་ཆག་དུམ་</description>
+				<description xml:lang="el">Τμήμα πίνακα LaTeX 2e (*.tex)</description>
+				<description xml:lang="en_GB">LaTeX 2e (*.tex) table fragment</description>
+				<description xml:lang="es">fragmento de tabla LaTeX 2e (*.tex)</description>
+				<description xml:lang="et">LaTeX 2e (*.tex) tabeli fragment</description>
+				<description xml:lang="eu">LaTeX 2e (*.tex) taula-zatia</description>
+				<description xml:lang="fi">LaTeX 2e (*.tex) -taulukko-osa</description>
+				<description xml:lang="fr">Fragment de table LaTeX 2e (*.tex)</description>
+				<description xml:lang="gl">Fragmento de táboa LaTeX 2e (*.tex)</description>
+				<description xml:lang="hu">LaTeX 2e (*.tex) táblázattöredék</description>
+				<description xml:lang="id">Fragmen tabel LaTeX 2e (*.tex)</description>
+				<description xml:lang="kk">LaTeX 2e (*.tex) кесте фрагменті</description>
+				<description xml:lang="lt">LaTeX 2e (*.tex) lentelės fragmentas</description>
+				<description xml:lang="lv">LaTeX 2e (*.tex) tabulas fragments</description>
+				<description xml:lang="nb">LaTeX 2e (*.tex) tabelldel</description>
+				<description xml:lang="nl">LaTeX 2e (*.tex) tabelfragment</description>
+				<description xml:lang="pl">Fragment tablicy LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt">Fragmento de tabela LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt_BR">Fragmento de tabela LaTeX 2e (*.tex)</description>
+				<description xml:lang="ru">LaTeX 2e (*.tex) фрагмент таблицы</description>
+				<description xml:lang="sl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="sr">ЛаТеКс 2e (*.tex) део табеле</description>
+				<description xml:lang="sr@latin">LaTeKs 2e (*.tex) deo tabele</description>
+				<description xml:lang="sv">LaTeX 2e (*.tex) tabellfragment</description>
+				<description xml:lang="uk">Фрагмент таблиці LaTeX 2e (*.tex)</description>
+				<description xml:lang="vi">Đoạn bảng LaTeX 2e (*.tex)</description>
+				<description xml:lang="zh_CN">LaTeX 2e (*.tex) 表片段</description>
+				<description xml:lang="zh_HK">LaTeX 2e (*.tex) 表格片段</description>
+				<description xml:lang="zh_TW">LaTeX 2e (*.tex) 表格片段</description>
+			</information>
+		</service>
+		<service type="file_saver" sheet_selection="true" save_scope="sheet" id="latex_table_visible" format_level="write_only" file_extension="tex">
+			<information>
+				<description>LaTeX 2e (*.tex) table fragment of visible rows</description>
+				<description xml:lang="bs">LaTeKs 2e (*.tex) dio tabele vidljivih redova</description>
+				<description xml:lang="ca">Fragment de files visibles de taula LaTeX 2e (*.tex)</description>
+				<description xml:lang="cs">Fragment z viditelných řádků tabulky LaTeX 2e (*.tex)</description>
+				<description xml:lang="da">LaTeX 2e (*.tex) tabelfragment af synlige rækker</description>
+				<description xml:lang="de">LaTeX 2e (*.tex) Tabellenteil sichtbarer Zeilen</description>
+				<description xml:lang="el">Τμήμα πίνακα LaTeX 2e (*.tex) ορατών γραμμών</description>
+				<description xml:lang="es">fragmento de tabla de filas visibles LaTeX 2e (*.tex)</description>
+				<description xml:lang="eu">Errenkada ikusgaien LaTeX 2e (*.tex) taula-zatia</description>
+				<description xml:lang="hu">LaTeX 2e (*.tex) látható sorok táblázattöredéke</description>
+				<description xml:lang="id">Fragmen tabel LaTeX 2e (*.tex) dari baris yang terlihat</description>
+				<description xml:lang="kk">LaTeX 2e (*.tex) көрінетін жолдардың кесте фрагменті</description>
+				<description xml:lang="nb">LaTeX 2e (*.tex) tabelldel av synlige rader</description>
+				<description xml:lang="pl">Fragment tablicy widocznych rzędów LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt">Fragmento de tabela de linhas visíveis LaTeX 2e (*.tex)</description>
+				<description xml:lang="pt_BR">Fragmento de tabela de linhas visíveis LaTeX 2e (*.tex)</description>
+				<description xml:lang="ru">LaTeX 2e (*.tex) фрагмент таблицы из видимых строк</description>
+				<description xml:lang="sl">LaTeX 2e (*.tex)</description>
+				<description xml:lang="sr">ЛаТеКс 2e (*.tex) део табеле видљивих редова</description>
+				<description xml:lang="sr@latin">LaTeKs 2e (*.tex) deo tabele vidljivih redova</description>
+				<description xml:lang="sv">LaTeX 2e (*.tex) tabellfragment över synliga rader</description>
+				<description xml:lang="uk">Фрагмент таблиці LaTeX 2e (*.tex) з видимих рядків</description>
+			</information>
+		</service>
+		<service type="file_saver" id="roff" format_level="write_only" file_extension="me">
+			<information>
+				<description>TROFF (*.me)</description>
+				<description xml:lang="ast">TROFF (*.me)</description>
+				<description xml:lang="bg">TROFF (*.me)</description>
+				<description xml:lang="bs">TROFF (*.me)</description>
+				<description xml:lang="ca">TROFF (*.me)</description>
+				<description xml:lang="ca@valencia">TROFF (*.me)</description>
+				<description xml:lang="cs">TROFF (*.me)</description>
+				<description xml:lang="da">TROFF (*.me)</description>
+				<description xml:lang="de">TROFF (*.me)</description>
+				<description xml:lang="dz">ཊི་ཨར་ཨོ་ཨེཕ་ཨེཕ་ (*.me)</description>
+				<description xml:lang="el">TROFF (*.me)</description>
+				<description xml:lang="en_CA">TROFF (*.me)</description>
+				<description xml:lang="en_GB">TROFF (*.me)</description>
+				<description xml:lang="eo">TROFF (*.me)</description>
+				<description xml:lang="es">TROFF (*.me)</description>
+				<description xml:lang="et">TROFF (*.me)</description>
+				<description xml:lang="eu">TROFF (*.me)</description>
+				<description xml:lang="fi">TROFF (*.me)</description>
+				<description xml:lang="fr">TROFF (*.me)</description>
+				<description xml:lang="ga">TROFF (*.me)</description>
+				<description xml:lang="gl">TROFF (*.me)</description>
+				<description xml:lang="gu">TROFF (*.me)</description>
+				<description xml:lang="he">TROFF (*.me)</description>
+				<description xml:lang="hr">TROFF (*.me)</description>
+				<description xml:lang="hu">TROFF (*.me)</description>
+				<description xml:lang="id">TROFF (*.me)</description>
+				<description xml:lang="it">TROFF (*.me)</description>
+				<description xml:lang="ja">TROFF (*.me)</description>
+				<description xml:lang="kk">TROFF (*.me)</description>
+				<description xml:lang="ko">TROFF (*.me)</description>
+				<description xml:lang="lt">TROFF (*.me)</description>
+				<description xml:lang="lv">TROFF (*.me)</description>
+				<description xml:lang="mk">TROFF (*.me)</description>
+				<description xml:lang="ml">TROFF (*.me)</description>
+				<description xml:lang="ms">TROFF (*.me)</description>
+				<description xml:lang="nb">TROFF (*.me)</description>
+				<description xml:lang="ne">TROFF (*.me)</description>
+				<description xml:lang="nl">TROFF (*.me)</description>
+				<description xml:lang="nn">TROFF (*.me)</description>
+				<description xml:lang="pl">TROFF (*.me)</description>
+				<description xml:lang="pt">TROFF (*.me)</description>
+				<description xml:lang="pt_BR">TROFF (*.me)</description>
+				<description xml:lang="ro">TROFF (*.me)</description>
+				<description xml:lang="ru">TROFF (*.me)</description>
+				<description xml:lang="sk">TROFF (*.me)</description>
+				<description xml:lang="sl">TROFF (*.me)</description>
+				<description xml:lang="sr">ТРОФФ (*.me)</description>
+				<description xml:lang="sr@latin">TROFF (*.me)</description>
+				<description xml:lang="sv">TROFF (*.me)</description>
+				<description xml:lang="tr">TROFF (*.me)</description>
+				<description xml:lang="uk">TROFF (*.me)</description>
+				<description xml:lang="vi">TROFF (*.me)</description>
+				<description xml:lang="zh_CN">TROFF (*.me)</description>
+				<description xml:lang="zh_HK">TROFF (*.me)</description>
+				<description xml:lang="zh_TW">TROFF (*.me)</description>
+			</information>
+		</service>
+	</services>
+</plugin>

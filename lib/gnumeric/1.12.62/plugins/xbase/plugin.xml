@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_xbase">
+	<information>
+		<name>XBase</name>
+		<name xml:lang="ast">XBase</name>
+		<name xml:lang="bg">XBase</name>
+		<name xml:lang="bs">Iks baza</name>
+		<name xml:lang="ca">XBase</name>
+		<name xml:lang="ca@valencia">XBase</name>
+		<name xml:lang="cs">XBase</name>
+		<name xml:lang="da">XBase</name>
+		<name xml:lang="de">XBase</name>
+		<name xml:lang="dz">ཨེགསི་གཞི་རྟེན་</name>
+		<name xml:lang="el">XBase</name>
+		<name xml:lang="en_CA">XBase</name>
+		<name xml:lang="en_GB">XBase</name>
+		<name xml:lang="eo">XBase</name>
+		<name xml:lang="es">XBase</name>
+		<name xml:lang="et">XBase</name>
+		<name xml:lang="eu">XBase</name>
+		<name xml:lang="fi">XBase</name>
+		<name xml:lang="fr">XBase</name>
+		<name xml:lang="ga">XBase</name>
+		<name xml:lang="gl">XBase</name>
+		<name xml:lang="gu">XBase</name>
+		<name xml:lang="he">XBase</name>
+		<name xml:lang="hr">XBase</name>
+		<name xml:lang="hu">XBase</name>
+		<name xml:lang="id">XBase</name>
+		<name xml:lang="it">XBase</name>
+		<name xml:lang="ja">XBase</name>
+		<name xml:lang="kk">XBase</name>
+		<name xml:lang="ko">XBase</name>
+		<name xml:lang="lt">XBase</name>
+		<name xml:lang="lv">XBase</name>
+		<name xml:lang="ml">xbase</name>
+		<name xml:lang="ms">XBase</name>
+		<name xml:lang="nb">XBase</name>
+		<name xml:lang="ne">एक्स बेस</name>
+		<name xml:lang="nl">XBase</name>
+		<name xml:lang="nn">XBase</name>
+		<name xml:lang="pl">XBase</name>
+		<name xml:lang="pt">XBase</name>
+		<name xml:lang="pt_BR">XBase</name>
+		<name xml:lang="ro">XBase</name>
+		<name xml:lang="ru">XBase</name>
+		<name xml:lang="sk">XBase</name>
+		<name xml:lang="sl">XBase</name>
+		<name xml:lang="sr">Икс база</name>
+		<name xml:lang="sr@latin">Iks baza</name>
+		<name xml:lang="sv">XBase</name>
+		<name xml:lang="tr">XBase</name>
+		<name xml:lang="uk">XBase</name>
+		<name xml:lang="vi">XBase</name>
+		<name xml:lang="zh_CN">XBase</name>
+		<name xml:lang="zh_HK">XBase</name>
+		<name xml:lang="zh_TW">XBase</name>
+		<description>Imports XBase files</description>
+		<description xml:lang="ast">Importar ficheros XBase</description>
+		<description xml:lang="bg">Внасяне на файлове, формат XBase</description>
+		<description xml:lang="bs">Uvozi XBase datoteke</description>
+		<description xml:lang="ca">Importa fitxers XBase</description>
+		<description xml:lang="ca@valencia">Importa fitxers XBase</description>
+		<description xml:lang="cs">Importuje soubory XBase</description>
+		<description xml:lang="da">Importerer XBase-filer</description>
+		<description xml:lang="de">Import von XBase-Dateien</description>
+		<description xml:lang="dz">ཨེགསི་གཞི་རྟེན་ཡིག་སྣོད་ནང་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισάγει αρχεία XBase</description>
+		<description xml:lang="en_CA">Imports XBase files</description>
+		<description xml:lang="en_GB">Imports XBase files</description>
+		<description xml:lang="es">Importa archivos XBase</description>
+		<description xml:lang="et">Impordib XBase faile</description>
+		<description xml:lang="eu">XBase fitxategiak inportatzen ditu</description>
+		<description xml:lang="fi">Tuo XBase-tiedostoja</description>
+		<description xml:lang="fr">Importe les fichiers XBase</description>
+		<description xml:lang="gl">Importa ficheiros XBase</description>
+		<description xml:lang="he">מייבא קבצי XBase</description>
+		<description xml:lang="hr">Uvozi datoteku oblika XBase</description>
+		<description xml:lang="hu">XBase fájlokat importál</description>
+		<description xml:lang="id">Impor berkas XBase</description>
+		<description xml:lang="it">Importa file XBase</description>
+		<description xml:lang="ja">XBase ファイルをインポートします</description>
+		<description xml:lang="kk">XBase файлдарын импорттау</description>
+		<description xml:lang="ko">XBase 파일 읽어들이기</description>
+		<description xml:lang="lt">Importuoja XBase failus</description>
+		<description xml:lang="lv">Importē XBase datnes</description>
+		<description xml:lang="ml">xbase രചനകള്‌ കൊണ്ടുവരുക</description>
+		<description xml:lang="ms">Import fail XBase</description>
+		<description xml:lang="nb">Importerer XBase-filer</description>
+		<description xml:lang="ne">एक्स बेस फइल आयात गर्छ</description>
+		<description xml:lang="nl">Importeert XBase bestanden</description>
+		<description xml:lang="nn">Importerar XBase fil</description>
+		<description xml:lang="pl">Importuje pliki programu XBase</description>
+		<description xml:lang="pt">Importa ficheiros XBase</description>
+		<description xml:lang="pt_BR">Importa arquivos XBase</description>
+		<description xml:lang="ro">Importă fișiere XBase</description>
+		<description xml:lang="ru">Импортирует файлы XBase</description>
+		<description xml:lang="sk">Importuje súbory XBase</description>
+		<description xml:lang="sl">Uvažanje datotek programa XBase</description>
+		<description xml:lang="sr">Увози датотеке Икс базе</description>
+		<description xml:lang="sr@latin">Uvozi datoteke Iks baze</description>
+		<description xml:lang="sv">Importerar XBase-filer</description>
+		<description xml:lang="tr">XBase dosyalarını açar</description>
+		<description xml:lang="uk">Імпортує файли XBase</description>
+		<description xml:lang="vi">Nhập tập tin XBase</description>
+		<description xml:lang="zh_CN">导入 XBase 文件</description>
+		<description xml:lang="zh_HK">可匯入 XBase 檔案</description>
+		<description xml:lang="zh_TW">可匯入 XBase 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="xbase" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="FALSE" priority="100" id="xbase">
+			<information>
+				<description>Xbase (*.dbf) file format</description>
+				<description xml:lang="ast">Formatu de ficheru XBase (*.dbf)</description>
+				<description xml:lang="bg">Файлов формат Xbase (*.dbf)</description>
+				<description xml:lang="bs">Xbase (*.dbf) oblik datoteke</description>
+				<description xml:lang="ca">Format de fitxer Xbase (*.dbf)</description>
+				<description xml:lang="ca@valencia">Format de fitxer Xbase (*.dbf)</description>
+				<description xml:lang="cs">Formát souborů Xbase (*.dbf)</description>
+				<description xml:lang="da">Xbase (*.dbf) filformat</description>
+				<description xml:lang="de">Xbase (*.dbf) Dateiformat</description>
+				<description xml:lang="dz">ཨེགསི་གཞི་རྟེན་ (*.dbf) ཡིག་སྣོད་རྩ་སྒྲིག་</description>
+				<description xml:lang="el">Μορφή αρχείου Xbase (*.dbf)</description>
+				<description xml:lang="en_CA">Xbase (*.dbf) file format</description>
+				<description xml:lang="en_GB">Xbase (*.dbf) file format</description>
+				<description xml:lang="es">Formato de archivo XBase (*.dbf)</description>
+				<description xml:lang="et">Xbase (*.dbf) failiformaat</description>
+				<description xml:lang="eu">Xbase (*.dbf) fitxategi-formatua</description>
+				<description xml:lang="fi">Xbase (*.dbf) -tiedostomuoto</description>
+				<description xml:lang="fr">Format de fichier Xbase (*.dbf)</description>
+				<description xml:lang="ga">Formáid chomhad Xbase (*.dbf)</description>
+				<description xml:lang="gl">Formato de ficheiro Xbase (*.dbf)</description>
+				<description xml:lang="gu">Xbase (*.dbf) ફાઇલ બંધારણ</description>
+				<description xml:lang="he">מבנה קובץ של Xbase (*.dbf)</description>
+				<description xml:lang="hr">Xbase (*.dbf) oblik datoteke</description>
+				<description xml:lang="hu">Xbase (*.dbf) fájlformátum</description>
+				<description xml:lang="id">Format berkas Xbase (*.dbf)</description>
+				<description xml:lang="it">File in formato Xbase (*.dbf)</description>
+				<description xml:lang="ja">XBase (*.dbf) ファイル形式</description>
+				<description xml:lang="kk">Xbase (*.dbf) файл пішімі</description>
+				<description xml:lang="ko">Xbase (*.dbf) 파일 형식</description>
+				<description xml:lang="lt">Xbase (*.dbf) failų formatas</description>
+				<description xml:lang="lv">Xbase (*.dbf) datnes formāts</description>
+				<description xml:lang="ml">Xbase (*.dbf) രചനാരീതി</description>
+				<description xml:lang="ms">Fail format Xbase (*.dbf)</description>
+				<description xml:lang="nb">Xbase (*.dbf) filformat</description>
+				<description xml:lang="ne">एक्स बेस (*.डिबिएफ) फाइल ढाँचा</description>
+				<description xml:lang="nl">Xbase (*.dbf) bestandsformaat</description>
+				<description xml:lang="nn">Xbase (*dbf) filformat</description>
+				<description xml:lang="pl">Format pliku XBase (*.dbf)</description>
+				<description xml:lang="pt">Formato de ficheiro Xbase (*.dbf)</description>
+				<description xml:lang="pt_BR">Formato de arquivo XBase (*.dbf)</description>
+				<description xml:lang="ro">Format fișier Xbase (*.dbf)</description>
+				<description xml:lang="ru">Формат файла XBase (*.dbf)</description>
+				<description xml:lang="sk">Formát súborov Xbase (*.dbf)</description>
+				<description xml:lang="sl">Xbase (*.dbf)</description>
+				<description xml:lang="sr">Запис датотеке Икс базе (*.dbf)</description>
+				<description xml:lang="sr@latin">Zapis datoteke Iks baze (*.dbf)</description>
+				<description xml:lang="sv">Xbase-filformat (*.dbf)</description>
+				<description xml:lang="tr">Xbase (*.dbf) dosya biçemi</description>
+				<description xml:lang="uk">Формат файлу XBase (*.dbf)</description>
+				<description xml:lang="vi">Tập tin Xbase (*.dbf)</description>
+				<description xml:lang="zh_CN">XBase (*.dbf) 文件格式</description>
+				<description xml:lang="zh_HK">Xbase (*.dbf) 檔案格式</description>
+				<description xml:lang="zh_TW">Xbase (*.dbf) 檔案格式</description>
+			</information>
+			<suffixes>
+				<suffix>dbf</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/dbase</mime-type>
+				<mime-type>application/dbf</mime-type>
+				<mime-type>application/x-dbase</mime-type>
+				<mime-type>application/x-dbf</mime-type>
+				<mime-type>application/x-xbase</mime-type>
+				<mime-type>zz-application/zz-winassoc-dbf</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_sample_datasource">
+	<information>
+		<name>Sample DataSource</name>
+		<name xml:lang="ast">Fonte de datos d'exemplu</name>
+		<name xml:lang="bg">Примерен източник на данни</name>
+		<name xml:lang="bs">Primjer izvora podataka</name>
+		<name xml:lang="ca">Mostra de font de dades</name>
+		<name xml:lang="ca@valencia">Mostra de font de dades</name>
+		<name xml:lang="cs">Ukázkový zdroj dat</name>
+		<name xml:lang="da">Eksempel-datakilde</name>
+		<name xml:lang="de">Beispiel-Datenquelle</name>
+		<name xml:lang="dz">དཔེ་ཚད་གནད་སྡུད་འབྱུང་ཁུངས་</name>
+		<name xml:lang="el">Πηγή δεδομένων δείγματος</name>
+		<name xml:lang="en_CA">Sample DataSource</name>
+		<name xml:lang="en_GB">Sample DataSource</name>
+		<name xml:lang="es">Fuente de datos de muestra</name>
+		<name xml:lang="et">Andmeallika näidis</name>
+		<name xml:lang="eu">Datu-iturri baten adibidea</name>
+		<name xml:lang="fi">Esimerkkitietolähde</name>
+		<name xml:lang="fr">Exemple de source de données</name>
+		<name xml:lang="hr">Primjer izvora podataka</name>
+		<name xml:lang="hu">Minta adatforrás</name>
+		<name xml:lang="id">Contoh DataSource</name>
+		<name xml:lang="it">DataSource d'esempio</name>
+		<name xml:lang="ja">データソースのサンプル</name>
+		<name xml:lang="kk">DataSource үлгісі</name>
+		<name xml:lang="lt">Pavyzdinis duomenų šaltinis</name>
+		<name xml:lang="lv">Parauga datu avots</name>
+		<name xml:lang="nb">Eksempel på datakilde</name>
+		<name xml:lang="ne">नमूना डेटास्रोत</name>
+		<name xml:lang="nl">Steekproef databron</name>
+		<name xml:lang="pl">Proste źródło danych</name>
+		<name xml:lang="pt">Origem de dados de demonstração</name>
+		<name xml:lang="pt_BR">Fonte de Dados de amostra</name>
+		<name xml:lang="ru">Пример источника данных</name>
+		<name xml:lang="sk">Ukážkový zdroj dát</name>
+		<name xml:lang="sl">Vzorčni podatkovni vir</name>
+		<name xml:lang="sr">Пример извора података</name>
+		<name xml:lang="sr@latin">Primer izvora podataka</name>
+		<name xml:lang="sv">Datakälla för urval</name>
+		<name xml:lang="uk">Зразок DataSource</name>
+		<name xml:lang="vi">Nguồn dữ liệu mẫu</name>
+		<name xml:lang="zh_CN">举例数据源...</name>
+		<name xml:lang="zh_HK">範例資料來源</name>
+		<name xml:lang="zh_TW">範例資料來源</name>
+		<description>A proof of concept external data source</description>
+		<description xml:lang="ast">Una preba de conceptu d'orixe de datos esternu</description>
+		<description xml:lang="bs">Spoljašnji izvor podataka kao pokazatelj mogućnosti</description>
+		<description xml:lang="ca">Una prova de concepte d'una font externa de dades</description>
+		<description xml:lang="ca@valencia">Una prova de concepte d'una font externa de dades</description>
+		<description xml:lang="cs">Ukázkový externí zdroj dat</description>
+		<description xml:lang="da">En proof of concept ekstern datakilde</description>
+		<description xml:lang="de">Eine externe Datenquelle zum Konzeptnachweis</description>
+		<description xml:lang="dz">ཕྱིའི་གནད་སྡུད་འབྱུང་ཁུངས་ཀྱི་ བསམ་གཞིའི་ཞུན་ལྷག་</description>
+		<description xml:lang="el">Μία απόδειξη έννοιας εξωτερικής πηγής δεδομένων</description>
+		<description xml:lang="en_CA">A proof of concept external data source</description>
+		<description xml:lang="en_GB">A proof of concept external data source</description>
+		<description xml:lang="es">Una prueba de concepto de origen de datos externo</description>
+		<description xml:lang="eu">Kanpoko datu-iturriaren kontzeptuaren froga bat</description>
+		<description xml:lang="fi">Esimerkki ulkoisesta tietolähteestä</description>
+		<description xml:lang="fr">Une preuve de concept de source de données externe</description>
+		<description xml:lang="hr">Pokazatelj mogućnosti vanjskog izvora podataka.</description>
+		<description xml:lang="hu">Egy példa külső adatforrás</description>
+		<description xml:lang="id">Sebuah bukti konsep sumber data eksternal</description>
+		<description xml:lang="it">Una sorgente di dati di esempio</description>
+		<description xml:lang="ja">外部データソースの概念の検証用</description>
+		<description xml:lang="kk">Сыртқы дереккөздің тұжырымдамасын дәлелдеу</description>
+		<description xml:lang="lt">Išorinio duomenų šaltinio panaudojimo galimybės įrodymas</description>
+		<description xml:lang="lv">Piemēra ārējs datu avots</description>
+		<description xml:lang="nb">En konseptuell ekstern datakilde</description>
+		<description xml:lang="ne">धारणा बाह्य डेटा स्रोतको एउटा प्रमाण</description>
+		<description xml:lang="nl">Concept-implementatie van een externe databron</description>
+		<description xml:lang="pl">Wersja próbna zewnętrznego źródła danych</description>
+		<description xml:lang="pt">Uma origem de dados externa como prova de conceito</description>
+		<description xml:lang="pt_BR">Uma prova do conceito de fonte de dados externa</description>
+		<description xml:lang="ru">Подтверждение концепции внешнего источника данных</description>
+		<description xml:lang="sk">Testovací externý zdroj dát</description>
+		<description xml:lang="sl">Zunanji vir podatkov, ki potrjuje hipotezo</description>
+		<description xml:lang="sr">Спољашњи извор података као показатељ могућности</description>
+		<description xml:lang="sr@latin">Spoljašnji izvor podataka kao pokazatelj mogućnosti</description>
+		<description xml:lang="sv">En exempelversion av en extern datakälla</description>
+		<description xml:lang="uk">Технічний зразок зовнішнього джерела даних</description>
+		<description xml:lang="vi">Nguồn dữ liệu bên ngoài sự chứng minh ý niệm</description>
+		<description xml:lang="zh_HK">純粹作為示範的外部資料來源</description>
+		<description xml:lang="zh_TW">純粹作為示範的外部資料來源</description>
+		<require_explicit_enabling/>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="sample_datasource" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="ATL">
+			<category>Finance</category>
+			<category xml:lang="ast">Finances</category>
+			<category xml:lang="az">Maliyyə</category>
+			<category xml:lang="bg">Финансови</category>
+			<category xml:lang="bs">Finansijski</category>
+			<category xml:lang="ca">Finances</category>
+			<category xml:lang="ca@valencia">Finances</category>
+			<category xml:lang="cs">Finance</category>
+			<category xml:lang="da">Finans</category>
+			<category xml:lang="de">Finanzen</category>
+			<category xml:lang="dz">དངུལ་རྩིས་</category>
+			<category xml:lang="el">Οικονομικά</category>
+			<category xml:lang="en_CA">Finance</category>
+			<category xml:lang="en_GB">Finance</category>
+			<category xml:lang="eo">Financo</category>
+			<category xml:lang="es">Finanzas</category>
+			<category xml:lang="et">Rahandus</category>
+			<category xml:lang="eu">Finantzak</category>
+			<category xml:lang="fa">مالی</category>
+			<category xml:lang="fi">Talous</category>
+			<category xml:lang="fr">Financier</category>
+			<category xml:lang="gl">Finanzas</category>
+			<category xml:lang="gu">નાણાં</category>
+			<category xml:lang="hr">Financije</category>
+			<category xml:lang="hu">Pénzügy</category>
+			<category xml:lang="id">Keuangan</category>
+			<category xml:lang="it">Finanza</category>
+			<category xml:lang="ja">財務</category>
+			<category xml:lang="kk">Қаржы</category>
+			<category xml:lang="ko">재정</category>
+			<category xml:lang="lt">Finansai</category>
+			<category xml:lang="lv">Finanses</category>
+			<category xml:lang="mk">Финансиски</category>
+			<category xml:lang="ms">Kewangan</category>
+			<category xml:lang="nb">Finans</category>
+			<category xml:lang="ne">वित्त</category>
+			<category xml:lang="nl">Financieel</category>
+			<category xml:lang="nn">Finans</category>
+			<category xml:lang="pl">Finansowe</category>
+			<category xml:lang="pt">Finanças</category>
+			<category xml:lang="pt_BR">Financeiras</category>
+			<category xml:lang="ru">Финансовые</category>
+			<category xml:lang="sk">Finančné</category>
+			<category xml:lang="sl">Finance</category>
+			<category xml:lang="sr">Финансијски</category>
+			<category xml:lang="sr@latin">Finansijski</category>
+			<category xml:lang="sv">Finans</category>
+			<category xml:lang="uk">Фінанси</category>
+			<category xml:lang="vi">Tài chính</category>
+			<category xml:lang="zh_CN">财务</category>
+			<category xml:lang="zh_HK">財務</category>
+			<category xml:lang="zh_TW">財務</category>
+			<functions>
+				<function name="atl_last"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

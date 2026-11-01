@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_nlsolve">
+	<information>
+		<name>Non-Linear Program Solver</name>
+		<name xml:lang="bs">Rešavač ne-linearnog programa</name>
+		<name xml:lang="ca">Solucionador de programes no lineals</name>
+		<name xml:lang="cs">Řešitel nelineárních programů</name>
+		<name xml:lang="da">Ikkelineær programløser</name>
+		<name xml:lang="de">Nicht-Linearer Programmlöser</name>
+		<name xml:lang="el">Επίλυση μη γραμμικού προγράμματος</name>
+		<name xml:lang="en_GB">Non-Linear Program Solver</name>
+		<name xml:lang="es">Programa de resolución no lineal</name>
+		<name xml:lang="eu">Programa-ebazle lineala</name>
+		<name xml:lang="fr">Programme de résolution non-linéaire</name>
+		<name xml:lang="gl">Programa de resolución non linear</name>
+		<name xml:lang="hu">Nemlineáris program megoldó</name>
+		<name xml:lang="id">Pemecah Program Nonlinier</name>
+		<name xml:lang="kk">Сызықтық емес бағдарлама шешкіші</name>
+		<name xml:lang="lt">Ne-linijinis programos sprendiklis</name>
+		<name xml:lang="lv">Nelineārās programmas risinātājs</name>
+		<name xml:lang="pl">Solver nieliniowych programów</name>
+		<name xml:lang="pt">Programa de solução não linear</name>
+		<name xml:lang="pt_BR">Resolvedor de programa não-linear</name>
+		<name xml:lang="ru">Решение нелинейных задач</name>
+		<name xml:lang="sl">Reševalnik ne-linearnega programiranja</name>
+		<name xml:lang="sr">Решавач не-линеарног програма</name>
+		<name xml:lang="sr@latin">Rešavač ne-linearnog programa</name>
+		<name xml:lang="sv">Lösare för icke-linjärprogrammeringsproblem</name>
+		<name xml:lang="uk">Розв'язувач задач нелінійного програмування</name>
+		<name xml:lang="zh_CN">非线性规划求解工具</name>
+		<name xml:lang="zh_HK">非線性程式解答器</name>
+		<name xml:lang="zh_TW">非線性程式解答器</name>
+		<description>Non-Linear Program Solver</description>
+		<description xml:lang="bs">Rešavač ne-linearnog programa</description>
+		<description xml:lang="ca">Solucionador de programes no lineals</description>
+		<description xml:lang="cs">Řešitel nelineárních programů</description>
+		<description xml:lang="da">Ikkelineær programløser</description>
+		<description xml:lang="de">Nicht-Linearer Programmlöser</description>
+		<description xml:lang="el">Επίλυση μη γραμμικού προγράμματος</description>
+		<description xml:lang="en_GB">Non-Linear Program Solver</description>
+		<description xml:lang="es">Programa de resolución no lineal</description>
+		<description xml:lang="eu">Programa-ebazle lineala</description>
+		<description xml:lang="fr">Programme de résolution non-linéaire</description>
+		<description xml:lang="gl">Programa de resolución non linear</description>
+		<description xml:lang="hu">Nemlineáris program megoldó</description>
+		<description xml:lang="id">Pemecah Program Nonlinier</description>
+		<description xml:lang="kk">Сызықтық емес бағдарлама шешкіші</description>
+		<description xml:lang="lt">Ne-linijinis programos sprendiklis</description>
+		<description xml:lang="lv">Nelineārās programmas risinātājs</description>
+		<description xml:lang="pl">Solver nieliniowych programów</description>
+		<description xml:lang="pt">Programa de solução não linear</description>
+		<description xml:lang="pt_BR">Resolvedor de programa não-linear</description>
+		<description xml:lang="ru">Решение нелинейных задач</description>
+		<description xml:lang="sl">Reševalnik ne-linearnega programiranja</description>
+		<description xml:lang="sr">Решавач не-линеарног програма</description>
+		<description xml:lang="sr@latin">Rešavač ne-linearnog programa</description>
+		<description xml:lang="sv">Lösare för icke-linjärprogrammeringsproblem</description>
+		<description xml:lang="uk">Розв'язувач задач нелінійного програмування</description>
+		<description xml:lang="zh_CN">非线性规划求解工具</description>
+		<description xml:lang="zh_HK">非線性程式解答器</description>
+		<description xml:lang="zh_TW">非線性程式解答器</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="nlsolve" name="module_file"/>
+	</loader>
+	<services>
+		<service type="solver" model_type="nlp" id="nlsolve">
+			<information>
+			  <description>Nlsolve</description>
+			  <description xml:lang="ast">Nlsolve</description>
+			  <description xml:lang="bs">Nl riješi</description>
+			  <description xml:lang="ca">Nlsolve</description>
+			  <description xml:lang="cs">Nlsolve</description>
+			  <description xml:lang="da">Nlsolve</description>
+			  <description xml:lang="de">NL-lösen</description>
+			  <description xml:lang="el">Nlsolve</description>
+			  <description xml:lang="en_GB">Nlsolve</description>
+			  <description xml:lang="es">Nlsolve</description>
+			  <description xml:lang="eu">Nlsolve</description>
+			  <description xml:lang="fr">NLsolve</description>
+			  <description xml:lang="gl">Nlsolve</description>
+			  <description xml:lang="hu">Nlsolve</description>
+			  <description xml:lang="id">Nlsolve</description>
+			  <description xml:lang="kk">Nlsolve</description>
+			  <description xml:lang="lt">Nlsolve</description>
+			  <description xml:lang="lv">Nlsolve</description>
+			  <description xml:lang="nb">Nlsolve</description>
+			  <description xml:lang="pl">Nlsolve</description>
+			  <description xml:lang="pt">Nlsolve</description>
+			  <description xml:lang="pt_BR">Nlsolve</description>
+			  <description xml:lang="ru">Nlsolve</description>
+			  <description xml:lang="sl">Nlsolve</description>
+			  <description xml:lang="sr">Нл реши</description>
+			  <description xml:lang="sr@latin">Nl reši</description>
+			  <description xml:lang="sv">Nlsolve</description>
+			  <description xml:lang="uk">Nlsolve</description>
+			  <description xml:lang="zh_CN">Nlsolve</description>
+			</information>
+		</service>
+	</services>
+</plugin>

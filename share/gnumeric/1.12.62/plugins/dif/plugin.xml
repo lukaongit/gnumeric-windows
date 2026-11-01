@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_dif">
+	<information>
+		<name>Data Interchange Format (DIF) module</name>
+		<name xml:lang="ast">Módulu de formatu d'intercambiu de datos (DIF)</name>
+		<name xml:lang="az">Data Interchange Format (DIF) modulu</name>
+		<name xml:lang="bg">Модул "Data Interchange Format (DIF)"</name>
+		<name xml:lang="bs">Moduo za format razmjene podataka (DIF)</name>
+		<name xml:lang="ca">Mòdul Data Interchange Format (DIF)</name>
+		<name xml:lang="ca@valencia">Mòdul Data Interchange Format (DIF)</name>
+		<name xml:lang="cs">Modul pro výměnný formát dat DIF (Data Interchange Format)</name>
+		<name xml:lang="da">Data Interchange Format-modul (DIF)</name>
+		<name xml:lang="de">Data Interchange Format (DIF)-Modul</name>
+		<name xml:lang="dz">གནད་སྡུད་ཕན་ཚུན་བརྗེ་སོར་རྩ་སྒྲིག་(ཌི་ཨའི་ཨེཕ་)ཚད་གཞི་</name>
+		<name xml:lang="el">Άρθρωμα Data Interchange Format (DIF)</name>
+		<name xml:lang="en_CA">Data Interchange Format (DIF) module</name>
+		<name xml:lang="en_GB">Data Interchange Format (DIF) module</name>
+		<name xml:lang="eo">Modulo de la datum-interŝanĝ-formo (DIF)</name>
+		<name xml:lang="es">Módulo de formato de intercambio de datos (DIF)</name>
+		<name xml:lang="et">Andmevahetusformaadi (DIF) moodul</name>
+		<name xml:lang="eu">Data Interchange Format (DIF) modulua</name>
+		<name xml:lang="fi">Data Interchange Format (DIF) -moduuli</name>
+		<name xml:lang="fr">Module Data Interchange Format (DIF)</name>
+		<name xml:lang="gl">Módulo de Data Interchange Format (DIF)</name>
+		<name xml:lang="gu">Data Interchange Format (DIF) મોડ્યુલ</name>
+		<name xml:lang="hr">Modul za format razmjene podataka (DIF)</name>
+		<name xml:lang="hu">Data Interchange Format (DIF) modul</name>
+		<name xml:lang="id">Modul Data Interchange Format (DIF)</name>
+		<name xml:lang="it">Modulo per formato interscambio dati (DIF)</name>
+		<name xml:lang="ja">Data Interchange 形式 (DIF) モジュール</name>
+		<name xml:lang="kk">Деректер алмасу пішімі (DIF) модулі</name>
+		<name xml:lang="ko">Data Interchange Format (DIF) 모듈</name>
+		<name xml:lang="lt">Data Interchange Format (DIF) modulis</name>
+		<name xml:lang="lv">Datu apmaiņas formāta (DIF) modulis</name>
+		<name xml:lang="mk">Модул на формат за размена на податоци (DIF)</name>
+		<name xml:lang="ml">വസ്തുതാ കൈമാറ്റ രീതി (DIF) ഖണ‌്ഡം</name>
+		<name xml:lang="nb">Data Interchange Format (DIF) modul</name>
+		<name xml:lang="ne">डेटा फेरबदल ढाँचा (*.DIF) मोड्युल</name>
+		<name xml:lang="nl">Data Interchange Formaat (DIF) module</name>
+		<name xml:lang="nn">Datautvekslingsformat (DIF) modul</name>
+		<name xml:lang="pl">Uniwersalny format wymiany danych (DIF)</name>
+		<name xml:lang="pt">Módulo de Formato de Intercâmbio de Dados (DIF)</name>
+		<name xml:lang="pt_BR">Módulo para o Formato de Intercâmbio de Dados (DIF)</name>
+		<name xml:lang="ro">Modul Data Interchange Format (DIF)</name>
+		<name xml:lang="ru">Модуль формата обмена данными (DIF)</name>
+		<name xml:lang="sk">Modul pre Data Interchange Format (DIF)</name>
+		<name xml:lang="sl">Modul zapisa za izmenjavo podatkov (DIF)</name>
+		<name xml:lang="sr">Модул записа размене података (ДИФ)</name>
+		<name xml:lang="sr@latin">Modul zapisa razmene podataka (DIF)</name>
+		<name xml:lang="sv">Modul för "Data Interchange Format" (DIF)</name>
+		<name xml:lang="tr">Veri Değişim Biçemi (DIF) modülü</name>
+		<name xml:lang="uk">Модуль Data Interchange Format (DIF)</name>
+		<name xml:lang="vi">Mô đun khuôn dạng chuyển đổi dữ liệu: Data Interchange Format (DIF)</name>
+		<name xml:lang="zh_CN">数据交换格式(DIF)模块</name>
+		<name xml:lang="zh_HK">資料交換格式 (DIF) 模組</name>
+		<name xml:lang="zh_TW">資料交換格式 (DIF) 模組</name>
+		<description>Reads and writes information stored in the Data Interchange Format (*.dif)</description>
+		<description xml:lang="ast">Llee y escribe información almacenada en formatu d'intercambiu de datos (*.dif)</description>
+		<description xml:lang="bg">Четене и запис на информация, съхранена в "Data Interchange Format (*.dif)"</description>
+		<description xml:lang="bs">Čita i piše informacije sačuvane u *.diff formatu</description>
+		<description xml:lang="ca">Llegeix i escriu la informació desada en el format Data Interchange Format (*.dif)</description>
+		<description xml:lang="ca@valencia">Llig i escriu la informació alçada en el format Data Interchange Format (*.dif)</description>
+		<description xml:lang="cs">Zapisuje a čte informace uložené ve výměnném formátu dat Data Interchange Format (*.dif)</description>
+		<description xml:lang="da">Læser og skriver information gemt i Data Interchange Format (*.dif)</description>
+		<description xml:lang="de">Lesen und Schreiben von Informationen, die im Data Interchange Format (*.dif) gespeichert sind</description>
+		<description xml:lang="dz">གནད་སྡུད་ཕན་ཚུན་བརྗེ་སོར་རྩ་སྒྲིག་ (*.dif) དེ་ནང་ གསོག་འཇོག་འབད་ཡོད་པའི་བརྡ་དོན་ ལྷག་ནི་དང་འབྲིཝ་ཨིན་</description>
+		<description xml:lang="el">Διαβάζει και γράφει πληροφορίες αποθηκευμένες στο Data Interchange Format (*.dif)</description>
+		<description xml:lang="en_CA">Reads and writes information stored in the Data Interchange Format (*.dif)</description>
+		<description xml:lang="en_GB">Reads and writes information stored in the Data Interchange Format (*.dif)</description>
+		<description xml:lang="eo">Legas kaj skribas informojn konservatajn ene de la formato Data Interchange Format (*.dif)</description>
+		<description xml:lang="es">Lee y escribe información almacenada en el formato de intercambio de datos (*.dif)</description>
+		<description xml:lang="et">Loeb ja kirjutab Andmevahetusformaadis (*.dif) salvestatud informatsiooni</description>
+		<description xml:lang="eu">Data Interchange Format (*.dif) formatuan gordetako informazioa irakurtzen eta idazten du</description>
+		<description xml:lang="fi">Lukee ja kirjoittaa Data Interchange Format -muodossa tallennettua tietoa (*.dif)</description>
+		<description xml:lang="fr">Lit et écrit l'information en utilisant le format « Data Interchange » (*.dif)</description>
+		<description xml:lang="gl">Le e escribe información almacenada en Data Interchange Format (*.dif)</description>
+		<description xml:lang="gu">Data Interchange Format (*.dif) માં સંગ્રહ થયેલ જાણકારીને લખો અને વાંચો</description>
+		<description xml:lang="hr">Čita i piše informacije spremljene u *.diff formatu</description>
+		<description xml:lang="hu">Data Interchange Format (*.dif) fájlokban tárolt információkat ír és olvas</description>
+		<description xml:lang="id">Membaca dan menulis informasi yang disimpan dalam Data Interchange Format (*.dif)</description>
+		<description xml:lang="it">Legge e scrive dati immagazzinati nel Data Interchange Format (*.dif)</description>
+		<description xml:lang="ja">Data Interchange 形式 (*.dif) で保存された情報の読み取り/書き込み</description>
+		<description xml:lang="kk">Деректер алмасу пішімінде (*.dif) сақталған ақпаратты оқиды және жазады</description>
+		<description xml:lang="ko">Data Interchange Format (*.dif)으로 저장된 읽고 쓰기 정보</description>
+		<description xml:lang="lt">Perskaito ir įrašo informaciją, saugomą Duomenų Apsikeitimo Formatu (*.dif)</description>
+		<description xml:lang="lv">Lasa un raksta informāciju, kas ir saglabāta datu apmaiņas formātā (*.dif)</description>
+		<description xml:lang="mk">Чита и запишува информации зачувани во форматот за размена на податоци (*.dif)</description>
+		<description xml:lang="nb">Leser og skriver informasjon lagret i Data Interchange Format (*.dif)</description>
+		<description xml:lang="ne">डेटा फेरबदल ढाँचा (*.DIF) मा भण्डारण गरिएको जानकारी पढ्छ र लेख्छ</description>
+		<description xml:lang="nl">Leest en schrijft informatie in het Data Interchange Formaat (*.dif)</description>
+		<description xml:lang="nn">Les og skriv informasjon lagra i Datautvekslingsformat (*.dif)</description>
+		<description xml:lang="pl">Odczytuje i zapisuje informacje w uniwersalnym formacie wymiany danych (*.dif)</description>
+		<description xml:lang="pt">Lê e escreve informação armazenada no Formato de Intercâmbio de Dados (*.dif)</description>
+		<description xml:lang="pt_BR">Lê e grava a informação armazenada no Formato de Intercâmbio de Dados (*.dif)</description>
+		<description xml:lang="ro">Citește și scrie informații stocate în Data Interchange Format (*.dif)</description>
+		<description xml:lang="ru">Читает и записывает информацию, сохранённую в формате обмена данными (*.dif)</description>
+		<description xml:lang="sk">Zapisuje a číta informácie uložené v Data Interchange Format (*.dif)</description>
+		<description xml:lang="sl">Branje in pisanje podatkov v DIF zapisu (*.dif)</description>
+		<description xml:lang="sr">Читајте и пишите обавештења сачувана у запису размене података (*.dif)</description>
+		<description xml:lang="sr@latin">Čitajte i pišite obaveštenja sačuvana u zapisu razmene podataka (*.dif)</description>
+		<description xml:lang="sv">Läser och skriver information sparad i formatet "Data Interchange Format" (*.dif)</description>
+		<description xml:lang="tr">Veri Değişim Biçemi (*.dif) olarak kayıtlı bilgileri okur ve yazar</description>
+		<description xml:lang="uk">Зчитує і зберігає дані у форматі Data Interchange Format (*.dif)</description>
+		<description xml:lang="vi">Đọc và ghi thông tin được lưu vào Khuôn dạng chuyển đổi dữ liệu: Data Interchange Format (*.dif)</description>
+		<description xml:lang="zh_CN">读写以数据交换格式(*.dif)存储的信息</description>
+		<description xml:lang="zh_HK">可讀寫以資料交換格式 (*.dif) 儲存的資料</description>
+		<description xml:lang="zh_TW">可讀寫以資料交換格式 (*.dif) 儲存的資料</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="dif" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="FALSE" priority="1" id="dif">
+			<information>
+				<description>Data Interchange Format (*.dif)</description>
+				<description xml:lang="ast">Formatu d'intercambiu de datos (*dif)</description>
+				<description xml:lang="az">Data Interchange Format (*.dif)</description>
+				<description xml:lang="bg">Data Interchange Format (*.dif)</description>
+				<description xml:lang="bs">Format razmjene podataka (*.dif)</description>
+				<description xml:lang="ca">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ca@valencia">Data Interchange Format (*.dif)</description>
+				<description xml:lang="cs">Výměnný formát dat (*.dif)</description>
+				<description xml:lang="da">Data Interchange Format (*.dif)</description>
+				<description xml:lang="de">Data Interchange Format (*.dif)</description>
+				<description xml:lang="dz">གནད་སྡུད་ཕན་ཚུན་བརྗེ་སོར་རྩ་སྒྲིག་ (*.dif)</description>
+				<description xml:lang="el">Data Interchange Format (*.dif)</description>
+				<description xml:lang="en_CA">Data Interchange Format (*.dif)</description>
+				<description xml:lang="en_GB">Data Interchange Format (*.dif)</description>
+				<description xml:lang="eo">Datum-interŝanĝ-formo (*.dif)</description>
+				<description xml:lang="es">Formato de intercambio de datos (*dif)</description>
+				<description xml:lang="et">Andmevahetusformaat (*.dif)</description>
+				<description xml:lang="eu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="fi">Data Interchange Format (*.dif)</description>
+				<description xml:lang="fr">Data Interchange Format (*.dif)</description>
+				<description xml:lang="gl">Formato de intercambio de datos (*.dif)</description>
+				<description xml:lang="gu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="hr">Data Interchange Format (*.dif)</description>
+				<description xml:lang="hu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="id">Data Interchange Format (*.dif)</description>
+				<description xml:lang="it">Formato interscambio dati (*.dif)</description>
+				<description xml:lang="ja">Data Interchange 形式 (*.dif)</description>
+				<description xml:lang="kk">Деректер алмасу пішімі (*.dif)</description>
+				<description xml:lang="ko">Data Interchange Format (*.dif)</description>
+				<description xml:lang="lt">Data Interchange Formatas (*.dif)</description>
+				<description xml:lang="lv">Datu apmaiņas formāts (*.dif)</description>
+				<description xml:lang="mk">Формат за размена на податоци (*.dif)</description>
+				<description xml:lang="ml">വസ്തുതാ കൈമാറ്റ രീതി (*.dif)</description>
+				<description xml:lang="nb">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ne">डेटा फेरबदल ढाँचा (*.DIF)</description>
+				<description xml:lang="nl">Data Interchange Formaat (*.dif)</description>
+				<description xml:lang="nn">Datautvekslingsformat (*.dif)</description>
+				<description xml:lang="pl">Uniwersalny format wymiany danych (*.dif)</description>
+				<description xml:lang="pt">Formato de Intercâmbio de Dados (*.dif)</description>
+				<description xml:lang="pt_BR">Formato de Intercâmbio de Dados (*.dif)</description>
+				<description xml:lang="ro">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ru">Формат обмена данными (*.dif)</description>
+				<description xml:lang="sk">Data Interchange Format (*.dif)</description>
+				<description xml:lang="sl">Zapis DIF (*.dif)</description>
+				<description xml:lang="sr">Запис размене података (*.dif)</description>
+				<description xml:lang="sr@latin">Zapis razmene podataka (*.dif)</description>
+				<description xml:lang="sv">Data Interchange Format (*.dif)</description>
+				<description xml:lang="te">దత్తాంశంయొక్క బహువిధరూపం (*.dif)</description>
+				<description xml:lang="tr">Veri Değişim Biçemi (*.dif)</description>
+				<description xml:lang="uk">Data Interchange Format (*.dif)</description>
+				<description xml:lang="vi">Khuôn dạng chuyển đổi dữ liệu: Data Interchange Format (*.dif)</description>
+				<description xml:lang="zh_CN">数据交换格式(*.dif)</description>
+				<description xml:lang="zh_HK">資料交換格式 (*.dif)</description>
+				<description xml:lang="zh_TW">資料交換格式 (*.dif)</description>
+			</information>
+			<suffixes>
+				<suffix>dif</suffix>
+			</suffixes>
+		</service>
+		<service type="file_saver" save_scope="sheet" id="dif" format_level="manual_remember" file_extension="dif">
+			<information>
+				<description>Data Interchange Format (*.dif)</description>
+				<description xml:lang="ast">Formatu d'intercambiu de datos (*dif)</description>
+				<description xml:lang="az">Data Interchange Format (*.dif)</description>
+				<description xml:lang="bg">Data Interchange Format (*.dif)</description>
+				<description xml:lang="bs">Format razmjene podataka (*.dif)</description>
+				<description xml:lang="ca">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ca@valencia">Data Interchange Format (*.dif)</description>
+				<description xml:lang="cs">Výměnný formát dat (*.dif)</description>
+				<description xml:lang="da">Data Interchange Format (*.dif)</description>
+				<description xml:lang="de">Data Interchange Format (*.dif)</description>
+				<description xml:lang="dz">གནད་སྡུད་ཕན་ཚུན་བརྗེ་སོར་རྩ་སྒྲིག་ (*.dif)</description>
+				<description xml:lang="el">Data Interchange Format (*.dif)</description>
+				<description xml:lang="en_CA">Data Interchange Format (*.dif)</description>
+				<description xml:lang="en_GB">Data Interchange Format (*.dif)</description>
+				<description xml:lang="eo">Datum-interŝanĝ-formo (*.dif)</description>
+				<description xml:lang="es">Formato de intercambio de datos (*dif)</description>
+				<description xml:lang="et">Andmevahetusformaat (*.dif)</description>
+				<description xml:lang="eu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="fi">Data Interchange Format (*.dif)</description>
+				<description xml:lang="fr">Data Interchange Format (*.dif)</description>
+				<description xml:lang="gl">Formato de intercambio de datos (*.dif)</description>
+				<description xml:lang="gu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="hr">Data Interchange Format (*.dif)</description>
+				<description xml:lang="hu">Data Interchange Format (*.dif)</description>
+				<description xml:lang="id">Data Interchange Format (*.dif)</description>
+				<description xml:lang="it">Formato interscambio dati (*.dif)</description>
+				<description xml:lang="ja">Data Interchange 形式 (*.dif)</description>
+				<description xml:lang="kk">Деректер алмасу пішімі (*.dif)</description>
+				<description xml:lang="ko">Data Interchange Format (*.dif)</description>
+				<description xml:lang="lt">Data Interchange Formatas (*.dif)</description>
+				<description xml:lang="lv">Datu apmaiņas formāts (*.dif)</description>
+				<description xml:lang="mk">Формат за размена на податоци (*.dif)</description>
+				<description xml:lang="ml">വസ്തുതാ കൈമാറ്റ രീതി (*.dif)</description>
+				<description xml:lang="nb">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ne">डेटा फेरबदल ढाँचा (*.DIF)</description>
+				<description xml:lang="nl">Data Interchange Formaat (*.dif)</description>
+				<description xml:lang="nn">Datautvekslingsformat (*.dif)</description>
+				<description xml:lang="pl">Uniwersalny format wymiany danych (*.dif)</description>
+				<description xml:lang="pt">Formato de Intercâmbio de Dados (*.dif)</description>
+				<description xml:lang="pt_BR">Formato de Intercâmbio de Dados (*.dif)</description>
+				<description xml:lang="ro">Data Interchange Format (*.dif)</description>
+				<description xml:lang="ru">Формат обмена данными (*.dif)</description>
+				<description xml:lang="sk">Data Interchange Format (*.dif)</description>
+				<description xml:lang="sl">Zapis DIF (*.dif)</description>
+				<description xml:lang="sr">Запис размене података (*.dif)</description>
+				<description xml:lang="sr@latin">Zapis razmene podataka (*.dif)</description>
+				<description xml:lang="sv">Data Interchange Format (*.dif)</description>
+				<description xml:lang="te">దత్తాంశంయొక్క బహువిధరూపం (*.dif)</description>
+				<description xml:lang="tr">Veri Değişim Biçemi (*.dif)</description>
+				<description xml:lang="uk">Data Interchange Format (*.dif)</description>
+				<description xml:lang="vi">Khuôn dạng chuyển đổi dữ liệu: Data Interchange Format (*.dif)</description>
+				<description xml:lang="zh_CN">数据交换格式(*.dif)</description>
+				<description xml:lang="zh_HK">資料交換格式 (*.dif)</description>
+				<description xml:lang="zh_TW">資料交換格式 (*.dif)</description>
+			</information>
+		</service>
+	</services>
+</plugin>

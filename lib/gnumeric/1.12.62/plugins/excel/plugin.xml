@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_Excel">
+	<information>
+		<name>MS Excel (tm)</name>
+		<name xml:lang="ast">MS Excel™</name>
+		<name xml:lang="az">MS Excel (tm)</name>
+		<name xml:lang="bg">MS Excel (tm)</name>
+		<name xml:lang="bs">MS Eksel (tm)</name>
+		<name xml:lang="ca">MS Excel (R)</name>
+		<name xml:lang="ca@valencia">MS Excel (R)</name>
+		<name xml:lang="cs">MS Excel™</name>
+		<name xml:lang="da">MS Excel (tm)</name>
+		<name xml:lang="de">MS Excel (tm)</name>
+		<name xml:lang="dz">ཨེམ་ཨེསི་ ཨེགསི་སེལ་ (ཊི་ཨེམ་)</name>
+		<name xml:lang="el">MS Excel (tm)</name>
+		<name xml:lang="en_CA">MS Excel (tm)</name>
+		<name xml:lang="en_GB">MS Excel (tm)</name>
+		<name xml:lang="eo">MS Excel (tm)</name>
+		<name xml:lang="es">MS Excel (tm)</name>
+		<name xml:lang="et">MS Excel (tm)</name>
+		<name xml:lang="eu">MS Excel (tm)</name>
+		<name xml:lang="fi">MS Excel™</name>
+		<name xml:lang="fr">MS Excel™</name>
+		<name xml:lang="ga">MS Excel (tm)</name>
+		<name xml:lang="gl">MS Excel (tm)</name>
+		<name xml:lang="gu">MS Excel (tm)</name>
+		<name xml:lang="he">מייקרוסופט אקסל (tm)</name>
+		<name xml:lang="hr">MS Excel (tm)</name>
+		<name xml:lang="hu">MS Excel (tm)</name>
+		<name xml:lang="id">MS Excel (tm)</name>
+		<name xml:lang="it">MS Excel™</name>
+		<name xml:lang="ja">MS Excel (tm)</name>
+		<name xml:lang="kk">MS Excel (tm)</name>
+		<name xml:lang="ko">MS 엑셀 (tm)</name>
+		<name xml:lang="lt">MS Excel (tm)</name>
+		<name xml:lang="lv">MS Excel (tm)</name>
+		<name xml:lang="mk">MS Excel (tm)</name>
+		<name xml:lang="ml">MS എക്സല് (tm)</name>
+		<name xml:lang="ms">MS Excel (tm)</name>
+		<name xml:lang="nb">MS Excel (tm)</name>
+		<name xml:lang="ne">एमएस एक्सेल (टीएम)</name>
+		<name xml:lang="nl">MS Excel (tm)</name>
+		<name xml:lang="nn">MS Excel (tm)</name>
+		<name xml:lang="pl">Microsoft Excel™</name>
+		<name xml:lang="pt">MS Excel (tm)</name>
+		<name xml:lang="pt_BR">MS Excel (tm)</name>
+		<name xml:lang="ru">MS Excel (tm)</name>
+		<name xml:lang="sk">MS Excel (tm)</name>
+		<name xml:lang="sl">MS Excel (tm)</name>
+		<name xml:lang="sr">МС Ексел (tm)</name>
+		<name xml:lang="sr@latin">MS Eksel (tm)</name>
+		<name xml:lang="sv">MS Excel (tm)</name>
+		<name xml:lang="tr">MS Excel (tm)</name>
+		<name xml:lang="uk">MS Excel (tm)</name>
+		<name xml:lang="vi">MS Excel™</name>
+		<name xml:lang="zh_CN">MS Excel (tm)</name>
+		<name xml:lang="zh_HK">微軟 Excel™</name>
+		<name xml:lang="zh_TW">微軟 Excel™</name>
+		<description>Imports/Exports MS Excel (tm) files</description>
+		<description xml:lang="ast">Importa/esporta ficheros Ms Excel™</description>
+		<description xml:lang="bg">Внасяне/изнасяне на файлове, формат MS Excel (tm)</description>
+		<description xml:lang="bs">Uvozi/izvozi MS Excel(tm) datoteke</description>
+		<description xml:lang="ca">Importa fitxers de l'MS Excel (R)</description>
+		<description xml:lang="ca@valencia">Importa fitxers de l'MS Excel (R)</description>
+		<description xml:lang="cs">Import a export souborů MS Excel™</description>
+		<description xml:lang="da">Importerer/eksporterer MS Excel(tm)-filer</description>
+		<description xml:lang="de">Import/Export von MS Excel-Dateien</description>
+		<description xml:lang="dz">ཨེམ་ཨེསི་ ཨེགསི་སེལ་་(ཊི་ཨེམ་) ཡིག་སྣོད་ཚུ་ ནང་འདྲེན་/ཕྱིར་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισάγει/Εξάγει αρχεία MS Excel (tm)</description>
+		<description xml:lang="en_CA">Imports/Exports MS Excel (tm) files</description>
+		<description xml:lang="en_GB">Imports/Exports MS Excel (tm) files</description>
+		<description xml:lang="eo">Enporti/Elporti dosieron de MS Excel (tm)</description>
+		<description xml:lang="es">Importa/exporta archivos MS Excel (tm)</description>
+		<description xml:lang="et">Impordib/Ekspordib MS Excel (tm) faile</description>
+		<description xml:lang="eu">MS Excel (tm) fitxategiak inportatzen/esportatzen ditu</description>
+		<description xml:lang="fi">Tuo ja vie MS Excel™ -tiedostoja</description>
+		<description xml:lang="fr">Importe/exporte des fichiers au format MS Excel™</description>
+		<description xml:lang="gl">Importa/Exporta ficheiros de MS Excel (tm)</description>
+		<description xml:lang="gu">MS Excel (tm) ફાઇલો ને આયાત/નિકાસ કરો</description>
+		<description xml:lang="he">מייבא/מייצא קבצי אקסל (tm)</description>
+		<description xml:lang="hr">Uvozi/izvozi datoteke oblika MS Excel (tm)</description>
+		<description xml:lang="hu">Microsoft Excel (tm) fájlokat importál/exportál</description>
+		<description xml:lang="id">Impor/Ekspor berkas MS Excel (tm)</description>
+		<description xml:lang="it">Import/Esporta file MS Excel™</description>
+		<description xml:lang="ja">MS Excel (tm) ファイルのインポート/エクスポート</description>
+		<description xml:lang="kk">MS Excel (tm) файлдарын импорттайды/экспорттайды</description>
+		<description xml:lang="ko">MS 엑셀 (tm) 파일 가져오기/내보내기</description>
+		<description xml:lang="lt">Importuoja / eksportuoja MS Excel (tm) failus</description>
+		<description xml:lang="lv">Importē/eksportē MS Excel (tm) datnes</description>
+		<description xml:lang="mk">Увезува/Извезува MS Excel (tm) датотеки</description>
+		<description xml:lang="ms">Import/Eksport fail MS Excel (tm)</description>
+		<description xml:lang="nb">Importerer/eksporterer MS Excel (tm) filer</description>
+		<description xml:lang="ne">एमएस एक्सेल (टिएम) फाइलहरू आयात गर्नुहोस्/निर्यात गर्नुहोस्</description>
+		<description xml:lang="nl">Importeert/Exporteert MS Excel (tm) bestanden</description>
+		<description xml:lang="nn">Importerar/eksporterar MS Excel (tm) filer</description>
+		<description xml:lang="pl">Importuje/eksportuje pliki programu Microsoft Excel™</description>
+		<description xml:lang="pt">Importa/Exporta ficheiros MS Excel (tm)</description>
+		<description xml:lang="pt_BR">Importa e exporta arquivos do MS Excel (tm)</description>
+		<description xml:lang="ru">Импортирует/экспортирует файлы MS Excel (tm)</description>
+		<description xml:lang="sk">Importuje a exportuje súbory MS Excel 9(tm)</description>
+		<description xml:lang="sl">Uvažanje in izvažanje datotek programa MS Excel (tm)</description>
+		<description xml:lang="sr">Увезите/извезите МС Ексел (tm) датотеке</description>
+		<description xml:lang="sr@latin">Uvezite/izvezite MS Eksel (tm) datoteke</description>
+		<description xml:lang="sv">Importerar/Exporterar MS Excel (tm)-filer</description>
+		<description xml:lang="tr">MS Excel (tm) dosyalarını okur/kaydeder</description>
+		<description xml:lang="uk">Імпортує і експортує файли MS Excel (tm)</description>
+		<description xml:lang="vi">Nhập/Xuất tập tin MS Excel™</description>
+		<description xml:lang="zh_CN">导入/导出 MS Excel (tm) 文件</description>
+		<description xml:lang="zh_HK">可匯入/匯出微軟 Excel™ 檔案</description>
+		<description xml:lang="zh_TW">可匯入/匯出微軟 Excel™ 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="excel" name="module_file"/>
+	</loader>
+	<services>
+		
+		<service type="file_opener" probe="TRUE" priority="100" id="excel">
+			<information>
+				<description>MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="bs">MS Eksel&#8482; (*.xls)</description>
+				<description xml:lang="ca">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="cs">MS Excel™ (*.xls)</description>
+				<description xml:lang="da">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="de">MS Excel™ (*.xls)</description>
+				<description xml:lang="el">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="en_GB">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="eo">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="es">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="eu">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="fr">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="gl">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="hu">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="id">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="kk">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="lt">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="lv">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="nb">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="pl">Microsoft Excel™ (*.xls)</description>
+				<description xml:lang="pt">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="pt_BR">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="ru">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="sl">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="sr">МС Ексел&#8482; (*.xls)</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; (*.xls)</description>
+				<description xml:lang="sv">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="tr">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="uk">MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="zh_CN">MS Excel&#8482; (*.xls)</description>
+			</information>
+			<suffixes>
+				<suffix>xls</suffix>
+				<suffix>xlw</suffix>
+				<suffix>xlt</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/vnd.ms-excel</mime-type>
+				<mime-type>application/excel</mime-type>
+				<mime-type>application/msexcel</mime-type>
+				<mime-type>application/x-excel</mime-type>
+				<mime-type>application/x-ms-excel</mime-type>
+				<mime-type>application/x-msexcel</mime-type>
+				<mime-type>application/x-xls</mime-type>
+				<mime-type>application/xls</mime-type>
+				<mime-type>application/x-dos_ms_excel</mime-type>
+				<mime-type>zz-application/zz-winassoc-xls</mime-type>
+			</mime-types>
+		</service>
+
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.ms-excel" id="excel_biff8" format_level="auto" file_extension="xls" default_saver_priority="1">
+			     
+			<information>
+				<description>MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="bs">MS Eksel&#8482; 97/2000/XP</description>
+				<description xml:lang="ca">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="cs">MS Excel™ 97/2000/XP</description>
+				<description xml:lang="da">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="de">MS Excel™ 97/2000/XP</description>
+				<description xml:lang="el">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="en_GB">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="eo">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="es">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="eu">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="fr">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="gl">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="hu">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="id">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="kk">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="lt">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="lv">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="nb">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="pl">Microsoft Excel™ 97/2000/XP</description>
+				<description xml:lang="pt">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="pt_BR">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="ru">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="sl">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="sr">МС Ексел&#8482; 97/2000/XP</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; 97/2000/XP</description>
+				<description xml:lang="sv">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="tr">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="uk">MS Excel&#8482; 97/2000/XP</description>
+				<description xml:lang="zh_CN">MS Excel&#8482; 97/2000/XP</description>
+			</information>
+		</service>
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.ms-excel" id="excel_biff7" format_level="auto" file_extension="xls">
+			<information>
+				<description>MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="bs">MS Eksel&#8482; 5.0/95</description>
+				<description xml:lang="ca">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="cs">MS Excel™ 5.0/95</description>
+				<description xml:lang="da">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="de">MS Excel™ 5.0/95</description>
+				<description xml:lang="el">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="en_GB">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="eo">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="es">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="eu">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="fr">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="gl">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="hu">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="id">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="kk">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="lt">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="lv">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="nb">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="pl">Microsoft Excel™ 5.0/95</description>
+				<description xml:lang="pt">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="pt_BR">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="ru">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="sl">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="sr">МС Ексел&#8482; 5.0/95</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; 5.0/95</description>
+				<description xml:lang="sv">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="tr">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="uk">MS Excel&#8482; 5.0/95</description>
+				<description xml:lang="zh_CN">MS Excel&#8482; 5.0/95</description>
+			</information>
+		</service>
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.ms-excel" id="excel_dsf" format_level="auto" file_extension="xls">
+			<information>
+				<description>MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="bs">MS Eksel&#8482; 97/2000/XP i 5.0/95</description>
+				<description xml:lang="ca">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="cs">MS Excel™ 97/2000/XP a 5.0/95</description>
+				<description xml:lang="da">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="de">MS Excel™ 97/2000/XP u. 5.0/95</description>
+				<description xml:lang="el">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="en_GB">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="eo">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="es">MS Excel&#8482; 97/2000/XP y 5.0/95</description>
+				<description xml:lang="eu">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="fr">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="gl">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="hu">MS Excel&#8482; 97/2000/XP és 5.0/95</description>
+				<description xml:lang="id">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="kk">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="lt">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="lv">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="nb">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="pl">Microsoft Excel™ 97/2000/XP i 5.0/95</description>
+				<description xml:lang="pt">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="pt_BR">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="ru">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="sl">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="sr">МС Ексел&#8482; 97/2000/XP и 5.0/95</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; 97/2000/XP i 5.0/95</description>
+				<description xml:lang="sv">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="tr">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+				<description xml:lang="uk">MS Excel&#8482; 97/2000/XP і 5.0/95</description>
+				<description xml:lang="zh_CN">MS Excel&#8482; 97/2000/XP &amp; 5.0/95</description>
+			</information>
+		</service>
+
+		
+		<service type="file_opener" probe="TRUE" priority="1" id="excel_xml">
+			<information>
+				<description>MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="bs">MS Eksel&#8482; 2003 Tablica ML</description>
+				<description xml:lang="ca">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="cs">MS Excel™ 2003 SpreadsheetML</description>
+				<description xml:lang="da">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="de">MS Excel™ 2003 SpreadsheetML</description>
+				<description xml:lang="el">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="en_GB">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="es">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="eu">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="fr">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="gl">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="hu">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="id">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="kk">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="lt">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="lv">MS Excel&#8482; 2003 izklājlapuML</description>
+				<description xml:lang="nb">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="pl">Microsoft Excel™ 2003 SpreadsheetML</description>
+				<description xml:lang="pt">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="pt_BR">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="ru">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="sl">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="sr">МС Ексел&#8482; 2003 Таблица МЛ</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; 2003 Tablica ML</description>
+				<description xml:lang="sv">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="tr">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="uk">MS Excel&#8482; 2003 SpreadsheetML</description>
+				<description xml:lang="zh_CN">MS Excel (tm) 2003 电子表格标记语言</description>
+			</information>
+			<suffixes>
+				<suffix>xml</suffix>
+			</suffixes>
+		</service>
+
+		
+		<service type="file_opener" probe="TRUE" priority="100" id="xlsx">
+			<information>
+				<description>ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="bs">ECMA 376 / Kancelarijski otvoreni IksML [MS Eksel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="ca">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="cs">ECMA 376 / Office Open XML [MS Excel™ 2007/2010] (*.xlsx)</description>
+				<description xml:lang="da">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="de">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="el">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="en_GB">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="eo">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="es">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="eu">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="fr">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="gl">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="hu">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="id">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="kk">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="lt">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="lv">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="nb">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010 (*.xlsx)</description>
+				<description xml:lang="pl">ECMA 376/Office Open XML [Microsoft Excel™ 2007/2010] (*.xlsx)</description>
+				<description xml:lang="pt">ECMA 376/Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="pt_BR">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="ru">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="sl">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="sr">ЕЦМА 376 / Канцеларијски отворени ИксМЛ [МС Ексел&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="sr@latin">ECMA 376 / Kancelarijski otvoreni IksML [MS Eksel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="sv">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="tr">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+				<description xml:lang="uk">ECMA 376 / Office Open XML [MS Excel&#8482; 2007/2010] (*.xlsx)</description>
+			</information>
+			<suffixes>
+				<suffix>xlsx</suffix>
+				<suffix>xltx</suffix>
+				<suffix>xlsb</suffix>
+				<suffix>xlsm</suffix>
+				<suffix>xltm</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.sheet</mime-type>
+				<mime-type>application/vnd.openxmlformats-officedocument.spreadsheetml.template</mime-type>
+
+			</mime-types>
+ 		</service>
+
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" id="xlsx" format_level="auto" file_extension="xlsx">
+			<information>
+				<description>ECMA 376 1st edition (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="bs">ECMA 376 1° izdanje (2006); [MS Eksel&#8482; 2007]</description>
+				<description xml:lang="ca">ECMA 376 1st edition (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="cs">ECMA 376 1. vydání (2006); [MS Excel™ 2007]</description>
+				<description xml:lang="da">ECMA 376 udgave 1 (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="de">ECMA 376 1st edition (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="el">ECMA 376 1η έκδοση (2006)· [MS Excel&#8482; 2007]</description>
+				<description xml:lang="en_GB">ECMA 376 1st edition (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="es">ECMA 376 primera edición (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="eu">ECMA 376 1. edizioa (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="fr">ECMA 376 1st edition (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="gl">ECMA 376 primeira edición (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="hu">ECMA 376 első kiadás (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="id">ECMA 376 edisi 1 (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="kk">ECMA 376 1-ші басылымы (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="lt">ECMA 376 1-as leidimas (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="lv">ECMA 376 1. laidiens (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="nb">ECMA 376 første utgave (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="pl">ECMA 376 pierwszej edycji (2006), [Microsoft Excel™ 2007]</description>
+				<description xml:lang="pt">ECMA 376 1ª edição (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="pt_BR">ECMA 376 1ª edição (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="ru">ECMA 376 1ое издание (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="sl">ECMA 376 1. izdaje (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="sr">ЕЦМА 376 1° издање (2006); [МС Ексел&#8482; 2007]</description>
+				<description xml:lang="sr@latin">ECMA 376 1° izdanje (2006); [MS Eksel&#8482; 2007]</description>
+				<description xml:lang="sv">ECMA 376 1:a utgåvan (2006); [MS Excel&#8482; 2007]</description>
+				<description xml:lang="uk">Перша редакція ECMA 376 (2006); [MS Excel&#8482; 2007]</description>
+			</information>
+		</service>
+
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" id="xlsx2" format_level="auto" file_extension="xlsx">
+			<information>
+				<description>ISO/IEC 29500:2008 &amp; ECMA 376 2nd edition (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="bs">ISO/IEC 29500:2008 i ECMA 376 2° izdanje (2008); [MS Eksel&#8482; 2010]</description>
+				<description xml:lang="ca">ISO/IEC 29500:2008 &amp; ECMA 376 2nd edition (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="cs">ISO/IEC 29500:2008 a ECMA 376 2. vydání (2008); [MS Excel™ 2010]</description>
+				<description xml:lang="da">ISO/IEC 29500:2008 &amp; ECMA 376 udgave 2 (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="de">ISO/IEC 29500:2008 &amp; ECMA 376 2nd edition (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="el">ISO/IEC 29500:2008 &amp; ECMA 376 2η έκδοση (2008)· [MS Excel&#8482; 2010]</description>
+				<description xml:lang="en_GB">ISO/IEC 29500:2008 &amp; ECMA 376 2nd edition (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="es">ISO/IEC 29500:2008 &amp; ECMA 376 segunda edición (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="eu">ISO/IEC 29500:2008 &amp; ECMA 376 2. edizioa (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="fr">ISO/IEC 29500:2008 &amp; ECMA 376 2nd edition (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="gl">ISO/IEC 29500:2008 &amp; ECMA 376 segunda edición (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="hu">ISO/IEC 29500:2008 és ECMA 376 második kiadás (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="id">ISO/IEC 29500:2008 &amp; ECMA 376 edisi 2 (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="kk">ISO/IEC 29500:2008 &amp; ECMA 376 2-ші басылымы (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="lt">ISO/IEC 29500:2008 &amp; ECMA 376 2-as leidimas (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="lv">ISO/IEC 29500:2008 &amp; ECMA 376 2. laidiens (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="nb">ISO/IEC 29500:2008 &amp; ECMA 376 andre utgave (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="pl">ISO/IEC 29500:2008 i ECMA 376 drugiej edycji (2008), [Microsoft Excel™ 2010]</description>
+				<description xml:lang="pt">ISO/IEC 29500:2008 &amp; ECMA 376 2ª edição (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="ru">ISO/IEC 29500:2008 &amp; ECMA 376 2ое издание (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="sl">ISO/IEC 29500:2008 &amp; ECMA 376 2. izdaje (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="sr">ИСО/ИЕЦ 29500:2008 и ЕЦМА 376 2° издање (2008); [МС Ексел&#8482; 2010]</description>
+				<description xml:lang="sr@latin">ISO/IEC 29500:2008 i ECMA 376 2° izdanje (2008); [MS Eksel&#8482; 2010]</description>
+				<description xml:lang="sv">ISO/IEC 29500:2008 &amp; ECMA 376 2:a utgåvan (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="uk">Друга редакція ISO/IEC 29500:2008 і ECMA 376 (2008); [MS Excel&#8482; 2010]</description>
+				<description xml:lang="zh_HK">ISO/IEC 29500:2008 &amp; ECMA 376 第二版 (2008年); [MS Excel&#8482; 2010年]</description>
+				<description xml:lang="zh_TW">ISO/IEC 29500:2008 &amp; ECMA 376 第二版 (2008年); [MS Excel&#8482; 2010年]</description>
+			</information>
+		</service>
+		<service type="file_opener" probe="FALSE" priority="200" id="excel_enc" encoding_dependent="TRUE">
+			<information>
+				<description>MS Excel&#8482; (*.xls) requiring encoding specification</description>
+				<description xml:lang="bs">MS Eksel&#8482; (*.xls) zahtjeva osobenost kodiranja</description>
+				<description xml:lang="ca">MS Excel&#8482; (*.xls) que requereix especificació de codificació</description>
+				<description xml:lang="cs">MS Excel™ (*.xls) s nutností uvést kódování</description>
+				<description xml:lang="da">MS Excel&#8482; (*.xls) kræver angivelse af kodning</description>
+				<description xml:lang="de">MS Excel&#8482; (*.xls) benötigt die Angabe der Enkodierung</description>
+				<description xml:lang="el">MS Excel&#8482; (*.xls) απαιτεί προδιαγραφή κωδικοποίησης</description>
+				<description xml:lang="en_GB">MS Excel&#8482; (*.xls) requiring encoding specification</description>
+				<description xml:lang="es">MS Excel&#8482; (*.xls) requiere especificación de codificación</description>
+				<description xml:lang="eu">MS Excel&#8482; (*.xls), kodeketa-espezifikazioa behar duena</description>
+				<description xml:lang="fr">MS Excel&#8482; (*.xls) exigeant une spécification du codage</description>
+				<description xml:lang="gl">MS Excel&#8482; (*.xls) require especificación de codificación</description>
+				<description xml:lang="hu">Kódolási előírást igénylő MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="id">MS Excel&#8482; (*.xls) memerlukan spesifikasi pengkodean</description>
+				<description xml:lang="kk">Кодтау сипаттамасын талап ететін MS Excel&#8482; (*.xls)</description>
+				<description xml:lang="lt">MS Excel&#8482; (*.xls) reikalauja nurodyti koduotę</description>
+				<description xml:lang="lv">MS Excel&#8482; (*.xls) pieprasa kodējuma specifikāciju</description>
+				<description xml:lang="nb">MS Excel&#8482; (*.xls) krever spesifikasjon for koding</description>
+				<description xml:lang="pl">Microsoft Excel™ (*.xls) wymaga podania kodowania</description>
+				<description xml:lang="pt">MS Excel&#8482; (*.xls) necessitando de especificação de codificação</description>
+				<description xml:lang="ru">MS Excel&#8482; (*.xls) требуется указание кодировки</description>
+				<description xml:lang="sl">MS Excel&#8482; (*.xls) z zahtevo določila kodnega nabora</description>
+				<description xml:lang="sr">МС Ексел&#8482; (*.xls) захтева особеност кодирања</description>
+				<description xml:lang="sr@latin">MS Eksel&#8482; (*.xls) zahteva osobenost kodiranja</description>
+				<description xml:lang="sv">MS Excel&#8482; (*.xls) kräver kodningspecifikation</description>
+				<description xml:lang="uk">MS Excel&#8482; (*.xls) потребує специфікації кодування</description>
+				<description xml:lang="zh_CN">MS Excel&#8482; (*.xls) 需要编码规范</description>
+				<description xml:lang="zh_HK">MS Excel&#8482; (*.xls) 需要指明編號</description>
+				<description xml:lang="zh_TW">MS Excel&#8482; (*.xls) 需要指明編號</description>
+			</information>
+		</service>
+	</services>
+</plugin>

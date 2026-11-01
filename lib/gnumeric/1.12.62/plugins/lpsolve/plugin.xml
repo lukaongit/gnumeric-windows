@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_lpsolve">
+	<information>
+		<name>LPSolve Linear Program Solver Interface</name>
+		<name xml:lang="bs">Sučelje rešavača LP riješi linearnog programa</name>
+		<name xml:lang="ca">Interfície de solucionador de programes lineals LPSolve</name>
+		<name xml:lang="cs">Rozhraní lineárního programového řešitele LPSolve</name>
+		<name xml:lang="da">Bro til LPSolve lineær programløser</name>
+		<name xml:lang="de">LPSolve Benutzeroberfläche für linearen Programmlöser</name>
+		<name xml:lang="el">Διεπαφή γραμμικού προγράμματος επίλυσης LPSolve</name>
+		<name xml:lang="en_GB">LPSolve Linear Program Solver Interface</name>
+		<name xml:lang="es">Interfaz del programa de resolución lineal LPSolve</name>
+		<name xml:lang="eu">LPSolve programa-ebazle linealaren interfazea</name>
+		<name xml:lang="fi">Lineaarisen LPSolve-ratkaisimen rajapinta</name>
+		<name xml:lang="fr">Interface de programme de solveur linéaire LPSolve</name>
+		<name xml:lang="hu">LPSolve lineáris program megoldó felület</name>
+		<name xml:lang="id">Antar Muka Pemecah Program Linier LPSolve</name>
+		<name xml:lang="kk">LPSolve сызықтық бағдарлама шешкіш интерфейсі</name>
+		<name xml:lang="lt">Linijinio LPSolve programos sprendiklio sąsaja</name>
+		<name xml:lang="lv">LPSolve lineārās programmas risinātāja saskarne</name>
+		<name xml:lang="pl">Interfejs solvera programu liniowego LPSolve</name>
+		<name xml:lang="pt">Ambiente do programa de solução linear LPSolve</name>
+		<name xml:lang="pt_BR">Interface do resolvedor de programa linear LPSolve</name>
+		<name xml:lang="ru">Интерфейс к решателю линейных программ LPSolve</name>
+		<name xml:lang="sl">Vmesnik reševalnika linearnega programiranja LPSolve</name>
+		<name xml:lang="sr">Сучеље решавача ЛП реши линеарног програма</name>
+		<name xml:lang="sr@latin">Sučelje rešavača LP reši linearnog programa</name>
+		<name xml:lang="sv">Gränssnitt för LPSolve linjärprogrammeringsproblemlösare</name>
+		<name xml:lang="uk">Інтерфейс до розв'язувача задач лінійного програмування LPSolve</name>
+		<name xml:lang="zh_CN">LPSolve 纯属规划求解工具接口</name>
+		<name xml:lang="zh_HK">LPSolve 線性程式解答器介面</name>
+		<name xml:lang="zh_TW">LPSolve 線性程式解答器介面</name>
+		<description>Solver Interface to LPSolve</description>
+		<description xml:lang="bs">Sučelje rešavača za LP riješi</description>
+		<description xml:lang="ca">Interfície de solucionador a LPSolve</description>
+		<description xml:lang="cs">Rozhraní řešitele k LPSolve</description>
+		<description xml:lang="da">Løsergrænseflade til LPSolve</description>
+		<description xml:lang="de">Löser-Schnittstelle zu LPSolve</description>
+		<description xml:lang="el">Διεπαφή επίλυσης στο LPSolve</description>
+		<description xml:lang="en_GB">Solver Interface to LPSolve</description>
+		<description xml:lang="es">Interfaz del resolutor para LPSolve</description>
+		<description xml:lang="eu">LPSolve programa-ebazlearen interfazea</description>
+		<description xml:lang="fi">Ratkaisinrajapinta LPSolveen</description>
+		<description xml:lang="fr">Interface de solveur vers LPSolve</description>
+		<description xml:lang="hu">Megoldó felület az LPSolve-hoz</description>
+		<description xml:lang="id">Antar Muka Pemecah ke LPSolve</description>
+		<description xml:lang="kk">LPSolve-қа арналған шешкіш интерфейсі</description>
+		<description xml:lang="lt">LPSolve sprendiklio sąsaja</description>
+		<description xml:lang="lv">LPSolve risinātāja saskarne</description>
+		<description xml:lang="pl">Interfejs solvera dla LPSolve</description>
+		<description xml:lang="pt">Ambiente de solução para LPSolve</description>
+		<description xml:lang="pt_BR">Interface do resolvedor para LPSolve</description>
+		<description xml:lang="ru">Интерфейс к решателю LPSolve</description>
+		<description xml:lang="sl">Vmesnik reševalnika za LPSolve</description>
+		<description xml:lang="sr">Сучеље решавача за ЛП реши</description>
+		<description xml:lang="sr@latin">Sučelje rešavača za LP reši</description>
+		<description xml:lang="sv">Lösningsgränssnitt till LPSolve</description>
+		<description xml:lang="uk">Інтерфейс розв'язувача для LPSolve</description>
+		<description xml:lang="zh_CN">LPSolve 的求解工具接口</description>
+		<description xml:lang="zh_HK">LPSolver 的解答器介面</description>
+		<description xml:lang="zh_TW">LPSolver 的解答器介面</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="lpsolve" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_saver" save_scope="sheet" mime_type="application/lpsolve" id="lpsolve" format_level="write_only" file_extension="lp">
+			<information>
+				<description>LPSolve Linear Program Solver</description>
+				<description xml:lang="bs">Rešavač LP riješi linearnog programa</description>
+				<description xml:lang="ca">Solucionador de programes lineals LPSolve</description>
+				<description xml:lang="cs">Lineární programový řešitel LPSolve</description>
+				<description xml:lang="da">LPSolve lineær programløser</description>
+				<description xml:lang="de">LPSolve Linearer Programmlöser</description>
+				<description xml:lang="el">Επίλυση γραμμικού προγράμματος Lpsolve</description>
+				<description xml:lang="en_GB">LPSolve Linear Program Solver</description>
+				<description xml:lang="es">Programa de resolución lineal LPSolve</description>
+				<description xml:lang="eu">LPSolve programa-ebazle lineala</description>
+				<description xml:lang="fi">Lineaarinen LPSolve-ratkaisin </description>
+				<description xml:lang="fr">Programme de solveur linéaire LPSolve</description>
+				<description xml:lang="gl">Programa de resolución lineal LPSolve</description>
+				<description xml:lang="hu">LPSolve lineáris program megoldó</description>
+				<description xml:lang="id">Pemecah Program Linier LPSolve</description>
+				<description xml:lang="kk">LPSolve сызықтық бағдарлама шешкіші</description>
+				<description xml:lang="lt">Tiesinis LPSolve programos sprendiklis</description>
+				<description xml:lang="lv">LPSolve lineārās programmas risinātājs</description>
+				<description xml:lang="nb">LPsolve lineær program problemløser</description>
+				<description xml:lang="pl">Solver programu liniowego LPSolve</description>
+				<description xml:lang="pt">Programa de solução linear LPSolve</description>
+				<description xml:lang="pt_BR">Resolvedor de programa linear LPSolve</description>
+				<description xml:lang="ru">Решатель линейных программ LPSolve</description>
+				<description xml:lang="sl">Reševalnik linearnega programiranja LPSolve</description>
+				<description xml:lang="sr">Решавач ЛП реши линеарног програма</description>
+				<description xml:lang="sr@latin">Rešavač LP reši linearnog programa</description>
+				<description xml:lang="sv">LPSolve linjärprogrammeringsproblemlösare</description>
+				<description xml:lang="uk">Розв'язувач задач лінійного програмування LPSolve</description>
+				<description xml:lang="zh_CN">LPSolve 线性规划求解工具</description>
+				<description xml:lang="zh_HK">LPSolve 線性程式解答器</description>
+				<description xml:lang="zh_TW">LPSolve 線性程式解答器</description>
+			</information>
+		</service>
+		<service type="solver" model_type="mip" id="lpsolve">
+			<information>
+			  <description>LPSolve</description>
+			  <description xml:lang="bs">LP riješi</description>
+			  <description xml:lang="ca">LPSolve</description>
+			  <description xml:lang="cs">LPSolve</description>
+			  <description xml:lang="da">LPSolve</description>
+			  <description xml:lang="de">LPSolve</description>
+			  <description xml:lang="el">LPSolve</description>
+			  <description xml:lang="en_GB">LPSolve</description>
+			  <description xml:lang="es">LPSolve</description>
+			  <description xml:lang="eu">LPSolve</description>
+			  <description xml:lang="fi">LPSolve</description>
+			  <description xml:lang="fr">LPSolve</description>
+			  <description xml:lang="gl">LPSolve</description>
+			  <description xml:lang="hu">LPSolve</description>
+			  <description xml:lang="id">LPSolve</description>
+			  <description xml:lang="kk">LPSolve</description>
+			  <description xml:lang="lt">LPSolve</description>
+			  <description xml:lang="lv">LPSolve</description>
+			  <description xml:lang="nb">LPSolve</description>
+			  <description xml:lang="pl">LPSolve</description>
+			  <description xml:lang="pt">LPSolve</description>
+			  <description xml:lang="pt_BR">LPSolve</description>
+			  <description xml:lang="ru">LPSolve</description>
+			  <description xml:lang="sl">LPSolve</description>
+			  <description xml:lang="sr">ЛП реши</description>
+			  <description xml:lang="sr@latin">LP reši</description>
+			  <description xml:lang="sv">LPSolve</description>
+			  <description xml:lang="uk">LPSolve</description>
+			  <description xml:lang="zh_CN">LPSolve</description>
+			  <description xml:lang="zh_HK">LPSolve</description>
+			  <description xml:lang="zh_TW">LPSolve</description>
+			</information>
+		</service>
+	</services>
+</plugin>

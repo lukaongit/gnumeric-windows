@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_sc">
+	<information>
+		<name>SC/XSpread</name>
+		<name xml:lang="am">SC/XSpread</name>
+		<name xml:lang="ast">SC/XSpread</name>
+		<name xml:lang="bg">SC/XSpread</name>
+		<name xml:lang="bs">SC/Iks sprid</name>
+		<name xml:lang="ca">SC/XSpread</name>
+		<name xml:lang="ca@valencia">SC/XSpread</name>
+		<name xml:lang="cs">SC/XSpread</name>
+		<name xml:lang="da">SC/XSpread</name>
+		<name xml:lang="de">SC/XSpread</name>
+		<name xml:lang="dz">ཨེསི་སི་/ཨེགསི་དར་ཁྱབ་</name>
+		<name xml:lang="el">SC/XSpread</name>
+		<name xml:lang="en_CA">SC/XSpread</name>
+		<name xml:lang="en_GB">SC/XSpread</name>
+		<name xml:lang="es">SC/XSpread</name>
+		<name xml:lang="et">SC/XSpread</name>
+		<name xml:lang="eu">SC/XSpread</name>
+		<name xml:lang="fi">SC/XSpread</name>
+		<name xml:lang="fr">SC/XSpread</name>
+		<name xml:lang="ga">SC/XSpread</name>
+		<name xml:lang="gl">SC/XSpread</name>
+		<name xml:lang="gu">SC/XSpread</name>
+		<name xml:lang="hr">SC/XSpread</name>
+		<name xml:lang="hu">SC/XSpread</name>
+		<name xml:lang="id">SC/XSpread</name>
+		<name xml:lang="it">SC/XSpread</name>
+		<name xml:lang="ja">SC/XSpread</name>
+		<name xml:lang="kk">SC/XSpread</name>
+		<name xml:lang="ko">SC/XSpread</name>
+		<name xml:lang="lt">SC/XSpread</name>
+		<name xml:lang="lv">SC/XSpread</name>
+		<name xml:lang="ml">SC/Xസ്പ്രെഡ്</name>
+		<name xml:lang="ms">SC/XSpread</name>
+		<name xml:lang="nb">SC/XSpread</name>
+		<name xml:lang="ne">SC/XSpread</name>
+		<name xml:lang="nl">SC/XSpread</name>
+		<name xml:lang="nn">SC/XSpread</name>
+		<name xml:lang="pl">SC/XSpread</name>
+		<name xml:lang="pt">SC/XSpread</name>
+		<name xml:lang="pt_BR">SC/XSpread</name>
+		<name xml:lang="ro">SC/XSpread</name>
+		<name xml:lang="ru">SC/XSpread</name>
+		<name xml:lang="sk">SC/XSpread</name>
+		<name xml:lang="sl">SC/XSpread</name>
+		<name xml:lang="sr">СЦ/Икс сприд</name>
+		<name xml:lang="sr@latin">SC/Iks sprid</name>
+		<name xml:lang="sv">SC/XSpread</name>
+		<name xml:lang="tr">SC/XSpread</name>
+		<name xml:lang="uk">SC/XSpread</name>
+		<name xml:lang="vi">SC/XSpread</name>
+		<name xml:lang="zh_CN">SC/XSpread</name>
+		<name xml:lang="zh_HK">SC/XSpread</name>
+		<name xml:lang="zh_TW">SC/XSpread</name>
+		<description>Imports SC/XSpread files</description>
+		<description xml:lang="ast">Importa un ficheru SC/XSpread</description>
+		<description xml:lang="bg">Внасяне на файлове, формат SC/XSpread</description>
+		<description xml:lang="bs">Uvozi SC/XSpread datoteke</description>
+		<description xml:lang="ca">Importa fitxers SC/XSpread</description>
+		<description xml:lang="ca@valencia">Importa fitxers SC/XSpread</description>
+		<description xml:lang="cs">Importuje soubory SC/XSpread</description>
+		<description xml:lang="da">Importerer SC/XSpread-filer</description>
+		<description xml:lang="de">Importiert SC/XSpread-Dateien</description>
+		<description xml:lang="dz">ཨེསི་སི་/ཨེགསི་དར་ཁྱབ་ཡིག་སྣོད་ཚུ་</description>
+		<description xml:lang="el">Εισάγει αρχεία SC/XSpread</description>
+		<description xml:lang="en_CA">Imports SC/XSpread files</description>
+		<description xml:lang="en_GB">Imports SC/XSpread files</description>
+		<description xml:lang="es">Importa archivos SC/XSpread</description>
+		<description xml:lang="et">Impordib SC/XSpread faile</description>
+		<description xml:lang="eu">SC/XSpread fitxategiak inportatzen ditu</description>
+		<description xml:lang="fi">Tuo SC/XSpread-tiedostoja</description>
+		<description xml:lang="fr">Importe les fichiers SC/XSpread</description>
+		<description xml:lang="gl">Importa ficheiros SC/XSpread</description>
+		<description xml:lang="hr">Uvozi datoteku SC/XSpread</description>
+		<description xml:lang="hu">SC/XSpread fájlokat importál</description>
+		<description xml:lang="id">Impor berkas SC/XSpread</description>
+		<description xml:lang="it">Importa file SC/XSpread</description>
+		<description xml:lang="ja">SC/XSpread ファイルをインポートします</description>
+		<description xml:lang="kk">SC/XSpread файлдарын импорттайды</description>
+		<description xml:lang="ko">SC/XSpread 파일 읽어들이기</description>
+		<description xml:lang="lt">Importuoja SC/XSpread failus</description>
+		<description xml:lang="lv">Importē SC/XSpread datnes</description>
+		<description xml:lang="ml">SC/XSpread രചനകള്‌ കൊണ്ടുവരുക</description>
+		<description xml:lang="ms">Import fail SC/XSpread</description>
+		<description xml:lang="nb">Importerer SC/XSpread filer</description>
+		<description xml:lang="ne">एससि/एक्सस्पेड फाइलहरू आयात गर्छ</description>
+		<description xml:lang="nl">Importeert SC/XSpread bestanden</description>
+		<description xml:lang="nn">Importerar ei SC/XSpread fil</description>
+		<description xml:lang="pl">Importuje pliki programu SC/XSpread</description>
+		<description xml:lang="pt">Importa ficheiros SC/XSpread</description>
+		<description xml:lang="pt_BR">Importa arquivos SC/XSpread</description>
+		<description xml:lang="ro">Importă fișiere SC/XSpread</description>
+		<description xml:lang="ru">Импортирует файлы SC/XSpread</description>
+		<description xml:lang="sk">Importuje súbory SC/XSpread</description>
+		<description xml:lang="sl">Uvažanje datotek programa SC/XSpread</description>
+		<description xml:lang="sr">Увози СЦ/Икс сприд датотеке</description>
+		<description xml:lang="sr@latin">Uvozi SC/Iks sprid datoteke</description>
+		<description xml:lang="sv">Importerar SC/XSpread-filer</description>
+		<description xml:lang="tr">SC/XSpread dosyalarını açar</description>
+		<description xml:lang="uk">Імпортує файли SC/XSpread</description>
+		<description xml:lang="vi">Nhập tập tin SC/XSpread</description>
+		<description xml:lang="zh_CN">导入 SC/XSpread 文件</description>
+		<description xml:lang="zh_HK">可匯入 SC/XSpread 檔案</description>
+		<description xml:lang="zh_TW">可匯入 SC/XSpread 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="sc" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="51" id="sc">
+			<information>
+				<description>SC/xspread</description>
+				<description xml:lang="am">sc xspread</description>
+				<description xml:lang="ast">SC/xspread</description>
+				<description xml:lang="bg">SC/xspread</description>
+				<description xml:lang="bs">SC/XSpread</description>
+				<description xml:lang="ca">SC/xspread</description>
+				<description xml:lang="ca@valencia">SC/xspread</description>
+				<description xml:lang="cs">SC/xspread</description>
+				<description xml:lang="da">SC/xspread</description>
+				<description xml:lang="de">SC/xspread</description>
+				<description xml:lang="dz">ཨེསི་སི་/ཨེགསི་དར་ཁྱབ་</description>
+				<description xml:lang="el">SC/xspread</description>
+				<description xml:lang="en_CA">SC/xspread</description>
+				<description xml:lang="en_GB">SC/xspread</description>
+				<description xml:lang="es">SC/xspread</description>
+				<description xml:lang="et">SC/xspread</description>
+				<description xml:lang="eu">SC/xspread</description>
+				<description xml:lang="fi">SC/xspread</description>
+				<description xml:lang="fr">SC/xspread</description>
+				<description xml:lang="ga">SC/xspread</description>
+				<description xml:lang="gl">SC/xspread</description>
+				<description xml:lang="gu">SC/xspread</description>
+				<description xml:lang="hr">SC/XSpread</description>
+				<description xml:lang="hu">SC/xspread</description>
+				<description xml:lang="id">SC/xspread</description>
+				<description xml:lang="it">SC/xspread</description>
+				<description xml:lang="ja">SC/xspread</description>
+				<description xml:lang="kk">SC/xspread</description>
+				<description xml:lang="ko">SC/xspread</description>
+				<description xml:lang="lt">SC/xspread</description>
+				<description xml:lang="lv">SC/xspread</description>
+				<description xml:lang="ml">SC/xspread</description>
+				<description xml:lang="ms">SC/xspread</description>
+				<description xml:lang="nb">SC/xspread</description>
+				<description xml:lang="ne">SC/xspread</description>
+				<description xml:lang="nl">SC/xspread</description>
+				<description xml:lang="nn">SC/xspread</description>
+				<description xml:lang="pl">SC/XSpread</description>
+				<description xml:lang="pt">SC/xspread</description>
+				<description xml:lang="pt_BR">SC/xspread</description>
+				<description xml:lang="ro">SC/xspread</description>
+				<description xml:lang="ru">SC/xspread</description>
+				<description xml:lang="sk">SC/xspread</description>
+				<description xml:lang="sl">SC/xspread</description>
+				<description xml:lang="sr">СЦ/икс сприд</description>
+				<description xml:lang="sr@latin">SC/iks sprid</description>
+				<description xml:lang="sv">SC/xspread</description>
+				<description xml:lang="tr">SC/xspread</description>
+				<description xml:lang="uk">SC/xspread</description>
+				<description xml:lang="vi">SC/xspread</description>
+				<description xml:lang="zh_CN">SC/xspread</description>
+				<description xml:lang="zh_HK">SC/xspread</description>
+				<description xml:lang="zh_TW">SC/xspread</description>
+			</information>
+			<mime-types>
+				<mime-type>application/x-sc</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

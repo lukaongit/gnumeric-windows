@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_plan_perfect">
+	<information>
+		<name>Plan Perfect</name>
+		<name xml:lang="ast">Plan Perfect</name>
+		<name xml:lang="bg">Plan Perfect</name>
+		<name xml:lang="bs">Plan Perfekt</name>
+		<name xml:lang="ca">Plan Perfect</name>
+		<name xml:lang="ca@valencia">Plan Perfect</name>
+		<name xml:lang="cs">Plan Perfect</name>
+		<name xml:lang="da">Plan Perfect</name>
+		<name xml:lang="de">PLN Format</name>
+		<name xml:lang="dz">འཆར་གཞི་ཡང་དག་</name>
+		<name xml:lang="el">Βέλτιστος σχεδιασμός</name>
+		<name xml:lang="en_CA">Plan Perfect</name>
+		<name xml:lang="en_GB">Plan Perfect</name>
+		<name xml:lang="es">Plan Perfect</name>
+		<name xml:lang="et">Plan Perfect</name>
+		<name xml:lang="eu">Plan Perfect</name>
+		<name xml:lang="fi">Plan Perfect</name>
+		<name xml:lang="fr">Plan Perfect</name>
+		<name xml:lang="ga">Plan Perfect</name>
+		<name xml:lang="gl">Plan Perfect</name>
+		<name xml:lang="hr">Plan Perfekt</name>
+		<name xml:lang="hu">Plan Perfect</name>
+		<name xml:lang="id">Plan Perfect</name>
+		<name xml:lang="it">Plan Perfect</name>
+		<name xml:lang="ja">Plan Perfect</name>
+		<name xml:lang="kk">Plan Perfect</name>
+		<name xml:lang="ko">Plan Perfect</name>
+		<name xml:lang="lt">Plan Perfect</name>
+		<name xml:lang="lv">Plan Perfect</name>
+		<name xml:lang="ml">പരിപൂ‌ര്‌ണ പദ്ധതി</name>
+		<name xml:lang="ms">Plan Perfect</name>
+		<name xml:lang="nb">Plan Perfect</name>
+		<name xml:lang="ne">योजना पूर्ण</name>
+		<name xml:lang="nl">Plan Perfect</name>
+		<name xml:lang="nn">Plan Perfect</name>
+		<name xml:lang="pl">Plan Perfect</name>
+		<name xml:lang="pt">Plan Perfect</name>
+		<name xml:lang="pt_BR">Plan Perfect</name>
+		<name xml:lang="ro">Plan Perfect</name>
+		<name xml:lang="ru">Plan Perfect</name>
+		<name xml:lang="sk">Plan Perfect</name>
+		<name xml:lang="sl">Plan Perfect</name>
+		<name xml:lang="sr">План Перфект</name>
+		<name xml:lang="sr@latin">Plan Perfekt</name>
+		<name xml:lang="sv">Plan Perfect</name>
+		<name xml:lang="tr">Plan Perfect</name>
+		<name xml:lang="uk">Plan Perfect</name>
+		<name xml:lang="vi">Plan Perfect</name>
+		<name xml:lang="zh_CN">Plan Perfect</name>
+		<name xml:lang="zh_HK">Plan Perfect</name>
+		<name xml:lang="zh_TW">Plan Perfect</name>
+		<description>Imports Plan Perfect Formatted Documents</description>
+		<description xml:lang="ast">Importa documentos con formatu Plan Perfect</description>
+		<description xml:lang="bg">Внасяне на форматирани документи на "Plan Perfect"</description>
+		<description xml:lang="bs">Uvozi Plan Perfekt oblikovane dokumente</description>
+		<description xml:lang="ca">Importa documents de format Plan Perfect</description>
+		<description xml:lang="ca@valencia">Importa documents de format Plan Perfect</description>
+		<description xml:lang="cs">Importuje dokumenty ve formátu Plan Perfect</description>
+		<description xml:lang="da">Importerer Plan Perfect-formaterede dokumenter</description>
+		<description xml:lang="de">Dokumente im »Plan Perfect«-Format (PLN) importieren</description>
+		<description xml:lang="dz">འཆར་གཞི་ཡང་དག་སྦེ་རྩ་སྒྲིག་འབད་འབད་བའི་ཡིག་ཆ་ཚུ་ནང་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισάγει μορφοποιημένα έγγραφα Plan Perfect</description>
+		<description xml:lang="en_CA">Imports Plan Perfect Formatted Documents</description>
+		<description xml:lang="en_GB">Imports Plan Perfect Formatted Documents</description>
+		<description xml:lang="es">Importa documentos con formato Plan Perfect</description>
+		<description xml:lang="et">Impordib Plan Perfect'i poolt loodud dokumente</description>
+		<description xml:lang="eu">Plan Perfect formatuko dokumentuak inportatzen ditu</description>
+		<description xml:lang="fi">Tuo Plan Perfect -muotoiltuja asiakirjoja</description>
+		<description xml:lang="fr">Importe les documents au format Plan Perfect</description>
+		<description xml:lang="gl">Importa documentos en formato Plan Perfect</description>
+		<description xml:lang="hr">Uvozi Plan Perfekt oblikovane dokumente</description>
+		<description xml:lang="hu">Plan Perfect formátumú dokumentumokat importál</description>
+		<description xml:lang="id">Impor Dokumen Berformat Plan Perfect</description>
+		<description xml:lang="it">Importa documenti in formato Plan Perfect</description>
+		<description xml:lang="ja">Plan Perfect 形式のドキュメントをインポートします</description>
+		<description xml:lang="kk">Plan Perfect пішімделген құжаттарды импорттайды</description>
+		<description xml:lang="ko">Plan Perfect 형식의 문서 읽어들이기</description>
+		<description xml:lang="lt">Importuoja Plan Perfect formato dokumentus</description>
+		<description xml:lang="lv">Importē Plan Perfect formatētus dokumentus</description>
+		<description xml:lang="ms">Import dokuman format Plan Perfect</description>
+		<description xml:lang="nb">Importerer Plan Perfect formaterte dokumenter</description>
+		<description xml:lang="ne">योजना पूर्ण ढाँचा गरिएको कागजात आयात गर्छ</description>
+		<description xml:lang="nl">Importeert Plan Perfect Geformateerde Documenten</description>
+		<description xml:lang="nn">Importerar Plan Perfect formaterte dokument</description>
+		<description xml:lang="pl">Importuje sformatowane dokumenty programu Plan Perfect</description>
+		<description xml:lang="pt">Importa documentos formatados Plan Perfect</description>
+		<description xml:lang="pt_BR">Importa documentos no formato Plan Perfect</description>
+		<description xml:lang="ro">Importă documente formatate Plan Perfect</description>
+		<description xml:lang="ru">Импортирует документы в формате Plan Perfect</description>
+		<description xml:lang="sk">Importuje dokumenty vo formáte Plan Perfect</description>
+		<description xml:lang="sl">Uvažanje datotek programa Plan Perfect</description>
+		<description xml:lang="sr">Увози документе обликоване Планом Перфектом</description>
+		<description xml:lang="sr@latin">Uvozi dokumente oblikovane Planom Perfektom</description>
+		<description xml:lang="sv">Importerar Plan Perfect-formaterade dokument</description>
+		<description xml:lang="tr">Plan Perfect Biçemli belgeleri açar</description>
+		<description xml:lang="uk">Імпортує сформатовані документи Plan Perfect</description>
+		<description xml:lang="vi">Nhập tài liệu định dạng Plan Perfect</description>
+		<description xml:lang="zh_CN">导入 Plan Perfect 格式化文档</description>
+		<description xml:lang="zh_HK">可匯入 Plan Perfect 格式檔案</description>
+		<description xml:lang="zh_TW">可匯入 Plan Perfect 格式檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plan_perfect" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="1" id="pln">
+			<information>
+				<description>Plan Perfect Format (PLN) import</description>
+				<description xml:lang="ast">Importa ficheros con formatu Plan Perfect (PLN)</description>
+				<description xml:lang="bg">Внасяне от формат на "Plan Perfect (PLN)"</description>
+				<description xml:lang="bs">Uvoz Plan Perfekt oblika (PLN)</description>
+				<description xml:lang="ca">Importació de format Plan Perfect (PLN)</description>
+				<description xml:lang="ca@valencia">Importació de format Plan Perfect (PLN)</description>
+				<description xml:lang="cs">Import formátu Plan Perfect (PLN)</description>
+				<description xml:lang="da">Plan Perfect Format-import (PLN)</description>
+				<description xml:lang="de">PLN-Datei importieren</description>
+				<description xml:lang="dz">འཆར་གཞི་ཡང་དག་རྩ་སྒརིག་(པི་ཨེལ་ཨེན་)ནང་འདྲེན་</description>
+				<description xml:lang="el">Εισαγωγή μορφής τέλειου σχεδιασμού (PLN)</description>
+				<description xml:lang="en_CA">Plan Perfect Format (PLN) import</description>
+				<description xml:lang="en_GB">Plan Perfect Format (PLN) import</description>
+				<description xml:lang="es">Importar en formato Plan Perfect (PLN)</description>
+				<description xml:lang="et">Plan Perfect formaadi (PLN) import</description>
+				<description xml:lang="eu">Plan Perfect formatua (PLN) inportatzea</description>
+				<description xml:lang="fi">Plan Perfect Format (PLN) -tuonti</description>
+				<description xml:lang="fr">Importation de format Plan Perfect (PLN)</description>
+				<description xml:lang="gl">Importación do Formato Plan Perfect (PLN)</description>
+				<description xml:lang="hr">Uvoz Plan Perfekt oblika (PLN)</description>
+				<description xml:lang="hu">Plan Perfect formátum (PLN) importálása</description>
+				<description xml:lang="id">Impor Plan Perfect Format (PLN)</description>
+				<description xml:lang="it">Importo il formato Pla Perfect (PLN)</description>
+				<description xml:lang="ja">Plan Perfect 形式 (PLN) インポート</description>
+				<description xml:lang="kk">Plan Perfect пішімін (PLN) импорттау</description>
+				<description xml:lang="ko">Plan Perfect Format (PLN) 가져오기</description>
+				<description xml:lang="lt">Plan Perfect Formato (PLN) importas</description>
+				<description xml:lang="lv">Plan Perfect formāta (PLN) imports</description>
+				<description xml:lang="ms">Import format Plan Perfect (PLN)</description>
+				<description xml:lang="nb">Plan Perfect Format (PLN) import</description>
+				<description xml:lang="ne">योजना पूर्ण ढाँचा (पिएलएन) आयात</description>
+				<description xml:lang="nl">Plan Perfect Formaat (PLN) import</description>
+				<description xml:lang="nn">Plan Perfect Format (PLN) import</description>
+				<description xml:lang="pl">Import plików w formacie Plan Perfect (PLN)</description>
+				<description xml:lang="pt">Importação de formato Plan Perfect (PLN)</description>
+				<description xml:lang="pt_BR">Importação do formato Plan Perfect (PLN)</description>
+				<description xml:lang="ro">Import Plan Perfect Format (PLN)</description>
+				<description xml:lang="ru">Импорт файлов в формате Plan Perfect (PLN)</description>
+				<description xml:lang="sk">Import formátu Plan Perfect (PLN)</description>
+				<description xml:lang="sl">Uvoz podatkov programa Plan Perfect (pln)</description>
+				<description xml:lang="sr">Увоз облика Плана Перфекта (PLN)</description>
+				<description xml:lang="sr@latin">Uvoz oblika Plana Perfekta (PLN)</description>
+				<description xml:lang="sv">Import av Plan Perfect-filer (PLN)</description>
+				<description xml:lang="tr">Plan Perfect Biçemi (PLN) desteği</description>
+				<description xml:lang="uk">Імпорт формату Plan Perfect (PLN)</description>
+				<description xml:lang="vi">Nhập dạng thức Plan Perfect (PLN)</description>
+				<description xml:lang="zh_CN">Plan Perfect 格式(PLN)导入</description>
+				<description xml:lang="zh_HK">匯入 Plan Perfect 格式 (PLN)</description>
+				<description xml:lang="zh_TW">匯入 Plan Perfect 格式 (PLN)</description>
+			</information>
+			<suffixes>
+				<suffix>pln</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/x-planperfect</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

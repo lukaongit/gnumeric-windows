@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_mps">
+	<information>
+		<name>Linear and integer program expression format (MPS) module</name>
+		<name xml:lang="ast">Módulu de formatu d'espresiones de programación llinial y entera (MPS)</name>
+		<name xml:lang="bg">Модул във формат "Linear and integer program expression (*.mps)"</name>
+		<name xml:lang="bs">Modul zapisa izraza programa linearnog i cijelog broja (MPS)</name>
+		<name xml:lang="ca">Mòdul amb format d'expressió de programa sencer i lineal (MPS)</name>
+		<name xml:lang="ca@valencia">Mòdul amb format d'expressió de programa sencer i lineal (MPS)</name>
+		<name xml:lang="cs">Modul pro formát lineárních a celočíselných programů (MPS)</name>
+		<name xml:lang="da">Modul til lineær og heltals-programs udtryksformat (MPS)</name>
+		<name xml:lang="de">Linear- und Integer-Programm Ausdrucksformat (MPS) Modul</name>
+		<name xml:lang="dz">ཐིག་དང་ཧྲིལ་གྲངས་ལས་རིམ་གྱི་གསལ་བརྗོད་རྩ་སྒྲིག་(ཨེམ་པི་ཨེསི་)ཚད་གཞི་</name>
+		<name xml:lang="el">Γραμμικό και ακέραιο άρθρωμα (MPS) μορφής έκφρασης προγράμματος</name>
+		<name xml:lang="en_CA">Linear and integer program expression format (MPS) module</name>
+		<name xml:lang="en_GB">Linear and integer program expression format (MPS) module</name>
+		<name xml:lang="es">Módulo de formato de expresiones de programación lineal y entera (MPS)</name>
+		<name xml:lang="eu">Programa lineal eta osoko adierazpen-formatuen (MPS) modulua</name>
+		<name xml:lang="fi">Lineaarisen ja kokonaislukuoptimoinnin lausekemoduuli (MPS-muoto)</name>
+		<name xml:lang="fr">Module de format MPS de programmation linéaire (*.mps)</name>
+		<name xml:lang="hr">Modul za formate linearnih i cijelobrojnih izraza</name>
+		<name xml:lang="hu">Lineáris és egész programkifejezés formátum (MPS) modul</name>
+		<name xml:lang="id">Modul format ekspresi program linear dan integer (MPS)</name>
+		<name xml:lang="it">Modulo del formato per espressioni programmazione lineare ed intera (MPS)</name>
+		<name xml:lang="ja">線形及び整数プログラム式のモジュール形式 (MPS)</name>
+		<name xml:lang="kk">Сызықтық және бүтін сандық бағдарлама өрнегі пішімі (MPS) модулі</name>
+		<name xml:lang="ko">선형과 정수 프로그램 표현 형식 (MPS) 모듈</name>
+		<name xml:lang="lt">Tiesinių ir sveikųjų skaičių programų išraiškų formato (MPS) modulis</name>
+		<name xml:lang="lv">Lineāro un veselo skaitļu programmas izteiksmes formāta (MPS) modulis</name>
+		<name xml:lang="ms">Modul format penyataan progran program linear dan integer (MPS)</name>
+		<name xml:lang="nb">Modul for format for lineær- og heltalls programuttrykk (MPS)</name>
+		<name xml:lang="ne">रेखात्मक र इन्टिजर कार्यक्रम अभिव्यक्ति ढाँचा (MPS) मोड्युल</name>
+		<name xml:lang="nl">Lineair en integer programma expressie formaat (MPS) module</name>
+		<name xml:lang="nn">Lineer og heilt programuttrykk format (MPS) modul</name>
+		<name xml:lang="pl">Moduł formatu wyrażenia liniowych i całkowitych programów (MPS)</name>
+		<name xml:lang="pt">Módulo de formato de expressão de aplicação linear e inteiro (MPS)</name>
+		<name xml:lang="pt_BR">Módulo para formato de expressão de programação linear e inteira (MPS)</name>
+		<name xml:lang="ro">Modul expresii de programare liniară (MPS)</name>
+		<name xml:lang="ru">Модуль выражений в формате "Linear and integer program" (MPS)</name>
+		<name xml:lang="sk">Modul pre formát 'linear and integer program' (MPS)</name>
+		<name xml:lang="sl">Modul oblike izrazov linearnega in številskega programiranja (MPS)</name>
+		<name xml:lang="sr">Модул записа израза програма линеарног и целог броја (МПС)</name>
+		<name xml:lang="sr@latin">Modul zapisa izraza programa linearnog i celog broja (MPS)</name>
+		<name xml:lang="sv">Modul för linjär- och heltalsprogrammering (MPS)</name>
+		<name xml:lang="tr">Doğrusal ve tamsayı program ifadesi biçemi (*.mps) modülü</name>
+		<name xml:lang="uk">Модуль форматування виразів лінійного і цілочисельного програмування (MPS)</name>
+		<name xml:lang="vi">Môđun khuôn dạng biểu thức chương trình số nguyên và tuyến tính (MPS)</name>
+		<name xml:lang="zh_HK">線性及整數程式算式格式 (MPS) 模組</name>
+		<name xml:lang="zh_TW">線性及整數程式算式格式 (MPS) 模組</name>
+		<description>Reads LP programs stored in the MPS format (*.mps)</description>
+		<description xml:lang="ast">Llee ficheros de programación llinial almacenaos en formatu MPS (*.mps)</description>
+		<description xml:lang="bg">Четене на LP програми, запазени във формат MPS (*.mps)</description>
+		<description xml:lang="bs">Čita linearne programe sačuvane u MPS obliku (*.mps)</description>
+		<description xml:lang="ca">Llegeix programes LP desats en format MPS (*.mps)</description>
+		<description xml:lang="ca@valencia">Llig programes LP alçats en format MPS (*.mps)</description>
+		<description xml:lang="cs">Načítá programy LP uložené ve formátu MPS (*.mps)</description>
+		<description xml:lang="da">Læser LP-programmer gemt i MPS-formatet (*.mps)</description>
+		<description xml:lang="de">Liest LP-Programme, die im MPS-Format (*.mps) gespeichert sind</description>
+		<description xml:lang="dz">ཨེམ་པི་ཨེསི་རྩ་སྒྲིག་ (*.mps) དེ་ནང་གསོག་འཇོག་འབད་ཡོད་པའི་ ཨེལ་པི་ལས་རིམ་ཚུ་ལྷགཔ་ཨིན་</description>
+		<description xml:lang="el">Διαβάζει προγράμματα LP, αποθηκευμένα στη μορφή MPS (*.mps)</description>
+		<description xml:lang="en_CA">Reads LP programs stored in the MPS format (*.mps)</description>
+		<description xml:lang="en_GB">Reads LP programs stored in the MPS format (*.mps)</description>
+		<description xml:lang="es">Lee programas de PL almacenados en formato MPS (*.mps)</description>
+		<description xml:lang="eu">MPS (*.mps) formatuan gordetako LP programak irakurtzen ditu</description>
+		<description xml:lang="fi">Lukee MPS-muotoon (*.mps) tallennetut LP-mallit </description>
+		<description xml:lang="fr">Lit les programmes LP stockés au format MPS (*.mps)</description>
+		<description xml:lang="hr">Čitanje linearne programa spremljenih u MPS formatu (*.mps)</description>
+		<description xml:lang="hu">MPS-formátumban (*.mps) tárolt LP programokat olvas</description>
+		<description xml:lang="id">Membaca program-program LP yang disimpan dalam format MPS (*.mps)</description>
+		<description xml:lang="it">Legge programmi LP memorizzati nel formato MPS (*.mps)</description>
+		<description xml:lang="ja">MPS 形式 (*.mps) で格納された LP プログラムの読み込み</description>
+		<description xml:lang="kk">MPS пішімінде сақталған LP бағдарламаларын оқиды (*.mps)</description>
+		<description xml:lang="lt">Skaito LP programas, saugomas MPS formatu (*.mps)</description>
+		<description xml:lang="lv">Lasa LP programmas, kas saglabātas MPS formātā (*.mps)</description>
+		<description xml:lang="ms">Membaca program LP yang disimpan pada format MPS (*.mps)</description>
+		<description xml:lang="nb">Leser LP-programmer lagret i MPS-format (*.mps)</description>
+		<description xml:lang="ne">MPS ढाँचा (*.mps) मा भण्डार गरिएको LP कार्यक्रम पढ्छ</description>
+		<description xml:lang="nl">Leest LP programma's in het MPS formaat (*.mps)</description>
+		<description xml:lang="nn">Les LP-program lagra i MPS-format (*.mps)</description>
+		<description xml:lang="pl">Odczytuje programy LP przechowywane w formacie MPS (*.mps)</description>
+		<description xml:lang="pt">Lê aplicações LP armazenadas no formato MPS (*.mps)</description>
+		<description xml:lang="pt_BR">Lê problemas de programação linear armazenados no formato MPS (*.mps)</description>
+		<description xml:lang="ro">Citește programe PL stocate în format MPS (*.mps)</description>
+		<description xml:lang="ru">Читает программы LP сохранённые в формате MPS (*.mps)</description>
+		<description xml:lang="sk">Načíta programy LP uložené vo formáte MPS (*.mps)</description>
+		<description xml:lang="sl">Prebere programe linearnega programiranja v zapisu MPS (*.mps)</description>
+		<description xml:lang="sr">Чита ЛП програме сачуване у МПС облику (*.mps)</description>
+		<description xml:lang="sr@latin">Čita LP programe sačuvane u MPS obliku (*.mps)</description>
+		<description xml:lang="sv">Läser LP-programmeringsproblem lagrade i MPS-formatet (*.mps)</description>
+		<description xml:lang="tr">MPS biçeminde (*.mps) kaydedilmiş LP programlarını okur.</description>
+		<description xml:lang="uk">Читає програми лінійного програмування, які зберігаються у форматі MPS (*.mps)</description>
+		<description xml:lang="vi">Đọc các chương trình LP được lưu bằng dạng MPS (*.mps)</description>
+		<description xml:lang="zh_CN">读取以 MPS 格式(*.mps)存储的 LP 程序</description>
+		<description xml:lang="zh_HK">可讀入儲存在 MPS 格式 (*.mps) 的 LP 程式</description>
+		<description xml:lang="zh_TW">可讀入儲存在 MPS 格式 (*.mps) 的 LP 程式</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="mps" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="FALSE" priority="1" id="mps">
+			<information>
+				<description>Linear and integer program (*.mps) file format</description>
+				<description xml:lang="ast">Formatu de ficheru de programación llinial y entera (*.mps)</description>
+				<description xml:lang="bg">Файл във формат "Linear and integer program (*.mps)"</description>
+				<description xml:lang="bs">Linearni i celobrojni program (*.mps) oblik datoteke</description>
+				<description xml:lang="ca">Fitxer amb format de programa sencer i lineal (*.mps)</description>
+				<description xml:lang="ca@valencia">Fitxer amb format de programa sencer i lineal (*.mps)</description>
+				<description xml:lang="cs">Formát souboru pro lineární a celočíselné programy (*.mps)</description>
+				<description xml:lang="da">Lineær og heltals-program (*.mps) filformat</description>
+				<description xml:lang="de">Linear- und Integer-Programm (*.mps) Dateiformat</description>
+				<description xml:lang="dz">ཐིག་དང་ཧྲིལ་གྲངས་ལས་རིམ་ (*.mps) ཡིག་སྣོད་རྩ་སྒྲིག་</description>
+				<description xml:lang="el">Γραμμικός και ακέραιος τύπος (*.mps) αρχείου προγράμματος</description>
+				<description xml:lang="en_CA">Linear and integer program (*.mps) file format</description>
+				<description xml:lang="en_GB">Linear and integer program (*.mps) file format</description>
+				<description xml:lang="es">Formato de archivo de programación lineal y entera (*.mps)</description>
+				<description xml:lang="eu">Programa lineal eta osoko (*.mps) fitxategi-formatua</description>
+				<description xml:lang="fi">Lineaari- ja kokonaislukuoptimoinnin tiedostomuoto (*.mps)</description>
+				<description xml:lang="fr">Format de fichier de programmation linéaire (*.mps)</description>
+				<description xml:lang="hr">Linearni i cijelobrojni program (*.mps) format datoteke</description>
+				<description xml:lang="hu">Lineáris és egész program (*.mps) fájlformátum</description>
+				<description xml:lang="id">Format berkas program linear dan integer (*.mps)</description>
+				<description xml:lang="it">File di formato programmazione lineare ed intera (*.mps)</description>
+				<description xml:lang="ja">線形及び整数プログラムのファイル形式 (*.mps)</description>
+				<description xml:lang="kk">Сызықтық және бүтін сандық бағдарлама (*.mps) файл пішімі</description>
+				<description xml:lang="ko">선형과 정수 프로그램 (*.mps) 파일 형식</description>
+				<description xml:lang="lt">Tiesinių ir sveikųjų skaičių programų (*.mps) failų formatas</description>
+				<description xml:lang="lv">Lineāro un veselo skaitļu programmas (*.mps) datnes formāts</description>
+				<description xml:lang="ms">Fail format program linear dan integer (*.mps)</description>
+				<description xml:lang="nb">Filformat for lineær- og heltall program (*.mps)</description>
+				<description xml:lang="ne">रेखात्मक र इन्टिजर कार्यक्रम (*.mps) फाइल ढाँचा</description>
+				<description xml:lang="nl">Lineair en integer programma (*.mps) bestandsformaat</description>
+				<description xml:lang="nn">Lineer og heiltal program (*.mps) filformat</description>
+				<description xml:lang="pl">Format pliku liniowego i całkowitego programu (*.mps)</description>
+				<description xml:lang="pt">Formato de ficheiros aplicação linear e inteiro (*.mps)</description>
+				<description xml:lang="pt_BR">Formato de arquivo de programação linear e inteira (*.mps)</description>
+				<description xml:lang="ro">Format fișier de programare liniară (*.mps)</description>
+				<description xml:lang="ru">Файл в формате "Linear and integer program" (*.mps)</description>
+				<description xml:lang="sk">Formát súboru pre 'linear and integer program' (*.mps)</description>
+				<description xml:lang="sl">Linearno in številsko programiranje (*.mps)</description>
+				<description xml:lang="sr">Формат датотеке (*.mps) линеарног и целобројног програма</description>
+				<description xml:lang="sr@latin">Format datoteke (*.mps) linearnog i celobrojnog programa</description>
+				<description xml:lang="sv">Linjär- och heltalsprogrammeringsfilformat (*.mps)</description>
+				<description xml:lang="tr">Doğrusal ve tamsayı program (*.mps) dosyası biçemi</description>
+				<description xml:lang="uk">Формат файлів лінійного і цілочисельного програмування (*.mps)</description>
+				<description xml:lang="vi">Khuôn dạng tập tin chương trình số nguyên và tuyến tính (*.mps)</description>
+				<description xml:lang="zh_HK">線性及整數程式 (*.mps) 檔案格式</description>
+				<description xml:lang="zh_TW">線性及整數程式 (*.mps) 檔案格式</description>
+			</information>
+			<suffixes>
+				<suffix>mps</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/x-mps</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>
