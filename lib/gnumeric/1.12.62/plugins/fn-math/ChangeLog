@@ -1,0 +1,1242 @@
+2026-04-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.61
+
+2026-02-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.60
+
+2025-08-29  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_log): Move guts to gnn_logbase and improve
+	there.
+	(gnumeric_log10): Use gnm_logbase instead of gnm_log10 directly.
+
+2025-03-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.59
+
+2024-08-13  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnm_trunc_digits): Split out from gnumeric_trunc so
+	as not to mix the computation and the interface to Gnumeric's
+	values.  Avoid denormal powers of 10.  Ensure that truncating,
+	say, sqrt(2) to 53 decimals, doesn't actually change anything
+	due to internal rounding errors.
+	(gnm_pow10_dual): New function.
+
+2024-04-29  b.s. <newbie-02 (at) gmx (dot) de>
+
+	* functions.c (gnumeric_round, gnumeric_trunc, gnumeric_roundup)
+	(gnumeric_rounddown): cover denormals and excessive digits.
+
+2024-02-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.57
+
+2023-11-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.56
+
+2023-02-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.55
+
+2023-01-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.54
+
+2022-09-17  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.53
+
+2022-08-19  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_round): Handle some edge cases.  See #661.
+
+2022-04-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.52
+
+2022-01-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.51
+
+2021-06-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.50
+
+2021-03-14  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.49
+
+2020-08-12  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.48
+
+2020-05-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.47
+
+2019-11-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.46
+
+2019-05-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.45
+
+2018-11-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.44
+
+2018-11-19 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_lambertw): fix formatting
+
+2018-08-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.43
+
+2018-08-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.42
+
+2018-05-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.41
+
+2018-04-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.40
+
+2018-03-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.39
+
+2018-02-26  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_munit): Return the right error if we get a
+	size between 0 and 1.
+
+2017-12-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.38
+
+2017-12-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.37
+
+2017-11-22  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (math_functions): Mark COUNTIF, COUNTIFS, COMBIN,
+	and COMBINA as unitless.
+
+2017-11-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.36
+
+2017-07-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.35
+
+2017-04-05  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_reducepi): New function.
+
+2017-03-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.34
+
+2017-01-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.33
+
+2016-10-02  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (make_symmetric): Renamed from symmetric and changed
+	to make a matrix symmetric instead of testing for it.
+
+2016-08-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.32
+
+2016-06-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.31
+
+2016-06-21  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_countif): Anchor string matching at end.
+	(gnumeric_sumif): Ditto.
+	(gnumeric_averageif): Ditto.
+
+2016-06-17  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.30
+
+2016-05-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.29
+
+2016-03-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.28
+
+2016-02-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.27
+
+2015-12-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.26
+
+2015-12-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.25
+
+2015-09-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.24
+
+2015-07-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.23
+
+2015-04-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.22
+
+2015-03-19  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_acosh): Improve samples.
+	(gnumeric_atanh): Ditto.
+
+2015-03-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.21
+
+2015-02-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.20
+
+2015-01-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.19
+
+2014-09-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.18
+
+2014-06-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.17
+
+2014-05-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.16
+
+2014-04-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.15
+
+2014-04-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.14
+
+2014-03-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.13
+
+2014-03-03  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.12
+
+2014-02-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.11
+
+2014-02-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.10
+
+2013-11-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.9
+
+2013-11-14  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_cospi, gnumeric_sinpi): New functions.
+
+2013-10-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.8
+
+2013-09-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.7
+
+2013-08-27  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.6
+
+2013-08-27  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_gamma): Use new gnm_gamma.
+
+2013-08-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.5
+
+2013-07-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.4
+
+2013-06-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.3
+
+2013-05-19  Morten Welinder  <terra@gnome.org>
+
+	* functions.c: Mark examples for translation when appropriate.
+
+2013-04-26  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.2
+
+2013-03-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.1
+
+2013-01-18  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_minverse, gnumeric_mmult)
+	(gnumeric_leverage, gnumeric_linsolve, gnumeric_mdeterm)
+	(gnumeric_cholesky): Simplify using new matrix support.
+	(compare_gnumeric_eigen_ev): Sort first by absolute value.
+
+2013-01-17  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_leverage): New function.
+
+2013-01-14  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_munit): Restrict size to what would fit in
+	the sheet it's called from.
+
+2013-01-13  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_linsolve): New function.
+
+2012-12-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.0
+
+2012-11-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.91
+
+2012-11-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.90
+
+2012-11-02  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_power): Extend to three arguments for root
+	calculations.
+
+2012-09-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.6
+
+2012-07-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.5
+
+2012-06-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.4
+
+2012-04-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.3
+
+2012-03-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.2
+
+2011-11-27  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.1
+
+2011-11-25  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumproduct_common): Improve accuracy.
+
+2011-11-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.0
+
+2011-11-17 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_pi): use mathematical pi rather than greek pi
+	(help_sqrtpi): use mathematical pi rather than greek pi
+
+2011-10-31 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_sumproduct): add compatibility statement
+	(help_odf_sumproduct): add compatibility statement
+
+2011-10-31  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumproduct_common): New function extracted
+	from gnumeric_sumproduct.
+	(gnumeric_sumproduct): Use gnumeric_sumproduct_common.
+	(gnumeric_odf_sumproduct): New function.
+
+2011-07-31  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.17
+
+2011-06-08 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_sumif): add note
+
+2011-05-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.15
+
+2011-03-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.14
+
+2011-02-14 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c do not use macros in _() arguments.
+
+2011-02-12 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_atan2): Correct result range.
+	(help_atan): add result range note
+
+2011-02-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.13
+
+2011-01-23 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_atan2): fix order of arguments
+
+2010-11-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.12
+
+2010-10-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.11
+
+2010-09-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.10
+
+2010-08-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.9
+
+2010-07-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.8
+
+2010-07-29  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_munit): Protect against overflow.
+
+2010-07-23 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_trunc): fix argument description
+
+2010-06-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.7
+
+2010-06-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.6
+
+2010-06-10 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_multinomial): fix invalid utf-8.
+
+2010-06-11  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_seriessum): Ignore blanks for
+	compatibility.
+
+2010-06-10 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: remove superfluous spaces, inconsitent periods, etc.
+
+2010-05-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.5
+
+2010-05-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.4
+
+2010-05-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.3
+
+2010-04-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.2
+
+2010-03-08  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.1
+
+2010-02-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.0
+
+2010-01-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.18
+
+2010-01-13  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (range_gcd): Handle GCD(2,0)=2 as Excel, but err on
+	GCD(0,0).
+
+2009-12-23  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (compare_doubles): rename to
+	  compare_gnumeric_eigen_ev and change all callers
+	(compare_gnumeric_eigen_ev): use the true type
+
+2009-12-23  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnm_gcd_max): Fix type.
+
+2009-12-23  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (compare_doubles): rename to
+	  compare_gnumeric_eigen_ev and change all callers
+	(compare_gnumeric_eigen_ev): use the true type
+
+2009-12-21  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: add EIGEN
+	* functions.c (help_eigen): new
+	(new_matrix): new
+	)compare_doubles): new
+	(gnumeric_eigen): new
+	(math_functions): add EIGEN
+
+2009-12-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.17
+
+2009-12-03  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (cb_averageif, cb_sumif, cb_countif): Handle empty
+	cells.  Part of #603671.
+
+2009-11-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.16
+
+2009-11-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.15
+
+2009-10-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.14
+
+2009-09-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.13
+
+2009-09-05  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.12
+
+2009-08-30  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: add CHOLESKY
+	* functions.c (help_cholesky): new
+	(gnm_matrix_cholesky): new
+	(gnumeric_cholesky): new
+	(math_functions): add CHOLESKY
+
+2009-08-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.11
+
+2009-08-25  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: add COMBINA and ARABIC
+	* functions.c (help_combina): new
+	(gnumeric_combina): new
+	(help_arabic): new
+	(gnumeric_arabic): new
+	(math_functions): add COMBINA and ARABIC
+
+2009-08-25  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: add munit
+	* functions.c (help_munit): new
+	(gnumeric_munit): new
+	(math_functions): add MUNIT
+
+2009-08-20  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_gammaln): Moved from fn-stat.  Fix domain.
+	(gnumeric_gamma): New function.
+
+2009-08-16  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_sumif): fix argument name
+	(help_averageif): new
+	(cb_averageif): new
+	(gnumeric_averageif): new
+	(math_functions): add AVERAGEIF
+	* plugin.xml.in: add AVERAGEIF
+
+2009-08-16  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: a few description corrections:
+	  @argument --> @{argument}
+
+2009-08-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.10
+
+2009-08-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: remove argument names from GnmFuncDescriptor
+
+2009-08-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_sech): fix name record
+
+2009-08-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_abs): fix name record
+	(help_asinh): fix name record
+	(help_coth): fix name record
+	(help_degrees): fix name record
+	(help_csch): fix name record
+	(help_sinh): fix
+	(help_tanh): fix name record
+	(help_round): fix name record
+
+2009-08-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_*): change x:value to x:number throughout
+	(help_asin): add argument description
+
+2009-06-30  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_sin): fix order of items
+
+2009-06-30  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: conversion to new function description
+
+2009-06-29  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: partial conversion to new function description
+
+2009-06-21  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: new csc, csh, sec, sech
+	* functions.c: new csc, csh, sec, sech functions
+	(help_ceil): update to new format
+	(help_ceiling): ditto
+	(help_floor): ditto
+
+2009-06-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.9
+
+2009-06-17  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_coth, gnumeric_acoth): New functions.
+
+2009-06-16  Morten Welinder  <terra@gnome.org>
+
+	* functions.c: Start adding external references to a few
+	functions.
+
+2009-06-09  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_acot, gnumeric_cot): New functions.
+	(range_gcd): Handle first argument not integer better.  Fixes
+	#585271.
+
+2009-05-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.8
+
+2009-05-14  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (range_lcm): Don't change the supplied data.
+
+2009-05-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.7
+
+2009-04-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.6
+
+2009-03-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.5
+
+2009-02-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.4
+
+2009-02-17  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_seriessum): This should not be a vararg
+	function.  Fix handling of x==0.  Fix handling of blanks, bools,
+	and strings.
+
+2008-10-26  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (struct SumIfClosure): store column and row offsets
+	in ints, not in a GnmCellPos.
+	(gnumeric_sumif): Normalize ranges.  Fixes #557782.  I doubt the
+	previous code worked with one range absolute, the other relative.
+
+2008-10-18  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.3
+
+2008-10-01  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumx2my2, gnumeric_sumx2py2,
+	gnumeric_sumxmy2): Use float_range_function2.  Fixes #554040.
+
+2008-09-12  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumif): Check that argv[2] is a range, if
+	it is present.  Fixes #552006.
+
+2008-08-29  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.2
+
+2008-06-25  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.1
+
+2008-05-19  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumproduct): Band-aid #533507.
+
+2008-05-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.0
+
+2007-12-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.8.0
+
+2007-12-29  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (help_floor) : re-order the help text.  The current
+	  dump routine is too stupid to order things correctly for the
+	  massaging script.
+
+2007-12-03  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.91
+
+2007-11-19  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.90
+
+2007-11-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.14
+
+2007-10-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.13
+
+2007-09-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.12
+
+2007-07-24  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.11
+
+2007-05-03  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.10
+
+2007-04-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.9
+
+2007-03-28  Jean Brefort  <jean.brefort@normalesup.org>
+
+	* functions.c: use new names for range and regression functions.
+
+2007-03-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.8
+
+2007-02-20  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_fact): Simply use fact() for integers.
+	Fixes #410005.
+	(gnumeric_fact): Improve precision for arguments very near zero.
+
+2007-02-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.7
+
+2006-12-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.6
+
+2006-12-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.5
+
+2006-11-20  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.4
+
+2006-11-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.3
+
+2006-10-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.2
+
+2006-09-24  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (help_floor) : convert to the new form of docs.
+
+2006-10-02  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.1
+
+2006-05-31  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (callback_function_sumxy) : Adjust to the signature
+	  change in CellIterFunc.
+	(cb_countif) : ditto.
+	(cb_sumif) : ditto.
+	(cb_function_mmult_validate) : ditto.
+
+2006-05-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.0
+
+2006-03-27  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (gnumeric_sumproduct) : fix typo.
+
+2006-03-18  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_roman): Fix error cases.
+	(gnumeric_combin): Ditto.
+
+2006-01-31  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (range_lcm, range_gcd): Make these work for all
+	arguments up to the max size that can be represented accurately.
+
+2006-01-25  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_trunc, gnumeric_round, gnumeric_roundup):
+	Fix precision in the negative-digits case.  Handle extreme digits
+	requests.
+	(gnumeric_rounddown): Alias to gnumeric_trunc.
+
+2006-01-09  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_trunc, gnumeric_rounddown, gnumeric_round,
+	gnumeric_roundup): Handle underflow.
+	(gnumeric_factdouble): Sane implementation.  Prevents
+	near-infinite loop.
+
+2005-12-28  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (gnumeric_ceiling) : (n,0) = 0 not div/0
+
+2005-11-29  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_atan2): Fix (0,0) case as reported by
+	Nick Lamb.
+
+2005-11-14  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.6.1
+
+2005-10-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.6.0
+
+2005-09-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.90
+
+2005-08-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.5
+
+2005-08-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.4
+
+2005-08-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.3
+
+2005-07-15  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (validate_range_numeric_matrix) : Add a comment to
+	  clarify result and fix handling of simple scalars.
+
+2005-06-13  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.2
+
+2005-05-10  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_sumif): Yet another inter-sheet fix.
+
+2005-05-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.1
+
+2005-04-04  Jody Goldberg <jody@gnome.org>
+
+	http://bugzilla.gnome.org/show_bug.cgi?id=171509
+	* functions.c (gnumeric_sumif) : relax the 3d-ref check
+	(gnumeric_countif) : ditto.
+
+2005-02-11  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* functions.c (help_rounddown): change documentation text
+	(help_roundup): change documentation text
+	(gnumeric_rounddown): change handling of negative numbers to make
+	  the same errors as MSExcel
+	(gnumeric_roundup): ditto
+
+2005-02-09  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (gnumeric_sumif) : rework to use a less stupid
+	  algorithm.  This is significantly faster and handles differences in
+	  the shape of the target range and the src range.  It also explicitly
+	  dis-allows 3d refs (we could support this even if XL does not) and
+	  removes the use of TRUE==1 for XL compat.
+	(gnumeric_countif) : ditto.  Keeping a list of values just so that we
+	  could count them was silly.
+
+2005-02-09  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_pi): Revert to classical value.
+
+2005-02-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.0
+
+2005-02-01  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_pi): Be careful what you wish for.
+
+2005-01-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.2
+
+2005-01-10  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (gnumeric_sumproduct) : ignore booleans and strings to
+	  be consistent with MS Excel.  It is most likely being done to be
+	  constistent with SUM.
+
+2005-01-10  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_floor): FLOOR(0,0)==0 for XL
+	compatibility.
+	(gnumeric_ceiling): CEILING(0,0==0.
+
+2004-12-20  Morten Welinder  <terra@gnome.org>
+
+	* functions.c: Doc fixes for ODD and EVEN.
+
+2004-12-09  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.1
+
+2004-11-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.0
+
+2004-11-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.93
+
+2004-10-31  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.92
+
+2004-10-08  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_hypot): New function.
+
+2004-10-05  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.91
+
+2004-09-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.90
+
+2004-08-29  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.2
+
+2004-07-20  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_fact): Use lgamma_rgnum.
+
+2004-07-19  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.1
+
+2004-05-28  Jody Goldberg <jody@gnome.org>
+
+	* functions.c : ceil is gnumeric spefic, ceiling is what's in XL.
+
+2004-05-11  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_expm1, gnumeric_ln1p): New functions.
+
+2004-03-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.0
+
+2004-02-18  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_ceiling, gnumeric_floor): Fix error code
+	for zero significance.
+
+2003-12-23  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.3
+
+2003-11-26  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.2
+
+2003-10-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.1
+
+2003-09-15  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.0
+
+2003-09-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.90
+
+2003-08-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.20
+
+2003-08-21  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (validate_range_numeric_matrix) : be more lenient about
+	  what to call a 3d mult.
+
+2003-07-16  Jody Goldberg <jody@gnome.org>
+
+	* functions.c : add description of bounds to POWER docs.
+	improve characterization of beta and betaln
+
+2003-07-14  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (gnumeric_beta) : link to GAMMALN not GAMMA
+
+2003-07-07  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (range_gcd): Fix rounding issues.
+	(range_lcm): Ditto.
+
+2003-07-05  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (callback_function_criteria) : new eval semantics do not
+	  guarantee that range content is evaluated before being called.
+	(callback_function_sumif) : ditto.
+	(callback_function_sumxy) : ditto.
+
+2003-06-23  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* functions.c: spelling fixes
+	* plugin.xml.in: trig is part of math
+
+2003-06-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.19
+
+2003-06-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.18
+
+2003-05-11  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.17
+
+2003-03-07  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_fib): Use G_N_ELEMENTS.
+
+2003-03-05  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (validate_range_numeric_matrix): Fix return type.
+
+2003-01-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.16
+
+2003-01-03  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (callback_function_mmult_validate) : we need to ensure
+	  that the target cells have been recalced before using them.
+
+2003-01-02  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_minverse): Use new matrix_invert.
+	(gnumeric_mdeterm): Use new matrix_determinant.
+
+2002-12-31  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.15
+
+2002-12-22  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.14
+
+2002-12-22  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.13
+
+2002-12-16  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (validate_range_numeric_matrix): Return errors as
+	GnmStdError.  All callers changed.
+
+2002-11-15  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.12
+
+2002-11-07  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_beta, gnumeric_betaln): New functions.
+
+2002-11-06  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_fact): Use lgammagnum, not lgamma.  Extend
+	to negative non-integers.
+
+2002-11-04  Morten Welinder  <terra@diku.dk>
+
+	* functions.c: Adapt to new autoformat specs.
+
+2002-11-02  J.H.M. Dassen (Ray) <jdassen@debian.org>
+
+	* functions.c: Don't use // comments.
+
+2002-11-01  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.11
+
+2002-10-28  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_seriessum): New clean implementation.
+
+2002-10-27  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.10
+
+2002-10-15  Morten Welinder  <terra@diku.dk>
+
+	* functions.c: Use "S", not "?", for criterial arg.  Add status
+	flags.
+
+2002-10-14  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_even): Use fmodgnum.
+	(gnumeric_odd): Ditto.
+	(gnumeric_mround): Ditto.
+
+2002-10-14  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_mround): Fix =MROUND(x,0) to be XL
+	compatible.  (Barf.)
+
+2002-10-11  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_mod): Handle non-integer args.
+
+2002-09-30  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.9
+
+2002-09-20  Morten Welinder  <terra@diku.dk>
+
+	* functions.c (gnumeric_fib): New function.
+
+2002-08-25  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.8
+
+2002-08-12  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.7
+
+2002-07-22  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* plugin.xml.in: Set loader type to "Gnumeric_Builtin:module".
+
+2002-07-28  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Even more function description clean up.
+
+2002-07-27  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Function description clean up.
+
+2002-07-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.6
+
+2002-07-08  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Moved RAND(), RANDBERNOULLI(), RNADBETWEEN(),
+	RANDBINOM(), RANDEXP(), RANDNEGBINOM(), and RANDPOISSON() to
+	fn-random plug-in.
+
+2002-05-29  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.4
+
+2002-05-03  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* functions.c : mark argument names for translation and adjust
+	  them for use by the formula guru.

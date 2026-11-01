@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_lpsolve">
+	<information>
+		<_name>LPSolve Linear Program Solver Interface</_name>
+		<_description>Solver Interface to LPSolve</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="lpsolve"/>
+	</loader>
+	<services>
+		<service type="file_saver"
+			 id="lpsolve"
+			 save_scope="sheet"
+			 file_extension="lp"
+			 mime_type="application/lpsolve"
+			 format_level="write_only">
+			<information>
+				<_description>LPSolve Linear Program Solver</_description>
+			</information>
+		</service>
+		<service type="solver"
+			 id="lpsolve"
+			 model_type="mip">
+			<information>
+			  <_description>LPSolve</_description>
+			</information>
+		</service>
+	</services>
+</plugin>

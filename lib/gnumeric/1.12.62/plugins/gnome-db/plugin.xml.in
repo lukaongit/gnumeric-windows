@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_GnomeDB">
+	<information>
+		<_name>GNOME-DB</_name>
+		<_description>Database UI services plugin</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="gnomedb"/>
+	</loader>
+	<services>
+		<service type="ui" id="gnome_db" file="ui.xml">
+			<actions>
+				<action name="ViewDataSources">
+					<_label>Data Bases...</_label>
+				</action>
+			</actions>
+		</service>
+	</services>
+</plugin>

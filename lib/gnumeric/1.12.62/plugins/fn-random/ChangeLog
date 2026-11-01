@@ -1,0 +1,886 @@
+2026-04-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.61
+
+2026-02-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.60
+
+2025-03-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.59
+
+2024-02-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.57
+
+2023-11-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.56
+
+2023-02-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.55
+
+2023-01-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.54
+
+2022-09-17  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.53
+
+2022-04-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.52
+
+2022-01-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.51
+
+2021-06-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.50
+
+2021-03-14  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.49
+
+2020-08-12  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.48
+
+2020-05-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.47
+
+2019-11-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.46
+
+2019-05-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.45
+
+2018-11-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.44
+
+2018-08-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.43
+
+2018-08-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.42
+
+2018-05-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.41
+
+2018-04-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.40
+
+2018-03-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.39
+
+2017-12-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.38
+
+2017-12-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.37
+
+2017-11-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.36
+
+2017-07-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.35
+
+2017-03-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.34
+
+2017-01-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.33
+
+2016-08-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.32
+
+2016-06-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.31
+
+2016-06-17  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.30
+
+2016-05-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.29
+
+2016-03-24  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_randbetween): Handle extreme arguments.
+	We used to get RANDBETWEEN(2^52,2^52+2) wrong and produce results
+	up to and including 2^52+3.
+
+2016-03-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.28
+
+2016-02-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.27
+
+2015-12-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.26
+
+2015-12-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.25
+
+2015-09-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.24
+
+2015-07-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.23
+
+2015-04-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.22
+
+2015-03-19  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_randpoisson): Fix sample.
+
+2015-03-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.21
+
+2015-02-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.20
+
+2015-01-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.19
+
+2014-09-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.18
+
+2014-06-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.17
+
+2014-05-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.16
+
+2014-04-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.15
+
+2014-04-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.14
+
+2014-03-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.13
+
+2014-03-03  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.12
+
+2014-03-03  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (random_functions): Mark random functions volatile.
+
+2014-02-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.11
+
+2014-02-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.10
+
+2013-11-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.9
+
+2013-10-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.8
+
+2013-09-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.7
+
+2013-08-27  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.6
+
+2013-08-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.5
+
+2013-07-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.4
+
+2013-06-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.3
+
+2013-04-26  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.2
+
+2013-03-09  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.1
+
+2012-12-18  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.0
+
+2012-11-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.91
+
+2012-11-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.90
+
+2012-09-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.6
+
+2012-07-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.5
+
+2012-06-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.4
+
+2012-04-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.3
+
+2012-03-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.2
+
+2012-02-05 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_randsnorm): adjust argument names
+	(help_randstdist): adjust argument names
+
+2012-02-05 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (help_randsnorm): clarify
+	(help_randstdist): ditto
+
+2011-11-27  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.1
+
+2011-11-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.11.0
+
+2011-07-31  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.17
+
+2011-05-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.15
+
+2011-03-24  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.14
+
+2011-02-02  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.13
+
+2010-11-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.12
+
+2010-10-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.11
+
+2010-09-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.10
+
+2010-08-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.9
+
+2010-07-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.8
+
+2010-06-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.7
+
+2010-06-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.6
+
+2010-06-11  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_randlevy): Fix extraction of beta.
+
+2010-06-10 Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: remove superfluous spaces, inconsitent periods, etc.
+
+2010-05-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.5
+
+2010-05-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.4
+
+2010-05-07  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.3
+
+2010-04-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.2
+
+2010-03-08  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.1
+
+2010-02-13  Morten Welinder <terra@gnome.org>
+
+	* Release 1.10.0
+
+2010-01-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.18
+
+2009-12-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.17
+
+2009-11-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.16
+
+2009-11-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.15
+
+2009-10-11  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* plugin.xml.in: add randsnorm and randstdist
+	* functions.c (help_randtdist): use a more reasonable degrees
+	  of freedom
+	(help_randsnorm): new
+	(gnumeric_randsnorm): new
+	(help_randstdist): new
+	(gnumeric_randstdist): new
+	(random_functions): add randsnorm and randstdist
+
+2009-10-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.14
+
+2009-09-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.13
+
+2009-09-05  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.12
+
+2009-08-30  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.11
+
+2009-08-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.10
+
+2009-08-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: remove argument names from GnmFuncDescriptor
+
+2009-07-14  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c (functions.c): remove remains of description
+	  conversion
+
+2009-07-03  Andreas J. Guelzow <aguelzow@pyrshep.ca>
+
+	* functions.c: conversion to new function description
+
+2009-06-20  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.9
+
+2009-05-23  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.8
+
+2009-05-06  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.7
+
+2009-04-25  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.6
+
+2009-03-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.5
+
+2009-02-22  Morten Welinder <terra@gnome.org>
+
+	* Release 1.9.4
+
+2008-10-24  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_randdiscrete): Simplify and fix crash
+	#557682.
+
+2008-10-18  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.3
+
+2008-08-29  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.2
+
+2008-06-25  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.1
+
+2008-05-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.9.0
+
+2007-12-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.8.0
+
+2007-12-03  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.91
+
+2007-11-19  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.90
+
+2007-11-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.14
+
+2007-10-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.13
+
+2007-09-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.12
+
+2007-07-24  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.11
+
+2007-05-03  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.10
+
+2007-04-21  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.9
+
+2007-03-04  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.8
+
+2007-02-16  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.7
+
+2006-12-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.6
+
+2006-12-04  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.5
+
+2006-11-20  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.4
+
+2006-11-19  Morten Welinder <terra@gnome.org>
+
+	* Release 1.7.3
+
+2006-10-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.2
+
+2006-10-02  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.1
+
+2006-05-31  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (cb_randdiscrete) : Adjust to signature change in
+	  CellIterFunc.
+
+2006-05-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.7.0
+
+2006-02-06  Morten Welinder  <terra@gnome.org>
+
+	* functions.c (gnumeric_randbetween): Fix Excel compatibility for
+	not-integer arguments.
+	(gnumeric_randnegbinom, gnumeric_randhyperg, gnumeric_randgumbel):
+	Take arguments larger than ints.
+	(gnumeric_randgeom, gnumeric_randlog): Handle results larger than
+	int.
+
+2005-11-14  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.6.1
+
+2005-10-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.6.0
+
+2005-09-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.90
+
+2005-08-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.5
+
+2005-08-28  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.4
+
+2005-08-15  Morten Welinder <terra@gnome.org>
+
+	* Release 1.5.3
+
+2005-06-13  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.2
+
+2005-05-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.1
+
+2005-02-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.5.0
+
+2005-01-17  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.2
+
+2004-12-09  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.1
+
+2004-11-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.4.0
+
+2004-11-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.93
+
+2004-10-31  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.92
+
+2004-10-05  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.91
+
+2004-09-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.90
+
+2004-08-29  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.2
+
+2004-07-19  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.1
+
+2004-03-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.3.0
+
+2003-12-23  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.3
+
+2003-11-26  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.2
+
+2003-10-08  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.1
+
+2003-09-15  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.2.0
+
+2003-09-10  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.90
+
+2003-08-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.20
+
+2003-07-16  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* function.c: fix randuniform docs ever so slightly
+
+2003-07-16  Jody Goldberg <jody@gnome.org>
+
+	http://bugzilla.gnome.org/show_bug.cgi?id=115812
+	* functions.c : clarify randuniform docs slightly as per
+
+2003-07-16  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* function.c: replace `Gaussian' with `normal' or `norm' throughout.
+	* plugin.xml.in: ditto
+
+2003-07-05  Jody Goldberg <jody@gnome.org>
+
+	* functions.c (cb_randdiscrete) : new evaluation semantics do not
+	  guarantee that range content will be evaluated before being called.
+
+2003-06-26  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* plugin.xml.in: Change to `Random Numbers' category
+
+2003-06-23  Andreas J. Guelzow <aguelzow@taliesin.ca>
+
+	* functions.c: spelling fixes
+
+2003-06-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.19
+
+2003-06-07  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.18
+
+2003-05-11  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.17
+
+2003-01-28  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.16
+
+2002-12-31  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.15
+
+2002-12-22  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.14
+
+2002-12-22  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.13
+
+2002-11-15  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.12
+
+2002-11-01  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.11
+
+2002-10-27  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.10
+
+2002-09-30  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.9
+
+2002-08-25  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.8
+
+2002-08-12  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.7
+
+2002-08-12  Jody Goldberg <jody@gnome.org>
+
+	* functions.c : Do not translate ""
+
+2002-08-04  Jon K Hellan  <hellan@acm.org>
+
+	* functions.c: Include rangefunc.h.
+
+2002-07-22  Zbigniew Chyla  <cyba@gnome.pl>
+
+	* plugin.xml.in: Set loader type to "Gnumeric_Builtin:module".
+
+2002-08-03  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c (gnumeric_randdiscrete): Added RANDDISCRETE().
+
+2002-07-30  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added SIMTABLE() function which interacts with risk
+	simulation tool.
+
+2002-07-28  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Even more function description clean up.
+
+2002-07-27  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Function description clean up.
+
+2002-07-23  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Moved PDFRAYLEIGH(), PDFRAYLEIGHTAIL() to
+	fn-stat. Completed the move.
+
+	* gsl-pdf.[ch]: Removed.
+
+2002-07-23  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Moved PDFCAUCHY(), PDFLANDAU(), PDFLOGISTIC(),
+	PDFPARETO() to fn-stat.
+
+2002-07-23  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Moved PDFBERNOULLI() to fn-stat (renamed to
+	BERNOULLI()). Removed PDFGAMMA() and PDFEXP().
+
+2002-07-23  Jukka Pekka  <jiivonen@cs145201.pp.htv.fi>
+
+	* functions.c: Started moving probability density fns to fn-stat
+	since they belong to there.  Moved PDFGEOM() (renamed to
+	GEOMDIST()).
+
+2002-07-22  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added PDFRAYLEIGHTAIL(), PDFLOGNORM(), PDFGEOM(),
+	PDFFDIST(), PDFTDIST(), PDFPARETO(), PDFLOGISTIC().
+
+2002-07-22  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added PDFBINOM(), PDFNEGBINOM(), PDFPOISSON(),
+	PDFWEIBULL().
+
+2002-07-22  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* gsl-pdf.c (random_bernoulli_pdf, random_binomial_pdf,
+	random_cauchy_pdf, random_chisq_pdf, random_hypergeometric_pdf,
+	random_landau_pdf, random_logistic_pdf, random_lognormal_pdf,
+	random_negative_binomial_pdf, random_pareto_pdf,
+	random_poisson_pdf, random_rayleigh_pdf, random_rayleigh_tail_pdf,
+	random_tdist_pdf, random_weibull_pdf): Imported from the GSL.
+
+	* functions.c: Added PDFBERNOULLI(), PDFCAUCHY(), PDFLANDAU(), and
+	PDFRAYLEIGH().
+
+2002-07-22  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* gsl-pdf.c (random_gamma_pdf, random_beta_pdf,
+	random_exponential_pdf): Imported from GSL.
+
+	* functions.c: Added PDFBETA(), PDFEXP(), PDFEXPPOW(), PDFGAMMA(),
+	PDFLAPLACE().
+
+2002-07-21  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDGAUSSIANTAIL().
+
+2002-07-21  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDLANDAU().
+
+2002-07-21  Jody Goldberg <jody@gnome.org>
+
+	* Release 1.1.6
+
+2002-07-21  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDRAYLEIGHTAIL().
+
+2002-07-21  Jukka Pekka  <jiivonen@cs145201.pp.htv.fi>
+
+	* functions.c: Added RANDEXPPOW().
+
+2002-07-18  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDGUMBEL() and RANDLEVY().
+
+2002-07-18  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDTDIST(). Renamed RANDNORM() to
+	RANDGAUSSIAN() since it takes the parms.
+
+2002-07-18  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDBETA(), RANDCHISQ(), RANDFDIST(), RANDGEOM(),
+	RANDHYPERG(), RANDLOG(), and RANDLOGISTIC().
+
+2002-07-18  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDGAMMA(), RANDLAPLACE(), RANDPARETO(),
+	and RANDWEIBULL().
+
+2002-07-17  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Added RANDNORM(), RANDLOGNORM(), RANDCAUCHY(), and
+	RANDUNIFORM().
+
+2002-07-13  Jody Goldberg <jody@gnome.org>
+
+	* functions.c : fix includes.
+
+2002-07-08  Jukka Pekka  <jiivonen@hutcs.cs.hut.fi>
+
+	* functions.c: Moved RAND(), RANDBERNOULLI(), RNADBETWEEN(),
+	RANDBINOM(), RANDEXP(), RANDNEGBINOM(), and RANDPOISSON() from
+	fn-math to here.
+

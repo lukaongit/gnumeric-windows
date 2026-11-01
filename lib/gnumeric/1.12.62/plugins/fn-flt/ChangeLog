@@ -1,0 +1,23 @@
+2026-04-29  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.61
+
+2026-02-10  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.60
+
+2025-03-01  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.59
+
+2024-02-11  Morten Welinder <terra@gnome.org>
+
+	* Release 1.12.57
+
+2024-01-22  Morten Welinder  <terra@gnome.org>
+
+	* functions.c: New FLT.MIN and FLT.MAX functions.
+
+2024-01-09  Morten Welinder <terra@gnome.org>
+
+	* Initial version
