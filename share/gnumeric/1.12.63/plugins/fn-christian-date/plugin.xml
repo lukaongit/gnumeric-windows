@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnchristiandate">
+	<information>
+		<name>Christian Date Functions</name>
+		<name xml:lang="bs">Funkcije hrišćanskih datuma</name>
+		<name xml:lang="ca">Funcions de data cristiana</name>
+		<name xml:lang="cs">Funkce s křesťanskými daty</name>
+		<name xml:lang="da">Kristne datofunktioner</name>
+		<name xml:lang="de">Christliche Datumsfunktionen</name>
+		<name xml:lang="el">Συναρτήσεις χριστιανικού ημερολογίου</name>
+		<name xml:lang="en_GB">Christian Date Functions</name>
+		<name xml:lang="es">Funciones de fecha cristiana</name>
+		<name xml:lang="eu">Data kristauaren funtzioak</name>
+		<name xml:lang="fi">Kristillisen ajanlaskun päivämääräfunktiot</name>
+		<name xml:lang="fr">Fonctions de dates du calendrier chrétien</name>
+		<name xml:lang="gl">Funcións de data cristiá</name>
+		<name xml:lang="hu">Keresztény dátumfüggvények</name>
+		<name xml:lang="id">Fungsi-fungsi Tanggal Masehi</name>
+		<name xml:lang="kk">Христиандық дата функциялары</name>
+		<name xml:lang="lt">Krikščionių datų funkcijos</name>
+		<name xml:lang="lv">Kristiešu datumu funkcijas</name>
+		<name xml:lang="nb">Kristne datofunksjoner</name>
+		<name xml:lang="pl">Funkcje daty kalendarza chrześcijańskiego</name>
+		<name xml:lang="pt">Funções de datas cristãs</name>
+		<name xml:lang="pt_BR">Funções de datas cristãs</name>
+		<name xml:lang="ru">Функции для христианского календаря</name>
+		<name xml:lang="sl">Krščanske funkcije datuma</name>
+		<name xml:lang="sr">Функције хришћанских датума</name>
+		<name xml:lang="sr@latin">Funkcije hrišćanskih datuma</name>
+		<name xml:lang="sv">Kristna datumfunktioner</name>
+		<name xml:lang="uk">Функції дат християнського літочислення</name>
+		<name xml:lang="zh_CN">基督徒日期函数</name>
+		<name xml:lang="zh_HK">基督教年曆日期函數</name>
+		<name xml:lang="zh_TW">基督教年曆日期函式</name>
+		<description>Functions manipulating dates of the Christian liturgical calendar</description>
+		<description xml:lang="bs">Funkcije koje upravljaju datumima Hrišćanskog liturgijskog kalendara</description>
+		<description xml:lang="ca">Funcions de manipulació de dates del calendari litúrgic cristià</description>
+		<description xml:lang="cs">Funkce pracující s daty křesťanského liturgického kalendáře</description>
+		<description xml:lang="da">Funktioner til manipulation af datoer i den kristne liturgiske kalender</description>
+		<description xml:lang="de">Funktionen zur Manipulation von Daten des christlichen liturgischen Kalenders</description>
+		<description xml:lang="el">Συναρτήσεις που διαχειρίζονται ημερομηνίες και από το χριστιανικό λειτουργικό ημερολόγιο</description>
+		<description xml:lang="en_GB">Functions manipulating dates of the Christian liturgical calendar</description>
+		<description xml:lang="es">Funciones que manipulan fechas del calendario litúrgico cristiano</description>
+		<description xml:lang="eu">Egutegi kristauko datak manipulatzeko funtzioak</description>
+		<description xml:lang="fi">Kirkkovuoden kalenterifunktiot</description>
+		<description xml:lang="fr">Fonctions de manipulation de dates dans le calendrier liturgique chrétien</description>
+		<description xml:lang="hu">A keresztény liturgikus naptár dátumait kezelő függvények</description>
+		<description xml:lang="id">Fungsi-fungsi manipulasi tanggal kalender liturgi Kristen</description>
+		<description xml:lang="kk">Христиандық литургиялық күнтізбе даталарын басқаруға арналған функциялар</description>
+		<description xml:lang="lt">Funkcijos darbui su krikščionių liturginio kalendoriaus datomis</description>
+		<description xml:lang="lv">Funkcijas kristiešu liturģiskā kalendāra datumu manipulācijai</description>
+		<description xml:lang="nb">Funksjoner for manipulering av dato og klokkeslett i henhold til den kristne liturgiske kalenderen</description>
+		<description xml:lang="pl">Funkcje do manipulacji datą chrześcijańskiego kalendarza liturgicznego</description>
+		<description xml:lang="pt">Funções que gerem datas do calendário litúrgico cristão</description>
+		<description xml:lang="pt_BR">Funções que manipulam datas e horas no calendário cristão</description>
+		<description xml:lang="ru">Функции для работы с датами и временем по христианскому церковному календарю</description>
+		<description xml:lang="sl">Funkcije datumov krščanskega bogoslužnega koledarja</description>
+		<description xml:lang="sr">Функције које управљају датумима Хришћанског литургијског календара</description>
+		<description xml:lang="sr@latin">Funkcije koje upravljaju datumima Hrišćanskog liturgijskog kalendara</description>
+		<description xml:lang="sv">Funktioner som manipulerar datum och tid för den kristna kyrkoårskalendern</description>
+		<description xml:lang="uk">Функції для роботи з датами у християнському літургійному календарі</description>
+		<description xml:lang="zh_CN">操作基督徒礼拜日历日期的函数</description>
+		<description xml:lang="zh_HK">處理基督教年曆日期的函數</description>
+		<description xml:lang="zh_TW">處理基督教年曆日期的函式</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plugin" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="christian_datetime">
+			<category>Date/Time</category>
+			<category xml:lang="am">ቀን/ሰዓት</category>
+			<category xml:lang="ar">التّاريخ/الوقت</category>
+			<category xml:lang="ast">Fecha/Hora</category>
+			<category xml:lang="bg">Дата/време</category>
+			<category xml:lang="bs">Datum/Vreme</category>
+			<category xml:lang="ca">Data / hora</category>
+			<category xml:lang="ca@valencia">Data / hora</category>
+			<category xml:lang="cs">Datum/Čas</category>
+			<category xml:lang="da">Dato/klokkeslæt</category>
+			<category xml:lang="de">Datum / Zeit</category>
+			<category xml:lang="dz">ཚེསག་གྲངས་/ཆུ་ཚོད་</category>
+			<category xml:lang="el">Ημερομηνία/Ώρα</category>
+			<category xml:lang="en_CA">Date/Time</category>
+			<category xml:lang="en_GB">Date/Time</category>
+			<category xml:lang="eo">Dato/tempo</category>
+			<category xml:lang="es">Fecha/Hora</category>
+			<category xml:lang="et">Kuupäev/Aeg</category>
+			<category xml:lang="eu">Data/ordua</category>
+			<category xml:lang="fi">Päiväys ja aika</category>
+			<category xml:lang="fr">Date/Heure</category>
+			<category xml:lang="ga">Dáta/Am</category>
+			<category xml:lang="gl">Data / Hora</category>
+			<category xml:lang="gu">તારીખ/સમય</category>
+			<category xml:lang="he">תאריך/שעה</category>
+			<category xml:lang="hr">Datum/vrijeme</category>
+			<category xml:lang="hu">Dátum és idő</category>
+			<category xml:lang="id">Tanggal/waktu</category>
+			<category xml:lang="it">Data/Ora</category>
+			<category xml:lang="ja">日付/時刻</category>
+			<category xml:lang="kk">Дата/Уақыт</category>
+			<category xml:lang="ko">날짜/시간</category>
+			<category xml:lang="lt">Data / laikas</category>
+			<category xml:lang="lv">Datums/laiks</category>
+			<category xml:lang="mk">Датум/време</category>
+			<category xml:lang="ml">തീയതി/സമയം</category>
+			<category xml:lang="ms">Tarikh/Masa</category>
+			<category xml:lang="nb">Dato/Klokkeslett</category>
+			<category xml:lang="ne">मिति/समय</category>
+			<category xml:lang="nl">Datum/Tijd</category>
+			<category xml:lang="nn">Dato/tid</category>
+			<category xml:lang="oc">Data / ora</category>
+			<category xml:lang="pl">Data/czas</category>
+			<category xml:lang="pt">Data/Hora</category>
+			<category xml:lang="pt_BR">Data/Hora</category>
+			<category xml:lang="ru">Дата и время</category>
+			<category xml:lang="rw">Itariki/Igihe</category>
+			<category xml:lang="sk">Dátum/Čas</category>
+			<category xml:lang="sl">Datum/čas</category>
+			<category xml:lang="sr">Датум/Време</category>
+			<category xml:lang="sr@latin">Datum/Vreme</category>
+			<category xml:lang="sv">Datum/Tid</category>
+			<category xml:lang="uk">Дата і час</category>
+			<category xml:lang="vi">Ngày/Giờ</category>
+			<category xml:lang="zh_CN">日期/时间</category>
+			<category xml:lang="zh_HK">日期/時間</category>
+			<category xml:lang="zh_TW">日期/時間</category>
+			<functions textdomain="gnumeric-1.12.63-functions">
+				<function name="eastersunday"/>
+				<function name="ascensionthursday"/>
+				<function name="ashwednesday"/>
+				<function name="pentecostsunday"/>
+				<function name="goodfriday"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

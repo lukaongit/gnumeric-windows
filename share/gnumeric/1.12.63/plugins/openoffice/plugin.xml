@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_OpenCalc">
+	<information>
+		<name>Open Document Format</name>
+		<name xml:lang="bs">Zapis otvorenog dokumenta</name>
+		<name xml:lang="ca">Format Open Document</name>
+		<name xml:lang="cs">Open Document Format</name>
+		<name xml:lang="da">ODF</name>
+		<name xml:lang="de">Open Document Format</name>
+		<name xml:lang="el">Άνοιγμα μορφής εγγράφου</name>
+		<name xml:lang="en_GB">Open Document Format</name>
+		<name xml:lang="es">Formato Open Document</name>
+		<name xml:lang="eu">Open Document Formatua</name>
+		<name xml:lang="fi">Avoin asiakirjamuoto (ODF)</name>
+		<name xml:lang="fr">Format Open Document</name>
+		<name xml:lang="gl">Open Document Format</name>
+		<name xml:lang="hu">Nyílt dokumentumformátum</name>
+		<name xml:lang="id">Open Document Format</name>
+		<name xml:lang="kk">Open Document Format</name>
+		<name xml:lang="lt">Open Document Format</name>
+		<name xml:lang="lv">Atvērtais dokumentu formāts (ODF)</name>
+		<name xml:lang="nb">Open Document-format</name>
+		<name xml:lang="pl">Format OpenDocument</name>
+		<name xml:lang="pt">Open Document Format</name>
+		<name xml:lang="pt_BR">Formato Open Document</name>
+		<name xml:lang="ru">Формат Open Document</name>
+		<name xml:lang="sl">Zapis Open Document</name>
+		<name xml:lang="sr">Запис отвореног документа</name>
+		<name xml:lang="sr@latin">Zapis otvorenog dokumenta</name>
+		<name xml:lang="sv">Open Document Format</name>
+		<name xml:lang="uk">Open Document Format</name>
+		<name xml:lang="zh_CN">开放文档格式</name>
+		<name xml:lang="zh_HK">開啟文件格式</name>
+		<name xml:lang="zh_TW">開啟文件格式</name>
+		<description>Open Document Format as used by OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="bs">Zapis otvorenog dokumenta koji koriste Opijen ofis, Lotus Simfonija, itd.</description>
+		<description xml:lang="ca">El Format Open Document utilitzat per l'OpenOffice, el Lotus Symphony, etc.</description>
+		<description xml:lang="cs">Formát Open Document používaný OpenOffice, Lotus Symphony, atd.</description>
+		<description xml:lang="da">Open Document Format som brugt af OpenOffice, Lotus Symphony, osv.</description>
+		<description xml:lang="de">Open Document Format, wie es u.a. von OpenOffice und Lotus Symphony benutzt wird.</description>
+		<description xml:lang="el">Άνοιγμα μορφής εγγράφου όπως χρησιμοποιείται από το OpenOffice, το Lotus Symphony, κλπ.</description>
+		<description xml:lang="en_GB">Open Document Format as used by OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="es">Formato Open Document como lo usa OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="eu">Open Document formatua OpenOffice.org, Lotus Symphony eta beste batzuk erabilia.</description>
+		<description xml:lang="fi">Avoin asiakirjamuoto (ODF), jota käyttävät OpenOffice, Lotus Symphony jne.</description>
+		<description xml:lang="fr">Format Open Document tel qu'utilisé par OpenOffice, Lotus Symphony, etc...</description>
+		<description xml:lang="hu">Az OpenOffice, Lotus Symphony, stb. által használt nyílt dokumentumformátum.</description>
+		<description xml:lang="id">Open Document Format yang dipakai oleh OpenOffice, Lotus Symphony, dsb.</description>
+		<description xml:lang="kk">OpenOffice, Lotus Symphony және т.б. қолданатын Open Document Format.</description>
+		<description xml:lang="lt">Open Document Format, naudojamas OpenOffice.org, Lotus Symphony ir kt.</description>
+		<description xml:lang="lv">Atvērtais dokumentu formāts (ODF), kādu to izmanto OpenOffice, Lotus Symphony un citi.</description>
+		<description xml:lang="nb">Open Document-format som brukes av OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="pl">Format OpenDocument jak używany przez programy OpenOffice, Lotus Symphony itp.</description>
+		<description xml:lang="pt">Formato de documento aberto como o usado pelo OpenOffice, Lotus, Symphony, etc.</description>
+		<description xml:lang="pt_BR">Formato Open Document como usado no OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="ru">Формат Open Document, используемый OpenOffice, Lotus Symphony и т.д.</description>
+		<description xml:lang="sl">Zapis Open Document, kot ga uporabljajo programi OpenOffice, Lotus Symphony in drugi.</description>
+		<description xml:lang="sr">Запис отвореног документа који користе Опен офис, Лотус Симфонија, итд.</description>
+		<description xml:lang="sr@latin">Zapis otvorenog dokumenta koji koriste Open ofis, Lotus Simfonija, itd.</description>
+		<description xml:lang="sv">Open Document Format som används av OpenOffice, Lotus Symphony, etc.</description>
+		<description xml:lang="uk">Open Document Format, який використовується в OpenOffice, Lotus Symphony тощо.</description>
+		<description xml:lang="zh_CN">开放文档格式，用于 LibreOffice，OpenOffice，Lotus Symphony等</description>
+		<description xml:lang="zh_HK">開啟文件的格式，例如 OpenOffice、Lotus Symphony 等等</description>
+		<description xml:lang="zh_TW">開啟文件的格式，例如 OpenOffice、Lotus Symphony 等等</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="openoffice" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="1" id="openoffice">
+			<information>
+				<description>Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="bs">Zapis otvorenog dokumenta (*.sxc, *.ods)</description>
+				<description xml:lang="ca">Format Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="cs">Formát Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="da">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="de">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="el">Άνοιγμα μορφής εγγράφου (*.sxc, *.ods)</description>
+				<description xml:lang="en_GB">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="es">Formato Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="eu">Open Document formatua (*.sxc, *.ods)</description>
+				<description xml:lang="fi">Avoin ODF-asiakirjamuoto (*.sxc, *.ods)</description>
+				<description xml:lang="fr">Format Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="hu">Nyílt dokumentumformátum (*.sxc, *.ods)</description>
+				<description xml:lang="id">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="kk">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="lt">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="lv">Atvērtais dokumentu formāts (*.sxc, *.ods)</description>
+				<description xml:lang="nb">Open Document-format (*.sxc, *.ods)</description>
+				<description xml:lang="pl">Format OpenDocument (*.sxc, *.ods)</description>
+				<description xml:lang="pt">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="pt_BR">Formato Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="ru">Формат Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="sl">Open Document (*.sxc, *.ods)</description>
+				<description xml:lang="sr">Запис отвореног документа (*.sxc, *.ods)</description>
+				<description xml:lang="sr@latin">Zapis otvorenog dokumenta (*.sxc, *.ods)</description>
+				<description xml:lang="sv">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="uk">Open Document Format (*.sxc, *.ods)</description>
+				<description xml:lang="zh_CN">开放文档格式(*.sxc, *.ods)</description>
+			</information>
+			<suffixes>
+				<suffix>ods</suffix>
+				<suffix>ots</suffix>
+				<suffix>sxc</suffix>
+				<suffix>stc</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/vnd.oasis.opendocument.spreadsheet</mime-type>
+				<mime-type>application/vnd.oasis.opendocument.spreadsheet-template</mime-type>
+				<mime-type>application/vnd.sun.xml.calc</mime-type>
+				<mime-type>application/vnd.sun.xml.calc.template</mime-type>
+			</mime-types>
+		</service>
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.oasis.opendocument.spreadsheet" id="openoffice" format_level="auto" file_extension="ods">
+			<information>
+				<description>ODF 1.2 strict conformance (*.ods)</description>
+				<description xml:lang="bs">Izričita saobraznost ODF-a 1.2 (*.ods)</description>
+				<description xml:lang="ca">ODF 1.2 conformitat estricta (*.ods)</description>
+				<description xml:lang="cs">ODF 1.2 striktní (*.ods)</description>
+				<description xml:lang="da">ODF 1.2 striks ensartethed (*.ods)</description>
+				<description xml:lang="de">ODF 1.2 strikte Konformität (*.ods)</description>
+				<description xml:lang="el">ODF 1.2 αυστηρής συμφωνίας (*.ods)</description>
+				<description xml:lang="en_GB">ODF 1.2 strict conformance (*.ods)</description>
+				<description xml:lang="es">cumplimiento estricto ODF 1.2 (*.ods)</description>
+				<description xml:lang="eu">ODF 1.2 zorrotza (*.ods)</description>
+				<description xml:lang="fr">ODF 1.2 strict conformance (*.ods)</description>
+				<description xml:lang="hu">ODF 1.2 szigorú megfelelőség (*.ods)</description>
+				<description xml:lang="id">Kesesuaian ketat ODF 1.2 (*.ods)</description>
+				<description xml:lang="kk">ODF 1.2 қатаң сәйкестігі (*.ods)</description>
+				<description xml:lang="lt">ODF 1.2 griežto atitikimo (*.ods)</description>
+				<description xml:lang="lv">ODF 1.2 strikta atbilstība (*.ods)</description>
+				<description xml:lang="nb">ODF 1.2 streng etterfølgelse (*.ods)</description>
+				<description xml:lang="pl">ODF 1.2 o ścisłej zgodności (*.ods)</description>
+				<description xml:lang="pt">Concordância estrita ODF 1.2 (*.ods)</description>
+				<description xml:lang="pt_BR">Conformidade estrita com ODF 1.2 (*.ods)</description>
+				<description xml:lang="ru">ODF 1.2 строгое соответствие (*.ods)</description>
+				<description xml:lang="sl">ODF 1.2 popolne skladnosti (*.ods)</description>
+				<description xml:lang="sr">Изричита саобразност ОДФ-а 1.2 (*.ods)</description>
+				<description xml:lang="sr@latin">Izričita saobraznost ODF-a 1.2 (*.ods)</description>
+				<description xml:lang="sv">ODF 1.2 strikt konformativ (*.ods)</description>
+				<description xml:lang="uk">Строга узгодженість із ODF 1.2 (*.ods)</description>
+			</information>
+		</service>
+		<service type="file_saver" overwrite_files="TRUE" mime_type="application/vnd.oasis.opendocument.spreadsheet" id="odf" format_level="auto" file_extension="ods">
+			<information>
+				<description>ODF 1.2 extended conformance (*.ods)</description>
+				<description xml:lang="bs">Proširena saobraznost ODF-a 1.2 (*.ods)</description>
+				<description xml:lang="ca">ODF 1.2 conformitat ampliada (*.ods)</description>
+				<description xml:lang="cs">ODF 1.2 rozšířený (*.ods)</description>
+				<description xml:lang="da">ODF 1.2 udvidet ensartethed (*.ods)</description>
+				<description xml:lang="de">ODF 1.2 erweiterte Konformität (*.ods)</description>
+				<description xml:lang="el">ODF 1.2 επεκταμένης συμφωνίας (*.ods)</description>
+				<description xml:lang="en_GB">ODF 1.2 extended conformance (*.ods)</description>
+				<description xml:lang="es">cumplimiento extendido ODF 1.2 (*.ods)</description>
+				<description xml:lang="eu">ODF 1.2 hedatua (*.ods)</description>
+				<description xml:lang="fr">ODF 1.2 extended conformance (*.ods)</description>
+				<description xml:lang="hu">ODF 1.2 kiterjesztett megfelelőség (*.ods)</description>
+				<description xml:lang="id">Kesesuaian ODF 1.2 yang diperluas (*.ods)</description>
+				<description xml:lang="kk">ODF 1.2 кеңейтілген сәйкестігі (*.ods)</description>
+				<description xml:lang="lt">ODF 1.2 išplėstojo atitikimo (*.ods)</description>
+				<description xml:lang="lv">ODF 1.2 paplašināta atbilstība (*.ods)</description>
+				<description xml:lang="nb">ODF 1.2 utvidet etterfølgelse (*.ods)</description>
+				<description xml:lang="pl">ODF 1.2 o rozszerzonej zgodności (*.ods)</description>
+				<description xml:lang="pt">Concordância estendida ODF 1.2 (*.ods)</description>
+				<description xml:lang="pt_BR">Conformidade estendidas com ODF 1.2 (*.ods)</description>
+				<description xml:lang="ru">ODF 1.2 расширенное соответствие (*.ods)</description>
+				<description xml:lang="sl">ODF 1.2 razširjene skladnosti (*.ods)</description>
+				<description xml:lang="sr">Проширена саобразност ОДФ-а 1.2 (*.ods)</description>
+				<description xml:lang="sr@latin">Proširena saobraznost ODF-a 1.2 (*.ods)</description>
+				<description xml:lang="sv">ODF 1.2 utökad konformativ (*.ods)</description>
+				<description xml:lang="uk">Розширена узгодженість із ODF 1.2 (*.ods)</description>
+			</information>
+		</service>
+	</services>
+</plugin>

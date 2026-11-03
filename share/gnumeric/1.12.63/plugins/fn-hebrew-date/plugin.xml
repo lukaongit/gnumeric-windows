@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnhebdate">
+	<information>
+		<name>Hebrew Date Functions</name>
+		<name xml:lang="bs">Funkcije za Hebrejske datume</name>
+		<name xml:lang="ca">Funcions de data hebrea</name>
+		<name xml:lang="cs">Funkce s hebrejskými daty</name>
+		<name xml:lang="da">Hebraiske datofunktioner</name>
+		<name xml:lang="de">Hebräische Datumsfunktionen</name>
+		<name xml:lang="el">Συναρτήσεις εβραϊκού ημερολογίου</name>
+		<name xml:lang="en_GB">Hebrew Date Functions</name>
+		<name xml:lang="es">Funciones de fecha hebrea</name>
+		<name xml:lang="eu">Data hebrearren funtzioak</name>
+		<name xml:lang="fi">Juutalaiset päivämääräfunktiot</name>
+		<name xml:lang="fr">Fonctions de dates dans le calendrier hébraïque</name>
+		<name xml:lang="gl">Funcións de data hebrea</name>
+		<name xml:lang="hu">Héber dátumfüggvények</name>
+		<name xml:lang="id">Fungsi-fungsi Tanggal Ibrani</name>
+		<name xml:lang="kk">Еврейше дата функциялары</name>
+		<name xml:lang="lt">Hebrajų datų funkcijos</name>
+		<name xml:lang="lv">Ebreju datumu funkcijas</name>
+		<name xml:lang="nb">Hebraiske datofunksjoner</name>
+		<name xml:lang="pl">Funkcje hebrajskiej daty</name>
+		<name xml:lang="pt">Funções de datas hebraicas</name>
+		<name xml:lang="pt_BR">Funções de datas hebraicas</name>
+		<name xml:lang="ru">Функции для иудаистского календаря</name>
+		<name xml:lang="sl">Hebrejske funkcije datuma</name>
+		<name xml:lang="sr">Функције за Хебрејске датуме</name>
+		<name xml:lang="sr@latin">Funkcije za Hebrejske datume</name>
+		<name xml:lang="sv">Hebreiska datumfunktioner</name>
+		<name xml:lang="uk">Функції дат єврейського календаря</name>
+		<name xml:lang="zh_CN">希伯来日期函数</name>
+		<name xml:lang="zh_HK">希伯來曆算函數</name>
+		<name xml:lang="zh_TW">希伯來曆算函式</name>
+		<description>Functions manipulating Hebrew dates</description>
+		<description xml:lang="bs">Funkcije za rad sa Hebrejskim datumima</description>
+		<description xml:lang="ca">Funcions de manipulació de dates hebrees</description>
+		<description xml:lang="cs">Funkce pro práci s hebrejskými daty</description>
+		<description xml:lang="da">Funktioner til manipulation af hebraiske datoer</description>
+		<description xml:lang="de">Funktionen zur Manipulation hebräischer Daten</description>
+		<description xml:lang="el">Συναρτήσεις που διαχειρίζονται εβραϊκές ημερομηνίες</description>
+		<description xml:lang="en_GB">Functions manipulating Hebrew dates</description>
+		<description xml:lang="es">Funciones que manipulan fechas hebreas</description>
+		<description xml:lang="eu">Data hebreerrak manipulatzeko funtzioak</description>
+		<description xml:lang="fi">Juutalaisen ajanlaskun funktiot</description>
+		<description xml:lang="fr">Fonctions de manipulation de dates dans le calendrier hébraïque</description>
+		<description xml:lang="gl">Funcións de manipulación de datas hebreas</description>
+		<description xml:lang="hu">Héber dátumokat kezelő függvények</description>
+		<description xml:lang="id">Fungsi-fungsi manipulasi tanggal Ibrani</description>
+		<description xml:lang="kk">Еврейше даталарды басқару функциялары</description>
+		<description xml:lang="lt">Funkcijos darbui su hebrajų datomis</description>
+		<description xml:lang="lv">Funkcijas ebreju kalendāra datumu manipulācijai</description>
+		<description xml:lang="nb">Funksjoner for manipulering av hebraiske datoer</description>
+		<description xml:lang="pl">Funkcje do manipulacji hebrajskimi datami</description>
+		<description xml:lang="pt">Funções que gerem datas hebraicas</description>
+		<description xml:lang="pt_BR">Funções que manipulam datas e horas no calendário hebraico</description>
+		<description xml:lang="ru">Функции для работы с датами и временем с иудаистским календарём</description>
+		<description xml:lang="sl">Funkcije za upravljanje s hebrejskimi datumi</description>
+		<description xml:lang="sr">Функције за рад са Хебрејским датумима</description>
+		<description xml:lang="sr@latin">Funkcije za rad sa Hebrejskim datumima</description>
+		<description xml:lang="sv">Funktioner som manipulerar hebreiska datum</description>
+		<description xml:lang="uk">Функції для роботи з даними єврейського календаря</description>
+		<description xml:lang="zh_CN">处理希伯来日期的函数</description>
+		<description xml:lang="zh_HK">處理希伯來曆的函數</description>
+		<description xml:lang="zh_TW">處理希伯來曆的函式</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plugin" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="hebrew_datetime">
+			<category>Date/Time</category>
+			<category xml:lang="am">ቀን/ሰዓት</category>
+			<category xml:lang="ar">التّاريخ/الوقت</category>
+			<category xml:lang="ast">Fecha/Hora</category>
+			<category xml:lang="bg">Дата/време</category>
+			<category xml:lang="bs">Datum/Vreme</category>
+			<category xml:lang="ca">Data / hora</category>
+			<category xml:lang="ca@valencia">Data / hora</category>
+			<category xml:lang="cs">Datum/Čas</category>
+			<category xml:lang="da">Dato/klokkeslæt</category>
+			<category xml:lang="de">Datum / Zeit</category>
+			<category xml:lang="dz">ཚེསག་གྲངས་/ཆུ་ཚོད་</category>
+			<category xml:lang="el">Ημερομηνία/Ώρα</category>
+			<category xml:lang="en_CA">Date/Time</category>
+			<category xml:lang="en_GB">Date/Time</category>
+			<category xml:lang="eo">Dato/tempo</category>
+			<category xml:lang="es">Fecha/Hora</category>
+			<category xml:lang="et">Kuupäev/Aeg</category>
+			<category xml:lang="eu">Data/ordua</category>
+			<category xml:lang="fi">Päiväys ja aika</category>
+			<category xml:lang="fr">Date/Heure</category>
+			<category xml:lang="ga">Dáta/Am</category>
+			<category xml:lang="gl">Data / Hora</category>
+			<category xml:lang="gu">તારીખ/સમય</category>
+			<category xml:lang="he">תאריך/שעה</category>
+			<category xml:lang="hr">Datum/vrijeme</category>
+			<category xml:lang="hu">Dátum és idő</category>
+			<category xml:lang="id">Tanggal/waktu</category>
+			<category xml:lang="it">Data/Ora</category>
+			<category xml:lang="ja">日付/時刻</category>
+			<category xml:lang="kk">Дата/Уақыт</category>
+			<category xml:lang="ko">날짜/시간</category>
+			<category xml:lang="lt">Data / laikas</category>
+			<category xml:lang="lv">Datums/laiks</category>
+			<category xml:lang="mk">Датум/време</category>
+			<category xml:lang="ml">തീയതി/സമയം</category>
+			<category xml:lang="ms">Tarikh/Masa</category>
+			<category xml:lang="nb">Dato/Klokkeslett</category>
+			<category xml:lang="ne">मिति/समय</category>
+			<category xml:lang="nl">Datum/Tijd</category>
+			<category xml:lang="nn">Dato/tid</category>
+			<category xml:lang="oc">Data / ora</category>
+			<category xml:lang="pl">Data/czas</category>
+			<category xml:lang="pt">Data/Hora</category>
+			<category xml:lang="pt_BR">Data/Hora</category>
+			<category xml:lang="ru">Дата и время</category>
+			<category xml:lang="rw">Itariki/Igihe</category>
+			<category xml:lang="sk">Dátum/Čas</category>
+			<category xml:lang="sl">Datum/čas</category>
+			<category xml:lang="sr">Датум/Време</category>
+			<category xml:lang="sr@latin">Datum/Vreme</category>
+			<category xml:lang="sv">Datum/Tid</category>
+			<category xml:lang="uk">Дата і час</category>
+			<category xml:lang="vi">Ngày/Giờ</category>
+			<category xml:lang="zh_CN">日期/时间</category>
+			<category xml:lang="zh_HK">日期/時間</category>
+			<category xml:lang="zh_TW">日期/時間</category>
+			<functions textdomain="gnumeric-1.12.63-functions">
+				<function name="hdate"/>
+				<function name="hdate_heb"/>
+				<function name="hdate_month"/>
+				<function name="hdate_day"/>
+				<function name="hdate_year"/>
+				<function name="hdate_julian"/>
+				<function name="date2hdate"/>
+				<function name="date2hdate_heb"/>
+				<function name="date2julian"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_QPro">
+	<information>
+		<name>Quattro Pro(tm)</name>
+		<name xml:lang="ast">Quattro Pro™</name>
+		<name xml:lang="bg">Quattro Pro (tm)</name>
+		<name xml:lang="bs">Kvatro Pro (tm)</name>
+		<name xml:lang="ca">Quattro Pro(tm)</name>
+		<name xml:lang="ca@valencia">Quattro Pro(tm)</name>
+		<name xml:lang="cs">Quattro Pro™</name>
+		<name xml:lang="da">Quattro Pro(tm)</name>
+		<name xml:lang="de">Quattro Pro(tm)</name>
+		<name xml:lang="dz">ཀུ་འ་ཊོརོ་ པོརོ་(ཊི་ཨེམ་)</name>
+		<name xml:lang="el">Quattro Pro(tm)</name>
+		<name xml:lang="en_CA">Quattro Pro(tm)</name>
+		<name xml:lang="en_GB">Quattro Pro(tm)</name>
+		<name xml:lang="eo">Quattro Pro(tm)</name>
+		<name xml:lang="es">Quattro Pro(tm)</name>
+		<name xml:lang="et">Quattro Pro(tm)</name>
+		<name xml:lang="eu">Quattro Pro(tm)</name>
+		<name xml:lang="fi">Quattro Pro™</name>
+		<name xml:lang="fr">Quattro Pro(tm)</name>
+		<name xml:lang="gu">Quattro Pro(tm)</name>
+		<name xml:lang="hu">Quattro Pro(tm)</name>
+		<name xml:lang="id">Quattro Pro(tm)</name>
+		<name xml:lang="it">Quatrro Pro (tm)</name>
+		<name xml:lang="ja">クアトロ・プロ(tm)</name>
+		<name xml:lang="kk">Quattro Pro(tm)</name>
+		<name xml:lang="ko">쿼트로 프로(tm)</name>
+		<name xml:lang="lt">Quattro Pro(tm)</name>
+		<name xml:lang="lv">Quattro Pro(tm)</name>
+		<name xml:lang="nb">Quattro Pro(tm)</name>
+		<name xml:lang="ne">Quattro Pro(tm)</name>
+		<name xml:lang="nl">Quattro Pro(tm)</name>
+		<name xml:lang="pl">Quattro Pro™</name>
+		<name xml:lang="pt">Quattro Pro(tm)</name>
+		<name xml:lang="pt_BR">Quattro Pro™</name>
+		<name xml:lang="ru">Quattro Pro(tm)</name>
+		<name xml:lang="sl">Quattro Pro(tm)</name>
+		<name xml:lang="sr">Кватро Про (tm)</name>
+		<name xml:lang="sr@latin">Kvatro Pro (tm)</name>
+		<name xml:lang="sv">Quattro Pro(tm)</name>
+		<name xml:lang="uk">Quattro Pro™</name>
+		<name xml:lang="vi">Quattro Pro™</name>
+		<name xml:lang="zh_CN">Quattro Pro(tm)</name>
+		<name xml:lang="zh_HK">Quattro Pro™</name>
+		<name xml:lang="zh_TW">Quattro Pro™</name>
+		<description>Imports Quattro Pro (tm) files</description>
+		<description xml:lang="ast">Importa ficheros Quattro Pro™</description>
+		<description xml:lang="bg">Внасяне на файлове, формат Quattro Pro (tm)</description>
+		<description xml:lang="bs">Uvozi Kvatro Pro (tm) datoteke</description>
+		<description xml:lang="ca">Importa fitxers Quattro Pro (tm)</description>
+		<description xml:lang="ca@valencia">Importa fitxers Quattro Pro (tm)</description>
+		<description xml:lang="cs">Importuje soubory Quattro Pro™</description>
+		<description xml:lang="da">Importerer filer i formatet Quattro Pro (tm)</description>
+		<description xml:lang="de">Import von Quattro Pro (tm) Dateien</description>
+		<description xml:lang="dz">ཀུ་འ་ཊོརོ་ པོརོ་(ཊི་ཨེམ་)ཡིག་སྣོད་ཚུ་ནང་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισάγει αρχεία Quattro Pro (tm)</description>
+		<description xml:lang="en_CA">Imports Quattro Pro (tm) files</description>
+		<description xml:lang="en_GB">Imports Quattro Pro (tm) files</description>
+		<description xml:lang="es">Importa archivos Quattro Pro (tm)</description>
+		<description xml:lang="et">Impordib Quattro Pro (tm) faile</description>
+		<description xml:lang="eu">Quattro Pro (tm) fitxategiak inportatzen ditu</description>
+		<description xml:lang="fi">Tuo Quattro Pro™ -tiedostoja</description>
+		<description xml:lang="fr">Importe les fichiers Quattro Pro (tm)</description>
+		<description xml:lang="he">מייבא קבצי Quattro Pro (tm)</description>
+		<description xml:lang="hr">Uvozi datoteku oblika Quattro Pto (tm)</description>
+		<description xml:lang="hu">Quattro Pro (tm) fájlokat importál</description>
+		<description xml:lang="id">Impor berkas Quattro Pro (tm)</description>
+		<description xml:lang="it">Importa file Quattro Pro (tm)</description>
+		<description xml:lang="ja">クアトロ・プロ(tm)ファイルをインポートします</description>
+		<description xml:lang="kk">Quattro Pro (tm) файлдарын импорттайды</description>
+		<description xml:lang="ko">쿼트로 프로 (tm) 파일을 가져옵니다</description>
+		<description xml:lang="lt">Importuoja Quattro Pro (tm) failus</description>
+		<description xml:lang="lv">Importē Quattro Pro (tm) datnes</description>
+		<description xml:lang="ml">Quattro Pro (tm) രചനകള് കൊണ‌്ടുവരുക</description>
+		<description xml:lang="ms">Import fail Quattro Pro (tm)</description>
+		<description xml:lang="nb">Importerer Quattro Pro (tm) filer</description>
+		<description xml:lang="ne">क्वात्रो प्रो (टिएम) फाइलहरू आयात गर्छ</description>
+		<description xml:lang="nl">Importeert Quattro Pro (tm) bestanden</description>
+		<description xml:lang="pl">Importuje pliki programu Quattro Pro™</description>
+		<description xml:lang="pt">Importa ficheiros Quattro Pro (tm)</description>
+		<description xml:lang="pt_BR">Importa arquivos Quattro Pro™</description>
+		<description xml:lang="ru">Импортирует файлы Quattro Pro (tm)</description>
+		<description xml:lang="sk">Importuje súbory Quattro Pro (tm)</description>
+		<description xml:lang="sl">Uvažanje datotek programa Quattro Pro (tm)</description>
+		<description xml:lang="sr">Увози Кватро Про (tm) датотеке</description>
+		<description xml:lang="sr@latin">Uvozi Kvatro Pro (tm) datoteke</description>
+		<description xml:lang="sv">Importerar Quattro Pro (tm)-filer</description>
+		<description xml:lang="tr">Quattro Pro (tm) dosyalarını açar</description>
+		<description xml:lang="uk">Імпортує файли Quattro Pro™</description>
+		<description xml:lang="vi">Nhập tập tin Quattro Pro™</description>
+		<description xml:lang="zh_CN">导入 Quattro Pro (tm) 文件</description>
+		<description xml:lang="zh_HK">可匯入 Quattro Pro™ 檔案</description>
+		<description xml:lang="zh_TW">可匯入 Quattro Pro™ 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="qpro" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="100" id="qpro">
+			<information>
+				<description>Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ast">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="bg">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="bs">Kvatro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ca">Quatro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ca@valencia">Quatro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="cs">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="da">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="de">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="dz">ཀུ་འ་ཊོརོ་ པོརོ་ (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="el">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="en_CA">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="en_GB">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="eo">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="es">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="et">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="eu">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="fi">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="fr">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="gl">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="hu">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="id">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="it">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ja">クアトロ・プロ (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="kk">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ko">쿼트로 프로 (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="lt">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="lv">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="nb">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ne">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="nl">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="pl">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="pt">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="pt_BR">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="ru">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="sl">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="sr">Кватро Про (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="sr@latin">Kvatro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="sv">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="uk">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="vi">Quattro Pro™ (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="zh_CN">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="zh_HK">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+				<description xml:lang="zh_TW">Quattro Pro (*.wb1, *.wb2, *.wb3)</description>
+			</information>
+			<suffixes>
+				<suffix>wb1</suffix>
+				<suffix>wb2</suffix>
+				<suffix>wb3</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/x-quattropro</mime-type>
+				<mime-type>application/x-quattro-pro</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

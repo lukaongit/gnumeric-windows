@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnflt">
+	<information>
+		<name>Floating Point Functions</name>
+		<name xml:lang="cs">Funkce s plovoucí desetinnou čárkou</name>
+		<name xml:lang="da">Funktioner for flydende kommatal</name>
+		<name xml:lang="hu">Lebegőpontos függvények</name>
+		<name xml:lang="kk">Жылжымалы нүктелі функциялар</name>
+		<name xml:lang="nb">Flyttallsfunksjoner</name>
+		<name xml:lang="pl">Funkcje zmiennoprzecinkowe</name>
+		<name xml:lang="pt_BR">Funções de ponto flutuante</name>
+		<name xml:lang="ru">Функции для чисел с плавающей запятой</name>
+		<name xml:lang="sl">Funkcije s plavajočo vejico</name>
+		<name xml:lang="sr">Функције покретног зареза</name>
+		<name xml:lang="sv">Flyttalsfunktioner</name>
+		<name xml:lang="uk">Функції для чисел з рухомою комою</name>
+		<description>Functions manipulating floating point values</description>
+		<description xml:lang="cs">Funkce pracující s hodnotami s plovoucí desetinnou čárkou</description>
+		<description xml:lang="da">Funktioner til manipulation af flydende kommatalsværdier</description>
+		<description xml:lang="hu">Lebegőpontos értéket kezelő függvények</description>
+		<description xml:lang="kk">Жылжымалы нүктелі мәндерді басқару функциялары</description>
+		<description xml:lang="nb">Funksjoner for manipulering av flyttallsverdier</description>
+		<description xml:lang="pl">Funkcje manipulujące wartością zmiennoprzecinkową</description>
+		<description xml:lang="pt_BR">Funções para manipulação de valores de ponto flutuante</description>
+		<description xml:lang="ru">Функции, манипулирующие значением с плавающей запятой</description>
+		<description xml:lang="sl">Funkcije, ki računajo z vrednostmi plavajoče vejice</description>
+		<description xml:lang="sr">Функције за обраду вредности покретног зареза</description>
+		<description xml:lang="sv">Funktioner för manipulation av flyttalsvärden</description>
+		<description xml:lang="uk">Функції для роботи зі значеннями із рухомою комою</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plugin" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="flt">
+			<category>Floating Point</category>
+			<category xml:lang="cs">Plovoucí desetinná čárka</category>
+			<category xml:lang="da">Flydende kommatal</category>
+			<category xml:lang="hu">Lebegőpontos</category>
+			<category xml:lang="kk">Жылжымалы нүкте</category>
+			<category xml:lang="nb">Flyttall</category>
+			<category xml:lang="pl">Zmiennoprzecinkowe</category>
+			<category xml:lang="pt_BR">Ponto flutuante</category>
+			<category xml:lang="ru">С плавающей запятой</category>
+			<category xml:lang="sl">Št. s plavajočo vejico</category>
+			<category xml:lang="sr">Покретни зарез</category>
+			<category xml:lang="sv">Flyttal</category>
+			<category xml:lang="uk">З рухомою комою</category>
+			<functions textdomain="gnumeric-1.12.63-functions">
+				<function name="flt.max"/>
+				<function name="flt.min"/>
+				<function name="flt.nextafter"/>
+				<function name="flt.radix"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

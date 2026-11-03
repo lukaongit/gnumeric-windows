@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_OpenCalc">
+	<information>
+		<_name>Open Document Format</_name>
+		<_description>Open Document Format as used by OpenOffice, Lotus Symphony, etc.</_description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute name="module_file" value="openoffice"/>
+	</loader>
+	<services>
+		<service type="file_opener" id="openoffice" priority="1" probe="TRUE">
+			<information>
+				<_description>Open Document Format (*.sxc, *.ods)</_description>
+			</information>
+			<suffixes>
+				<suffix>ods</suffix>
+				<suffix>ots</suffix>
+				<suffix>sxc</suffix>
+				<suffix>stc</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/vnd.oasis.opendocument.spreadsheet</mime-type>
+				<mime-type>application/vnd.oasis.opendocument.spreadsheet-template</mime-type>
+				<mime-type>application/vnd.sun.xml.calc</mime-type>
+				<mime-type>application/vnd.sun.xml.calc.template</mime-type>
+			</mime-types>
+		</service>
+		<service type="file_saver" id="openoffice" file_extension="ods"
+		         format_level="auto" overwrite_files="TRUE"
+			 mime_type="application/vnd.oasis.opendocument.spreadsheet">
+			<information>
+				<_description>ODF 1.2 strict conformance (*.ods)</_description>
+			</information>
+		</service>
+		<service type="file_saver" id="odf" file_extension="ods"
+		         format_level="auto" overwrite_files="TRUE"
+			 mime_type="application/vnd.oasis.opendocument.spreadsheet">
+			<information>
+				<_description>ODF 1.2 extended conformance (*.ods)</_description>
+			</information>
+		</service>
+	</services>
+</plugin>

@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_lotus">
+	<information>
+		<name>Lotus 123</name>
+		<name xml:lang="ast">Lotus 123</name>
+		<name xml:lang="bg">Lotus 123</name>
+		<name xml:lang="bs">Lotus 123</name>
+		<name xml:lang="ca">Lotus 123</name>
+		<name xml:lang="ca@valencia">Lotus 123</name>
+		<name xml:lang="cs">Lotus 123</name>
+		<name xml:lang="da">Lotus 123</name>
+		<name xml:lang="de">Lotus 123</name>
+		<name xml:lang="dz">ལོ་ཊཱསི་ ༡༢༣</name>
+		<name xml:lang="el">Lotus 123</name>
+		<name xml:lang="en_CA">Lotus 123</name>
+		<name xml:lang="en_GB">Lotus 123</name>
+		<name xml:lang="eo">Lotus 123</name>
+		<name xml:lang="es">Lotus 123</name>
+		<name xml:lang="et">Lotus 123</name>
+		<name xml:lang="eu">Lotus 123</name>
+		<name xml:lang="fi">Lotus 123</name>
+		<name xml:lang="fr">Lotus 123</name>
+		<name xml:lang="ga">Lotus 123</name>
+		<name xml:lang="gl">Lotus 123</name>
+		<name xml:lang="he">לוטוס 123</name>
+		<name xml:lang="hr">Lotus 123</name>
+		<name xml:lang="hu">Lotus 123</name>
+		<name xml:lang="id">Lotus 123</name>
+		<name xml:lang="it">Lotus 123</name>
+		<name xml:lang="ja">Lotus 123</name>
+		<name xml:lang="kk">Lotus 123</name>
+		<name xml:lang="ko">로터스 123</name>
+		<name xml:lang="lt">Lotus 123</name>
+		<name xml:lang="lv">Lotus 123</name>
+		<name xml:lang="mk">Lotus 123</name>
+		<name xml:lang="ml">ലോട്ടസ് 123</name>
+		<name xml:lang="ms">Lotus 123</name>
+		<name xml:lang="nb">Lotus 123</name>
+		<name xml:lang="ne">लोटस १२३</name>
+		<name xml:lang="nl">Lotus 123</name>
+		<name xml:lang="nn">Lotus 123</name>
+		<name xml:lang="pl">Lotus 123</name>
+		<name xml:lang="pt">Lotus 123</name>
+		<name xml:lang="pt_BR">Lotus 1-2-3</name>
+		<name xml:lang="ro">Lotus 123</name>
+		<name xml:lang="ru">Lotus 123</name>
+		<name xml:lang="sk">Lotus 123</name>
+		<name xml:lang="sl">Lotus 123</name>
+		<name xml:lang="sr">Лотус 123</name>
+		<name xml:lang="sr@latin">Lotus 123</name>
+		<name xml:lang="sv">Lotus 123</name>
+		<name xml:lang="tr">Lotus 123</name>
+		<name xml:lang="uk">Lotus 123</name>
+		<name xml:lang="vi">Lotus 123</name>
+		<name xml:lang="zh_CN">Lotus 123</name>
+		<name xml:lang="zh_HK">Lotus 123</name>
+		<name xml:lang="zh_TW">Lotus 123</name>
+		<description>Imports Lotus 123 files</description>
+		<description xml:lang="ast">Importar ficheros Lotus 123</description>
+		<description xml:lang="bg">Внасяне на файлове, формат "Lotus 123"</description>
+		<description xml:lang="bs">Uvozi Lotus 123 datoteke</description>
+		<description xml:lang="ca">Importa fitxers de Lotus 123</description>
+		<description xml:lang="ca@valencia">Importa fitxers de Lotus 123</description>
+		<description xml:lang="cs">Importuje soubory Lotus 123</description>
+		<description xml:lang="da">Importerer en Lotus 123-fil</description>
+		<description xml:lang="de">Import von »Lotus 123«-Dateien</description>
+		<description xml:lang="dz">ལོ་ཊཱསི་ ༡༢༣ ཡིག་སྣོད་ཚུ་ནང་འདྲེན་འབདཝ་ཨིན་</description>
+		<description xml:lang="el">Εισαγωγή αρχείων Lotus 123</description>
+		<description xml:lang="en_CA">Imports Lotus 123 files</description>
+		<description xml:lang="en_GB">Imports Lotus 123 files</description>
+		<description xml:lang="es">Importar archivos Lotus 123</description>
+		<description xml:lang="et">Impordib Lotus 123 faile</description>
+		<description xml:lang="eu">Inportatu Lotus 123 fitxategiak</description>
+		<description xml:lang="fi">Tuo Lotus 123 -tiedostoja</description>
+		<description xml:lang="fr">Importe les fichiers Lotus 123</description>
+		<description xml:lang="gl">Importa ficheiros de Lotus 123</description>
+		<description xml:lang="he">מיבא קבצי לוטוס 123</description>
+		<description xml:lang="hr">Uvozi datoteku oblika Lotus 123</description>
+		<description xml:lang="hu">Lotus 123 fájlokat importál</description>
+		<description xml:lang="id">Impor berkas Lotus 123</description>
+		<description xml:lang="it">Importa file da Lotus 123</description>
+		<description xml:lang="ja">Lotus 123 ファイルをインポートします</description>
+		<description xml:lang="kk">Lotus 123 файлдарын импорттайды</description>
+		<description xml:lang="ko">로터스 123 파일 가져오기</description>
+		<description xml:lang="lt">Importuoja Lotus 123 failus</description>
+		<description xml:lang="lv">Importē Lotus 123 datnes</description>
+		<description xml:lang="mk">Внесува Lotus 123 датотеки</description>
+		<description xml:lang="ml">ലോട്ടസ് 123 രചനകള് കൊണ്ട് വരിക</description>
+		<description xml:lang="ms">Import fail Lotus 123</description>
+		<description xml:lang="nb">Importerer Lotus 123-filer</description>
+		<description xml:lang="ne">लोटसले १२३ फाइलहरू आयात गर्छ</description>
+		<description xml:lang="nl">Importeert Lotus 123 bestanden</description>
+		<description xml:lang="nn">Importerar Lotus 123 filer</description>
+		<description xml:lang="pl">Importuje pliki programu Lotus 123</description>
+		<description xml:lang="pt">Importa ficheiros Lotus 123</description>
+		<description xml:lang="pt_BR">Importa arquivos Lotus 1-2-3</description>
+		<description xml:lang="ro">Importă fișiere Lotus 123</description>
+		<description xml:lang="ru">Импортирует файлы Lotus 123</description>
+		<description xml:lang="sk">Importuje súbory Lotus 123</description>
+		<description xml:lang="sl">Uvažanje datotek programa Lotus 123</description>
+		<description xml:lang="sr">Увози датотеке Лотуса 123</description>
+		<description xml:lang="sr@latin">Uvozi datoteke Lotusa 123</description>
+		<description xml:lang="sv">Importerar Lotus 123-filer</description>
+		<description xml:lang="tr">Lotus 123 dosyalarını açar</description>
+		<description xml:lang="uk">Імпортує файли Lotus 123</description>
+		<description xml:lang="vi">Nhập tập tin Lotus 123</description>
+		<description xml:lang="zh_CN">导入 Lotus 123 文件</description>
+		<description xml:lang="zh_HK">可匯入 Lotus 123 檔案</description>
+		<description xml:lang="zh_TW">可匯入 Lotus 123 檔案</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="lotus" name="module_file"/>
+	</loader>
+	<services>
+		<service type="file_opener" probe="TRUE" priority="50" id="lotus">
+			<information>
+				<description>Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ast">Lotus 123 (*.wk1, *.wks *.123)</description>
+				<description xml:lang="bg">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="bs">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ca">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ca@valencia">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="cs">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="da">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="de">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="dz">ལོ་ཊཱསི་ ༡༢༣ (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="el">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="en_CA">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="en_GB">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="eo">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="es">Lotus 123 (*.wk1, *.wks *.123)</description>
+				<description xml:lang="et">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="eu">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="fi">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="fr">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="gl">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="hu">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="id">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="it">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="kk">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ko">로터스 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="lt">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="lv">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="mk">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="nb">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ne">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="nl">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="nn">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="pl">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="pt">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="pt_BR">Lotus 1-2-3 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="ru">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="sl">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="sr">Лотус 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="sr@latin">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="sv">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="uk">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="vi">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="zh_CN">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="zh_HK">Lotus 123 (*.wk1, *.wks, *.123)</description>
+				<description xml:lang="zh_TW">Lotus 123 (*.wk1, *.wks, *.123)</description>
+			</information>
+			<suffixes>
+				<suffix>wk1</suffix>
+				<suffix>wk4</suffix>
+				<suffix>wr1</suffix>
+				<suffix>wks</suffix>
+				<suffix>123</suffix>
+			</suffixes>
+			<mime-types>
+				<mime-type>application/vnd.lotus-1-2-3</mime-type>
+				<mime-type>application/x-123</mime-type>
+			</mime-types>
+		</service>
+	</services>
+</plugin>

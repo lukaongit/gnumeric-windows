@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_fnerlang">
+	<information>
+		<name>Erlang Functions</name>
+		<name xml:lang="ast">Funciones Erlang</name>
+		<name xml:lang="bg">Функции на Erlang</name>
+		<name xml:lang="bs">Erlang funkcije</name>
+		<name xml:lang="ca">Funcions d'Erlang</name>
+		<name xml:lang="ca@valencia">Funcions d'Erlang</name>
+		<name xml:lang="cs">Funkce Erlang</name>
+		<name xml:lang="da">Erlangfunktioner</name>
+		<name xml:lang="de">Erlang-Funktionen</name>
+		<name xml:lang="dz">ཨིར་ལེང་ལས་འགན་ཚུ་</name>
+		<name xml:lang="el">Συναρτήσεις Erlang</name>
+		<name xml:lang="en_CA">Erlang Functions</name>
+		<name xml:lang="en_GB">Erlang Functions</name>
+		<name xml:lang="es">Funciones Erlang</name>
+		<name xml:lang="et">Erlangi funktsioonid</name>
+		<name xml:lang="eu">Erlang funtzioak</name>
+		<name xml:lang="fi">Erlang-funktiot</name>
+		<name xml:lang="fr">Fonctions Erlang</name>
+		<name xml:lang="gl">Funcións de Erlang</name>
+		<name xml:lang="gu">Erlang વિધેયો</name>
+		<name xml:lang="hu">Erlang függvények</name>
+		<name xml:lang="id">Fungsi-fungsi Erlang</name>
+		<name xml:lang="it">Funzioni Erlang</name>
+		<name xml:lang="ja">アーラン関数</name>
+		<name xml:lang="kk">Эрланг функциялары</name>
+		<name xml:lang="ko">Erlang 함수</name>
+		<name xml:lang="lt">Erlangeno funkcijos</name>
+		<name xml:lang="lv">Erlang funkcijas</name>
+		<name xml:lang="mk">Функции на Ерланг</name>
+		<name xml:lang="nb">Erlang-funksjoner</name>
+		<name xml:lang="ne">एरल्याङ प्रकार्य</name>
+		<name xml:lang="nl">Erlangfuncties</name>
+		<name xml:lang="nn">Erlang-funksjonar</name>
+		<name xml:lang="pl">Funkcje języka Erlang</name>
+		<name xml:lang="pt">Funções Erlang</name>
+		<name xml:lang="pt_BR">Funções Erlang</name>
+		<name xml:lang="ru">Функции Эрланга</name>
+		<name xml:lang="sl">Funkcije Erlang</name>
+		<name xml:lang="sr">Ерланг функције</name>
+		<name xml:lang="sr@latin">Erlang funkcije</name>
+		<name xml:lang="sv">Erlang-funktioner</name>
+		<name xml:lang="uk">Функції Ерланга</name>
+		<name xml:lang="vi">Hàm Erlang</name>
+		<name xml:lang="zh_CN">Erlang 函数</name>
+		<name xml:lang="zh_HK">佔線小時函數</name>
+		<name xml:lang="zh_TW">佔線小時函式</name>
+		<description>Functions to help Erlang Analysis</description>
+		<description xml:lang="ast">Funciones p'análisis Erlang</description>
+		<description xml:lang="bg">Функции за анализи на Erlang</description>
+		<description xml:lang="bs">Funkcije za ispomoć Erlang analize</description>
+		<description xml:lang="ca">Funcions d'ajuda per a l'anàlisi d'Erlang</description>
+		<description xml:lang="ca@valencia">Funcions d'ajuda per a l'anàlisi d'Erlang</description>
+		<description xml:lang="cs">Funkce pro pomoc s analýzami Erlang</description>
+		<description xml:lang="da">Funktioner til Erlanganalyse</description>
+		<description xml:lang="de">Funktionen zur Unterstützung von Erlang-Analysen</description>
+		<description xml:lang="dz">ཨིར་ལེང་དཔྱད་ཞིབ་ལུ་ གྲོགས་འབད་ནི་དོན་ལས་ ལས་འགན་ཚུ་</description>
+		<description xml:lang="el">Βοηθητικές συναρτήσεις για ανάλυση Erlang</description>
+		<description xml:lang="en_CA">Functions to help Erlang Analysis</description>
+		<description xml:lang="en_GB">Functions to help Erlang Analysis</description>
+		<description xml:lang="es">Funciones para ayudar a los análisis Erlang</description>
+		<description xml:lang="et">Abistavad funktsioonid Erlangi analüüsil</description>
+		<description xml:lang="eu">Erlang analisiari laguntzeko funtzioak</description>
+		<description xml:lang="fi">Funktiot helpottamaan Erlang-analyysiä</description>
+		<description xml:lang="fr">Fonctions pour aider l'analyse Erlang</description>
+		<description xml:lang="gl">Funcións para axudar ao análise de Earlang</description>
+		<description xml:lang="hu">Erlang elemzést segítő függvények</description>
+		<description xml:lang="id">Fungsi-fungsi untuk membantu Analisa Erlang</description>
+		<description xml:lang="it">Funzioni di aiuto nell'analisi Erlang</description>
+		<description xml:lang="ja">アーラン解析を補助するための関数</description>
+		<description xml:lang="kk">Эрланг талдауына көмектесетін функциялар</description>
+		<description xml:lang="lt">Funkcijos, naudojamos Erlangeno analizėje</description>
+		<description xml:lang="lv">Funkcijas Erlang analizēšanai</description>
+		<description xml:lang="mk">Функции за помош при Ерлангова анализа</description>
+		<description xml:lang="nb">Funksjoner til hjelp ved Erlang-analyse</description>
+		<description xml:lang="ne">एरल्याङ विश्लेषण मद्दत गर्ने प्रकार्य</description>
+		<description xml:lang="nl">Functies voor hulp bij Erlang-analyse</description>
+		<description xml:lang="pl">Funkcje pomagające w analizie języka Erlang</description>
+		<description xml:lang="pt">Funções para ajudar a análise Erlang</description>
+		<description xml:lang="pt_BR">Funções para auxiliar a análise de Erlang</description>
+		<description xml:lang="ru">Функции Эрланга для анализа очередей</description>
+		<description xml:lang="sl">Funkcije za pomoč pri analizi Erlang</description>
+		<description xml:lang="sr">Функције за испомоћ Ерланг анализе</description>
+		<description xml:lang="sr@latin">Funkcije za ispomoć Erlang analize</description>
+		<description xml:lang="sv">Funktioner för att hjälpa till med Erlang-analys</description>
+		<description xml:lang="uk">Допоміжні функції для аналізу Ерланга</description>
+		<description xml:lang="vi">Hàm giúp đỡ phân tích loại Erlang.</description>
+		<description xml:lang="zh_CN">辅助进行 Erlang 分析的函数</description>
+		<description xml:lang="zh_HK">用來分析佔線小時的函數</description>
+		<description xml:lang="zh_TW">用來分析佔線小時的函式</description>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="erlang" name="module_file"/>
+	</loader>
+	<services>
+		<service type="function_group" id="erlang">
+			<category>Erlang</category>
+			<category xml:lang="ast">Erlang</category>
+			<category xml:lang="bg">Erlang</category>
+			<category xml:lang="bs">Erlang</category>
+			<category xml:lang="ca">Erlang</category>
+			<category xml:lang="ca@valencia">Erlang</category>
+			<category xml:lang="cs">Erlang</category>
+			<category xml:lang="da">Erlang</category>
+			<category xml:lang="de">Erlang</category>
+			<category xml:lang="dz">ཨིར་ལེང་</category>
+			<category xml:lang="el">Erlang</category>
+			<category xml:lang="en_CA">Erlang</category>
+			<category xml:lang="en_GB">Erlang</category>
+			<category xml:lang="es">Erlang</category>
+			<category xml:lang="et">Erlang</category>
+			<category xml:lang="eu">Erlang</category>
+			<category xml:lang="fi">Erlang</category>
+			<category xml:lang="fr">Erlang</category>
+			<category xml:lang="gl">Erlang</category>
+			<category xml:lang="gu">Erlang</category>
+			<category xml:lang="hu">Erlang</category>
+			<category xml:lang="id">Erlang</category>
+			<category xml:lang="it">Erlang</category>
+			<category xml:lang="ja">アーラン</category>
+			<category xml:lang="kk">Эрланг</category>
+			<category xml:lang="ko">Erlang</category>
+			<category xml:lang="lt">Erlangenas</category>
+			<category xml:lang="lv">Erlang</category>
+			<category xml:lang="mk">Ерланг</category>
+			<category xml:lang="nb">Erlang</category>
+			<category xml:lang="ne">एरल्याङ</category>
+			<category xml:lang="nl">Erlang</category>
+			<category xml:lang="nn">Erlang</category>
+			<category xml:lang="pl">Erlang</category>
+			<category xml:lang="pt">Erlang</category>
+			<category xml:lang="pt_BR">Erlang</category>
+			<category xml:lang="ru">Эрланг</category>
+			<category xml:lang="sl">Erlang</category>
+			<category xml:lang="sr">Ерланг</category>
+			<category xml:lang="sr@latin">Erlang</category>
+			<category xml:lang="sv">Erlang</category>
+			<category xml:lang="uk">Ерланг</category>
+			<category xml:lang="vi">Erlang</category>
+			<category xml:lang="zh_CN">Erlang</category>
+			<category xml:lang="zh_HK">佔線小時</category>
+			<category xml:lang="zh_TW">佔線小時</category>
+			<functions textdomain="gnumeric-1.12.63-functions">
+				<function name="probblock"/>
+				<function name="offtraf"/>
+				<function name="dimcirc"/>
+				<function name="offcap"/>
+			</functions>
+		</service>
+	</services>
+</plugin>

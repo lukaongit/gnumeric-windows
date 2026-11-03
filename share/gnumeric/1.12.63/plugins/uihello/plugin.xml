@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin id="Gnumeric_UIHello">
+	<information>
+		<name>UI Hello</name>
+		<name xml:lang="ast">UI Hola</name>
+		<name xml:lang="bg">"Здравей, свят"</name>
+		<name xml:lang="bs">UI pozdrav</name>
+		<name xml:lang="ca">Interfície d'usuari hola</name>
+		<name xml:lang="ca@valencia">interfície d'usuari hola</name>
+		<name xml:lang="cs">Ahoj světe</name>
+		<name xml:lang="da">UI Hello</name>
+		<name xml:lang="de">UI-Hallo</name>
+		<name xml:lang="dz">ཡུ་ཨའི་ཧེལ་ལོ་</name>
+		<name xml:lang="el">Γεια σου Gnome</name>
+		<name xml:lang="en_CA">UI Hello</name>
+		<name xml:lang="en_GB">UI Hello</name>
+		<name xml:lang="es">IU Hola</name>
+		<name xml:lang="eu">Kaixo UI</name>
+		<name xml:lang="fr">UI Hello</name>
+		<name xml:lang="gl">IU Hola</name>
+		<name xml:lang="hr">UI Hello</name>
+		<name xml:lang="hu">UI helló</name>
+		<name xml:lang="id">UI Hello</name>
+		<name xml:lang="it">UI Ciao</name>
+		<name xml:lang="ja">UI Hello</name>
+		<name xml:lang="kk">UI Сәлемдесу</name>
+		<name xml:lang="lt">Sąsajos Labas</name>
+		<name xml:lang="lv">UI sveiciens</name>
+		<name xml:lang="nb">Hallo</name>
+		<name xml:lang="ne">यू आई हेलो</name>
+		<name xml:lang="nl">UI Hallo</name>
+		<name xml:lang="pl">Witaj, świecie</name>
+		<name xml:lang="pt">UI Olá</name>
+		<name xml:lang="pt_BR">UI Olá</name>
+		<name xml:lang="ru">"Здравствуй, Мир!" для интерфейса пользователя</name>
+		<name xml:lang="sk">UI Hello</name>
+		<name xml:lang="sl">Pozdrav uporabniškega vmesnika</name>
+		<name xml:lang="sr">УИ поздрав</name>
+		<name xml:lang="sr@latin">UI pozdrav</name>
+		<name xml:lang="sv">UI Hej</name>
+		<name xml:lang="uk">Тест для інтерфейсу користувача</name>
+		<name xml:lang="vi">Chào của giao diện người dùng</name>
+		<description>Hello World plugin using ui service</description>
+		<description xml:lang="ast">Complementu Hola mundiu usando serviciu ui</description>
+		<description xml:lang="bg">Модул "Здравей, свят", използващ услуга на потребителския интерфейс</description>
+		<description xml:lang="bs">Priključak pozdravne poruke koji koristi ui uslugu</description>
+		<description xml:lang="ca">Connector «Hola món» que fa servir el servei d'interfície d'usuari</description>
+		<description xml:lang="ca@valencia">Connector «Hola món» que fa servir el servei d'interfície d'usuari</description>
+		<description xml:lang="cs">Zásuvný modul „Hello World“ používající službu uživatelského rozhraní</description>
+		<description xml:lang="da">Hello World-udvidelsesmodul der bruger ui-tjeneste</description>
+		<description xml:lang="de">Hallo-Welt-Plugin, das auf den Benutzeroberflächendienst zurückgreift</description>
+		<description xml:lang="dz">ཡུ་ཨའི་ཞབས་ཏོག་ལག་ལེན་འཐབ་ཐོག་ ཧེ་ལོ་འཛམ་གླིང་པ་ལག་ཨིན་</description>
+		<description xml:lang="el">Πρόσθετη λειτουργία Γεια σου κόσμε, που χρησιμοποιεί την διεπαφή χρήστη</description>
+		<description xml:lang="en_CA">Hello World plugin using ui service</description>
+		<description xml:lang="en_GB">Hello World plugin using ui service</description>
+		<description xml:lang="es">Complemento Hola Mundo usando servicio iu</description>
+		<description xml:lang="eu">'Kaixo mundua' plugina erabiltzaile-interfazearen zerbitzua erabilita</description>
+		<description xml:lang="fi">Hello World -liitännäinen, joka käyttää käyttöliittymäpalvelua</description>
+		<description xml:lang="fr">Greffon « Hello World » utilisant le service d'interface utilisateur</description>
+		<description xml:lang="hr">Hello World umetak korištenjem ui servisa</description>
+		<description xml:lang="hu">A felhasználói felület szolgáltatást használó Helló világ bővítmény</description>
+		<description xml:lang="id">Plugin Hello World menggunakan layanan ui</description>
+		<description xml:lang="it">Plugin «Ciao mondo» che fa uso dei servizi di UI</description>
+		<description xml:lang="ja">UIサービスを使用したHello Worldプラグイン</description>
+		<description xml:lang="kk">UI қызметін пайдаланатын Hello World плагині</description>
+		<description xml:lang="lt">„Labas, pasauli“ papildinys, naudojantis ui tarnybą</description>
+		<description xml:lang="lv">“Sveika, pasaule!” spraudnis, izmantojot ui servisu</description>
+		<description xml:lang="nb">Hallo verden-tillegg med bruk av tjeneste for brukergrensesnitt</description>
+		<description xml:lang="ne">यूआई सेवा प्रयोग गरिरहेको हेलो विश्व प्लगइन</description>
+		<description xml:lang="nl">Hallo Wereld plugin met gebruik van ui service</description>
+		<description xml:lang="pl">Wtyczka „Witaj, świecie” używająca usługi interfejsu użytkownika</description>
+		<description xml:lang="pt">Extensão "Olá Mundo" que utiliza serviço ui</description>
+		<description xml:lang="pt_BR">Plugin de "Olá Mundo" usando serviço UI</description>
+		<description xml:lang="ru">Дополнение "Здравствуй, Мир!" использующее сервис интерфейса пользователя</description>
+		<description xml:lang="sk">Modul Hello World pomocou služby UI</description>
+		<description xml:lang="sl">Vstavek Hello World z uporabo storitev uporabniškega vmesnika</description>
+		<description xml:lang="sr">Прикључак поздравне поруке који користи уи услугу</description>
+		<description xml:lang="sr@latin">Priključak pozdravne poruke koji koristi ui uslugu</description>
+		<description xml:lang="sv">Hallå världen-insticksmodul som använder gränssnittstjänster</description>
+		<description xml:lang="uk">Додаток «Привіт, світе!» з використанням служби інтерфейсу</description>
+		<description xml:lang="vi">Bổ sung Chào Thế giới dùng dịch vụ giao diện người dùng</description>
+		<description xml:lang="zh_HK">使用 UI 服務的 Hello World 外掛</description>
+		<description xml:lang="zh_TW">使用 UI 服務的 Hello World 外掛</description>
+		<require_explicit_enabling/>
+	</information>
+	<loader type="Gnumeric_Builtin:module">
+		<attribute value="plugin" name="module_file"/>
+	</loader>
+	<services>
+		<service type="ui" id="hello" file="hello.xml">
+			<actions>
+				<action name="HelloWorld" icon="gtk-add">
+					<label>Testing Testing 123</label>
+				</action>
+				<action name="HelloMenu">
+					<label>Make a Menu</label>
+				</action>
+
+			</actions>
+		</service>
+	</services>
+</plugin>
